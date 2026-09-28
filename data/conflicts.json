@@ -1,9 +1,9 @@
 {
  "meta": {
-  "updatedAt": "2026-09-28T16:09:29Z",
+  "updatedAt": "2026-09-28T16:10:34Z",
   "note": {
-   "ar": "تحديث: أخبار جديدة لليمن والسودان من الجزيرة والعربية.",
-   "en": "Update: new Yemen and Sudan items from Al Jazeera and Al Arabiya."
+   "ar": "تحديث: أخبار جديدة لليمن والسودان وإيران من الجزيرة والعربية.",
+   "en": "Update: new Yemen, Sudan and Iran items from Al Jazeera and Al Arabiya."
   }
  },
  "conflicts": [
@@ -56,6 +56,14 @@
     "en": "Blockade has halted new Iranian oil exports; Brent near $100"
    },
    "updates": [
+    {
+     "ar": "قال وزير الخارجية الإيراني عباس عراقجي إن طهران منفتحة على دبلوماسية حقيقية لكنها مستعدة لحرب شاملة إذا تعرضت لهجمات أمريكية جديدة، فيما أفادت وسائل إعلام إيرانية بأنه سيلتقي وسطاء في نيويورك.",
+     "en": "Iranian FM Abbas Araghchi said Tehran is open to 'real diplomacy' but ready for an 'apocalyptic war' if attacked again; Iranian media say he will meet mediators in New York.",
+     "kind": "news",
+     "src": "Al Jazeera",
+     "t": "2026-09-28T12:00:00Z",
+     "url": "https://www.aljazeera.com/news/liveblog/2026/9/28/iran-war-live-tehran-warns-its-fully-prepared-for-war-amid-hormuz-tensions"
+    },
     {
      "ar": "قال ترامب إنه يتوقع استئناف المحادثات مع إيران خلال الأسبوع، لكنه لم يستبعد توجيه ضربات عسكرية جديدة قبل الانتخابات النصفية.",
      "en": "Trump said he expects talks with Iran to resume this week but did not rule out further military strikes before the midterm elections.",
