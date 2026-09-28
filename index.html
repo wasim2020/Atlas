@@ -3,6 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="description" content="أطلس تفاعلي ثنائي اللغة للحروب والنزاعات المسلحة النشطة في العالم، يُحدَّث تلقائياً. A bilingual, auto-updating interactive map of the world's active armed conflicts.">
 <meta property="og:title" content="أطلس النزاعات · Conflict Atlas">
 <meta property="og:description" content="خريطة حيّة لأبرز الحروب والنزاعات النشطة في العالم · A live map of the world's active wars and conflicts">
@@ -282,7 +284,7 @@ const T = {
 };
 const SEVK=["war","high","ongoing","tension"];
 const SEVR={war:9,high:7,ongoing:5.5,tension:4.5};
-const col=s=>`var(--${s})`;
+const col=s=>`var(--${SEVK.includes(s)?s:"tension"})`;
 
 let lang="ar";
 try{const s=localStorage.getItem("atlas-lang");if(s==="en"||s==="ar")lang=s;}catch(e){}
@@ -293,7 +295,8 @@ let META=SEED.meta, liveOn=true;
 const active=new Set(SEVK);
 let query="", selected=DATA[0].id, k=1;
 const L=()=>T[lang], tx=o=>o?(o[lang]||o.ar||""):"";
-const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const safeUrl=u=>{try{const x=new URL(String(u));return (x.protocol==="https:"||x.protocol==="http:")?x.href:""}catch(e){return ""}};
 const now=()=>Date.now();
 function ago(iso){const d=(now()-Date.parse(iso))/60000;if(!(d>=0))return new Date(iso).toISOString().slice(0,10);if(d<2)return L().justnow;if(d<60)return L().ago(Math.round(d),"m");if(d<48*60)return L().ago(Math.round(d/60),"h");return L().ago(Math.round(d/1440),"d");}
 function fmtDate(iso){try{return new Date(iso).toLocaleString(lang==="ar"?"ar-EG-u-nu-latn":"en-GB",{day:"numeric",month:"short",hour:"2-digit",minute:"2-digit",timeZone:"UTC"})+" UTC";}catch(e){return iso}}
@@ -391,7 +394,7 @@ function renderChips(){
 }
 function renderTicker(){
   const items=DATA.flatMap(c=>c.updates.map(u=>({c,u}))).filter(x=>news(x.u)&&x.u.src!=="—").sort((a,b)=>byT(a.u,b.u)).slice(0,14);
-  const html=items.map(({c,u})=>`<button class="tk" data-id="${c.id}"><span class="dot" style="background:${col(c.sev)}"></span><b>${esc(tx(c.name))}</b> ${esc(tx(u))} <time>${esc(ago(u.t))}</time></button>`).join("");
+  const html=items.map(({c,u})=>`<button class="tk" data-id="${esc(c.id)}"><span class="dot" style="background:${col(c.sev)}"></span><b>${esc(tx(c.name))}</b> ${esc(tx(u))} <time>${esc(ago(u.t))}</time></button>`).join("");
   const rail=document.getElementById("rail");rail.innerHTML=html+(reduce?"":html);
   rail.style.setProperty("--dur",Math.max(60,items.length*9)+"s");
   rail.querySelectorAll(".tk").forEach(b=>b.onclick=()=>select(b.dataset.id,true));
@@ -400,7 +403,7 @@ function renderList(){
   const el=document.getElementById("list"),v=visible();
   if(!v.length){el.innerHTML=`<div class="item"><span></span><span class="r">${esc(L().noRes)}</span></div>`;return;}
   el.innerHTML=v.map(c=>{const u=c.updates.slice().sort(byT)[0];const hot=c.updates.some(isFresh);
-    return `<button class="item${c.id===selected?" sel":""}" data-id="${c.id}"><span class="dot" style="background:${col(c.sev)}"></span><span><span class="t">${esc(tx(c.name))}</span><span class="r">${esc(tx(c.region))}</span></span><span class="y">${hot?`<span class="hot">${esc(L().newTag)}</span>`:""}${esc(c.since)}</span></button>`}).join("");
+    return `<button class="item${c.id===selected?" sel":""}" data-id="${esc(c.id)}"><span class="dot" style="background:${col(c.sev)}"></span><span><span class="t">${esc(tx(c.name))}</span><span class="r">${esc(tx(c.region))}</span></span><span class="y">${hot?`<span class="hot">${esc(L().newTag)}</span>`:""}${esc(c.since)}</span></button>`}).join("");
   el.querySelectorAll(".item[data-id]").forEach(b=>b.onclick=()=>select(b.dataset.id,true));
 }
 function renderHead(){
@@ -426,7 +429,7 @@ function renderPane(){
       <div class="side"><small>${esc(L().sideB)}</small><div class="who">${esc(tx(c.sideB))}</div><small>${esc(L().backers)}</small><div class="bk">${esc(tx(c.backB))}</div></div></div>
       <div class="row"><small>${esc(L().mediators)}</small>${esc(tx(c.mediators))}</div>`;
   }else if(tab===2){
-    p.innerHTML=`<ul class="tl">${c.updates.slice().sort(byT).map(u=>`<li class="${isFresh(u)?"fresh":""}"><time>${esc(fmtDate(u.t))} · ${esc(ago(u.t))}${isFresh(u)?`<span class="new">${esc(L().newTag)}</span>`:""}</time><p>${esc(tx(u))}</p>${u.url?`<a href="${esc(u.url)}" target="_blank" rel="noopener">${esc(L().src)}: ${esc(u.src)}</a>`:(u.src&&u.src!=="—"?`<span class="note">${esc(u.src)}</span>`:"")}</li>`).join("")}</ul>`;
+    p.innerHTML=`<ul class="tl">${c.updates.slice().sort(byT).map(u=>`<li class="${isFresh(u)?"fresh":""}"><time>${esc(fmtDate(u.t))} · ${esc(ago(u.t))}${isFresh(u)?`<span class="new">${esc(L().newTag)}</span>`:""}</time><p>${esc(tx(u))}</p>${safeUrl(u.url)?`<a href="${esc(safeUrl(u.url))}" target="_blank" rel="noopener noreferrer">${esc(L().src)}: ${esc(u.src)}</a>`:(u.src&&u.src!=="—"?`<span class="note">${esc(u.src)}</span>`:"")}</li>`).join("")}</ul>`;
   }
 }
 function select(id,zoomTo){
