@@ -1,0 +1,463 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="أطلس تفاعلي ثنائي اللغة للحروب والنزاعات المسلحة النشطة في العالم، يُحدَّث تلقائياً. A bilingual, auto-updating interactive map of the world's active armed conflicts.">
+<meta property="og:title" content="أطلس النزاعات · Conflict Atlas">
+<meta property="og:description" content="خريطة حيّة لأبرز الحروب والنزاعات النشطة في العالم · A live map of the world's active wars and conflicts">
+<style>html,body{margin:0}img{max-width:100%}[hidden]{display:none!important}:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}</style>
+<title>أطلس النزاعات 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@600;800&family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Sans+Condensed:wght@600;700&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+:root{
+  --bg:#E8ECEF; --panel:#F8FAFB; --panel2:#EEF2F5; --ink:#141D26; --muted:#5A6875; --line:#CBD3DA;
+  --ocean:#D8E0E6; --land:#C3CDD5; --landhover:#B3BFC9; --landline:#E4E9ED; --involved:#E6B3A2;
+  --war:#BF2E27; --high:#D46A17; --ongoing:#B08A12; --tension:#56708A;
+  --focus:#1F5F9E; --live:#1F8A4C; --onsev:#FFFFFF;
+  --display:"Noto Kufi Arabic","IBM Plex Sans Condensed","IBM Plex Sans Arabic",Tahoma,sans-serif;
+  --sans:"IBM Plex Sans Arabic","IBM Plex Sans",Tahoma,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#0D1216; --panel:#141B21; --panel2:#1A232B; --ink:#E4E9ED; --muted:#91A0AC; --line:#26313A;
+    --ocean:#0A0F13; --land:#26303A; --landhover:#34414D; --landline:#0D1216; --involved:#57302A;
+    --war:#F0564C; --high:#F0913E; --ongoing:#D8B43C; --tension:#8EA3B8; --focus:#72AAE2; --live:#3FC27A; --onsev:#0D1216;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#0D1216; --panel:#141B21; --panel2:#1A232B; --ink:#E4E9ED; --muted:#91A0AC; --line:#26313A;
+  --ocean:#0A0F13; --land:#26303A; --landhover:#34414D; --landline:#0D1216; --involved:#57302A;
+  --war:#F0564C; --high:#F0913E; --ongoing:#D8B43C; --tension:#8EA3B8; --focus:#72AAE2; --live:#3FC27A; --onsev:#0D1216;
+}
+*{box-sizing:border-box}
+html,body{background:var(--bg)}
+body{color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.7;padding-inline:16px;padding-block:16px 32px}
+[lang="en"]{--display:"IBM Plex Sans Condensed","IBM Plex Sans",sans-serif;--sans:"IBM Plex Sans","Segoe UI",sans-serif}
+.wrap{max-width:1360px;margin-inline:auto;display:flex;flex-direction:column;gap:14px}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+
+/* top bar */
+.top{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px 20px}
+.brand{display:flex;flex-direction:column;gap:2px;min-width:0}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(22px,3vw,32px);line-height:1.25;margin:0;text-wrap:balance;letter-spacing:0}
+[lang="en"] h1{font-weight:700;letter-spacing:.01em;text-transform:uppercase}
+.tag{color:var(--muted);font-size:13px}
+.tools{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.live{display:inline-flex;align-items:center;gap:8px;font-size:12px;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:4px 12px;background:var(--panel)}
+.live i{width:8px;height:8px;border-radius:50%;background:var(--live);box-shadow:0 0 0 0 var(--live);animation:blink 2s infinite}
+.live.off i{background:var(--muted);animation:none}
+@keyframes blink{0%{box-shadow:0 0 0 0 color-mix(in srgb,var(--live) 60%,transparent)}70%{box-shadow:0 0 0 7px transparent}100%{box-shadow:0 0 0 0 transparent}}
+.lang{display:inline-flex;border:1px solid var(--line);border-radius:6px;overflow:hidden;background:var(--panel)}
+.lang button{border:0;background:none;padding:4px 12px;cursor:pointer;font-size:13px;font-weight:600;color:var(--muted)}
+.lang button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+
+/* ticker */
+.ticker{display:flex;align-items:stretch;border:1px solid var(--line);border-radius:6px;background:var(--panel);overflow:hidden;min-height:40px}
+.ticker .lab{flex:none;display:flex;align-items:center;gap:6px;padding-inline:12px;background:var(--war);color:var(--onsev);font-weight:700;font-size:12px;letter-spacing:.04em}
+.track{flex:1;overflow:hidden;position:relative;min-width:0}
+.rail{display:flex;gap:36px;white-space:nowrap;position:absolute;inset-block:0;align-items:center;animation:tick var(--dur,90s) linear infinite;padding-inline:18px}
+[dir="rtl"] .rail{animation-name:tickr}
+.track:hover .rail,.track:focus-within .rail{animation-play-state:paused}
+@keyframes tick{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@keyframes tickr{from{transform:translateX(0)}to{transform:translateX(50%)}}
+@media (prefers-reduced-motion:reduce){.rail{animation:none;position:static;overflow-x:auto}.track{overflow-x:auto}}
+.tk{border:0;background:none;cursor:pointer;display:inline-flex;align-items:center;gap:8px;font-size:13.5px;padding:0}
+.tk .dot{width:7px;height:7px}
+.tk time{font-size:11px;color:var(--muted)}
+.tk b{font-weight:600}
+.tk:hover b{text-decoration:underline}
+
+/* stats + filters */
+.bar{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;justify-content:space-between}
+.stats{display:flex;gap:18px;flex-wrap:wrap}
+.stat{display:flex;align-items:baseline;gap:6px;font-size:13px;color:var(--muted)}
+.stat b{font-family:var(--mono);font-size:20px;color:var(--ink);font-variant-numeric:tabular-nums}
+.filters{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.chip{font-size:12.5px;display:inline-flex;align-items:center;gap:7px;padding:4px 11px;border-radius:999px;border:1px solid var(--line);background:var(--panel);cursor:pointer}
+.chip[aria-pressed="false"]{opacity:.42}
+.dot{width:9px;height:9px;border-radius:50%;flex:none;display:inline-block}
+.chip .n{font-family:var(--mono);font-size:11px;color:var(--muted)}
+.search{border:1px solid var(--line);background:var(--panel);border-radius:999px;padding:4px 14px;font:inherit;font-size:13px;color:var(--ink);width:180px;max-width:100%}
+
+/* main grid */
+.grid{display:grid;grid-template-columns:minmax(0,1fr) 400px;gap:14px;align-items:start}
+.mapbox{position:sticky;top:calc(env(safe-area-inset-top,0px) + 10px);background:var(--ocean);border:1px solid var(--line);border-radius:8px;overflow:hidden;aspect-ratio:1.7/1;max-width:100%}
+.mapbox svg{display:block;width:100%;height:100%;cursor:grab;touch-action:none}
+.mapbox svg:active{cursor:grabbing}
+.sphere{fill:var(--ocean)}
+.country{fill:var(--land);stroke:var(--landline);stroke-width:.6;vector-effect:non-scaling-stroke;transition:fill .15s}
+.country.inv{fill:var(--involved)}
+.country:hover{fill:var(--landhover)}
+.country.inv:hover{fill:color-mix(in srgb,var(--involved) 80%,var(--ink))}
+.country.focus{fill:color-mix(in srgb,var(--involved) 70%,var(--war))}
+.grat{fill:none;stroke:var(--line);stroke-width:.5;vector-effect:non-scaling-stroke;opacity:.55}
+.pulse{fill:none;stroke-width:1.6;vector-effect:non-scaling-stroke;animation:pulse 2.2s ease-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes pulse{0%{transform:scale(.7);opacity:.95}100%{transform:scale(2.8);opacity:0}}
+@media (prefers-reduced-motion:reduce){.pulse{animation:none;opacity:.3}}
+.mk{cursor:pointer;stroke:var(--bg);stroke-width:1.5;vector-effect:non-scaling-stroke;transition:r .2s}
+.mk.sel{stroke:var(--ink);stroke-width:2.5}
+.lbl{font-family:var(--sans);font-weight:600;fill:var(--ink);paint-order:stroke;stroke:var(--ocean);stroke-linejoin:round;pointer-events:none}
+.mapui{position:absolute;inset-inline-start:10px;bottom:10px;display:flex;flex-direction:column;gap:4px}
+.mapui button{width:34px;height:34px;border-radius:6px;border:1px solid var(--line);background:var(--panel);font:600 17px var(--mono);cursor:pointer;display:grid;place-items:center}
+.mapui button:hover{background:var(--panel2)}
+.zlvl{font-family:var(--mono);font-size:10px;color:var(--muted);text-align:center}
+.legend{position:absolute;inset-inline-end:10px;bottom:10px;background:color-mix(in srgb,var(--panel) 92%,transparent);border:1px solid var(--line);border-radius:6px;padding:6px 10px;font-size:11.5px;color:var(--muted);display:flex;flex-direction:column;gap:3px}
+.legend span{display:flex;align-items:center;gap:7px}
+.legend i{display:inline-block;width:14px;height:9px;background:var(--involved);border-radius:2px}
+.hint{position:absolute;inset-inline-start:10px;top:10px;font-size:11.5px;color:var(--muted);background:color-mix(in srgb,var(--panel) 88%,transparent);border-radius:4px;padding:2px 8px}
+.tip{position:absolute;pointer-events:none;background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:5px 10px;font-size:12.5px;max-width:260px;box-shadow:0 4px 14px rgba(0,0,0,.12);z-index:3}
+.tip b{display:block;font-size:13px}
+.tip small{color:var(--muted)}
+
+/* side panel */
+aside{background:var(--panel);border:1px solid var(--line);border-radius:8px;display:flex;flex-direction:column;min-height:0;overflow:hidden}
+.head{padding:16px 18px 0;display:flex;flex-direction:column;gap:4px}
+.sevb{align-self:flex-start;display:inline-flex;align-items:center;gap:6px;font-size:11.5px;font-weight:700;padding:2px 10px;border-radius:999px;color:var(--onsev)}
+.head h2{font-family:var(--display);font-weight:600;font-size:21px;line-height:1.45;margin:4px 0 0;text-wrap:balance}
+.meta{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:12px;color:var(--muted)}
+.meta .m{font-family:var(--mono)}
+.tabs{display:flex;gap:2px;padding:10px 12px 0;border-bottom:1px solid var(--line);overflow-x:auto}
+.tab{border:0;background:none;padding:8px 8px;font-size:12.5px;font-weight:600;color:var(--muted);cursor:pointer;border-bottom:2px solid transparent;white-space:nowrap}
+.tab[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--war)}
+.tab .cnt{font-family:var(--mono);font-size:10.5px;background:var(--panel2);border-radius:999px;padding:0 6px;margin-inline-start:4px}
+.pane{padding:14px 18px 18px;display:flex;flex-direction:column;gap:12px;min-height:200px}
+.pane p{margin:0}
+.kpi{background:var(--panel2);border-radius:6px;padding:10px 12px;font-size:13.5px}
+.kpi small{display:block;color:var(--muted);font-size:11.5px}
+.vs{display:grid;grid-template-columns:1fr auto 1fr;gap:8px;align-items:stretch}
+.side{border:1px solid var(--line);border-radius:6px;padding:10px;display:flex;flex-direction:column;gap:6px;background:var(--panel)}
+.side .who{font-weight:700;font-size:14px;line-height:1.45}
+.side small{color:var(--muted);font-size:11px;letter-spacing:.03em}
+.side .bk{font-size:12.5px;line-height:1.55}
+.vsx{align-self:center;font-family:var(--display);font-weight:800;color:var(--war);font-size:14px}
+.row{font-size:13px}
+.row small{display:block;color:var(--muted);font-size:11.5px}
+.tl{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:0}
+.tl li{position:relative;padding-inline-start:18px;padding-block:0 14px;border-inline-start:2px solid var(--line);margin-inline-start:4px}
+.tl li:last-child{border-color:transparent}
+.tl li::before{content:"";position:absolute;inset-inline-start:-6px;top:5px;width:10px;height:10px;border-radius:50%;background:var(--panel);border:2px solid var(--muted)}
+.tl li.fresh::before{border-color:var(--war);background:var(--war)}
+.tl time{font-size:11.5px;color:var(--muted);display:block}
+.tl .new{font-size:10.5px;font-weight:700;color:var(--war);margin-inline-start:6px}
+.tl p{font-size:13.5px;margin:2px 0}
+.tl a{font-size:11.5px;color:var(--focus)}
+.ask{display:flex;flex-direction:column;gap:8px}
+.qs{display:flex;flex-wrap:wrap;gap:6px}
+.q{border:1px solid var(--line);background:var(--panel2);border-radius:999px;padding:3px 10px;font-size:12px;cursor:pointer}
+.askrow{display:flex;gap:6px}
+.askrow input{flex:1;min-width:0;border:1px solid var(--line);background:var(--panel);border-radius:6px;padding:6px 10px;font:inherit;font-size:13px;color:var(--ink)}
+.askrow button{border:0;background:var(--ink);color:var(--bg);border-radius:6px;padding:6px 14px;font-weight:600;cursor:pointer}
+.ans{background:var(--panel2);border-radius:6px;padding:10px 12px;font-size:13.5px;white-space:pre-wrap;min-height:2em}
+.note{font-size:11.5px;color:var(--muted)}
+
+.listwrap{border-top:1px solid var(--line)}
+.listhead{font-size:11.5px;color:var(--muted);padding:10px 18px 4px;letter-spacing:.03em;display:flex;justify-content:space-between}
+.list{overflow-y:auto;max-height:340px;padding-bottom:6px}
+.item{display:grid;grid-template-columns:10px 1fr auto;gap:10px;align-items:center;width:100%;text-align:start;background:none;border:0;padding:7px 18px;cursor:pointer}
+.item:hover,.item.sel{background:var(--panel2)}
+.item .t{font-weight:600;font-size:13.5px;line-height:1.45;display:block}
+.item .r{font-size:11.5px;color:var(--muted)}
+.item .y{font-family:var(--mono);font-size:10.5px;color:var(--muted);text-align:end}
+.item .y .hot{color:var(--war);font-weight:700;display:block;font-family:var(--sans);font-size:11px}
+
+footer{font-size:12px;color:var(--muted);display:flex;flex-direction:column;gap:6px;max-width:110ch}
+footer a{color:var(--focus)}
+
+@media (max-width:980px){
+  .grid{grid-template-columns:1fr}
+  .mapbox{position:relative;top:auto;aspect-ratio:1.3/1}
+  .legend{display:none}
+  .search{width:100%}
+}
+@media (max-width:480px){.vs{grid-template-columns:1fr}.vsx{justify-self:center}}
+</style>
+
+</head>
+<body>
+<div class="wrap" id="app" dir="rtl" lang="ar">
+  <div class="top">
+    <div class="brand">
+      <h1 id="t-title"></h1>
+      <div class="tag" id="t-tag"></div>
+    </div>
+    <div class="tools">
+      <span class="live" id="live"><i></i><span id="liveTxt"></span></span>
+      <div class="lang" role="group" aria-label="Language">
+        <button id="l-ar" aria-pressed="true">العربية</button>
+        <button id="l-en" aria-pressed="false">English</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="ticker">
+    <div class="lab" id="t-latest"></div>
+    <div class="track"><div class="rail" id="rail"></div></div>
+  </div>
+
+  <div class="bar">
+    <div class="stats" id="stats"></div>
+    <div class="filters">
+      <div id="chips" class="filters" role="group"></div>
+      <input id="q" class="search" type="search" autocomplete="off">
+    </div>
+  </div>
+
+  <div class="grid">
+    <div class="mapbox" id="mapbox">
+      <svg id="map" role="img"></svg>
+      <div class="hint" id="t-hint"></div>
+      <div class="mapui">
+        <button id="zin" aria-label="Zoom in">+</button>
+        <button id="zout" aria-label="Zoom out">−</button>
+        <button id="zreset" aria-label="Reset" style="font-size:14px">⟲</button>
+        <div class="zlvl" id="zlvl">1×</div>
+      </div>
+      <div class="legend" id="legend"></div>
+      <div class="tip" id="tip" hidden></div>
+    </div>
+
+    <aside id="panel">
+      <div class="head" id="head"></div>
+      <div class="tabs" role="tablist" id="tabs"></div>
+      <div class="pane" id="pane" role="tabpanel"></div>
+      <div class="listwrap">
+        <div class="listhead"><span id="t-all"></span><span id="t-sorted"></span></div>
+        <div class="list" id="list"></div>
+      </div>
+    </aside>
+  </div>
+
+  <footer>
+    <div id="t-disc"></div>
+    <div><span id="t-src"></span> <a href="https://acleddata.com/" target="_blank" rel="noopener">ACLED</a> · <a href="https://www.aljazeera.com/" target="_blank" rel="noopener">Al Jazeera</a> · <a href="https://www.cfr.org/global-conflict-tracker" target="_blank" rel="noopener">CFR Global Conflict Tracker</a> · <a href="https://www.crisisgroup.org/" target="_blank" rel="noopener">Crisis Group</a> · <a href="https://www.ohchr.org/" target="_blank" rel="noopener">OHCHR</a> · <a href="https://www.russiamatters.org/" target="_blank" rel="noopener">Russia Matters</a></div>
+  </footer>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
+<script>
+async function loadData(){try{const r=await fetch("data/conflicts.json?t="+Date.now(),{cache:"no-store"});if(!r.ok)return null;return await r.json();}catch(e){return null}}
+(async()=>{
+const [TOPO,SEED]=await Promise.all([fetch("data/world.json").then(r=>r.json()).catch(()=>null),loadData()]);
+if(!TOPO||!SEED){document.getElementById("t-tag").textContent="تعذّر تحميل البيانات · Could not load data";return;}
+
+const T = {
+ ar:{title:"أطلس النزاعات المسلحة",tag:"خريطة حيّة لأبرز الحروب والنزاعات النشطة في العالم",latest:"عاجل",
+   live:"مباشر · آخر تحديث",static:"آخر تحديث",
+   stats:["نزاعاً نشطاً","حروب كبرى","تحديثاً خلال 48 ساعة","دولة منخرطة"],
+   sev:{war:"حرب كبرى",high:"نزاع عالي الشدة",ongoing:"نزاع مستمر",tension:"توتر وخطر تصعيد"},
+   search:"ابحث عن نزاع أو منطقة…",hint:"اسحب للتحريك · عجلة الفأرة أو النقر المزدوج للتكبير",
+   legend:"دول منخرطة مباشرة",tabs:["نظرة عامة","الأطراف والداعمون","آخر المستجدات"],
+   cause:"سبب النزاع وخلفيته",toll:"الأثر الأبرز",since:"منذ",region:"المنطقة",sideA:"الطرف الأول",sideB:"الطرف الثاني",
+   backers:"الداعمون",mediators:"الوسطاء",vs:"ضد",src:"المصدر",newTag:"جديد",
+   all:"كل النزاعات",sorted:"حسب الشدة",updated:"آخر تحديث",
+   ago:(n,u)=>{const f={m:["دقيقة","دقيقتين","دقائق"],h:["ساعة","ساعتين","ساعات"],d:["يوم","يومين","أيام"]}[u];return n===1?`منذ ${f[0]}`:n===2?`منذ ${f[1]}`:(n<=10?`منذ ${n} ${f[2]}`:`منذ ${n} ${f[0]}`)},justnow:"الآن",
+   askNote:"يجيب Claude من البيانات المعروضة ومعرفته العامة، دون بحث مباشر في الأخبار.",
+   askPh:"اكتب سؤالك عن هذا النزاع…",askBtn:"اسأل",askQs:["لماذا بدأ هذا النزاع؟","ما السيناريوهات المحتملة؟","ما أثره على المنطقة والعالم؟"],
+   askOff:"هذه الميزة غير متاحة في هذا العرض.",thinking:"جارٍ التفكير…",
+   disc:"تصنيف الشدة تقديري ومبني على التقارير الإخبارية وقواعد بيانات النزاعات، وليس تصنيفاً رسمياً. معلومات الداعمين مأخوذة من تقارير أممية وإعلامية، وبعض الأطراف تنفيها. تُحدَّث البيانات تلقائياً بشكل دوري.",
+   srcs:"المصادر:",noRes:"لا توجد نتائج"},
+ en:{title:"Conflict Atlas",tag:"A live map of the world's major active wars and armed conflicts",latest:"LATEST",
+   live:"Live · updated",static:"Saved copy · updated",
+   stats:["active conflicts","major wars","updates in 48h","countries involved"],
+   sev:{war:"Major war",high:"High intensity",ongoing:"Ongoing conflict",tension:"Tension / risk"},
+   search:"Search conflicts or regions…",hint:"Drag to pan · scroll or double-click to zoom",
+   legend:"Directly involved countries",tabs:["Overview","Sides & backers","Latest"],
+   cause:"Cause & background",toll:"Key impact",since:"Since",region:"Region",sideA:"Side A",sideB:"Side B",
+   backers:"Backed by",mediators:"Mediators",vs:"vs",src:"Source",newTag:"NEW",
+   all:"All conflicts",sorted:"by severity",updated:"Updated",
+   ago:(n,u)=>`${n}${u} ago`,justnow:"just now",
+   askNote:"Claude answers from the data shown and general knowledge, without live news search.",
+   askPh:"Ask a question about this conflict…",askBtn:"Ask",askQs:["Why did this conflict start?","What are the likely scenarios?","What is its regional and global impact?"],
+   askOff:"This feature isn't available in this view.",thinking:"Thinking…",
+   disc:"Severity levels are an editorial estimate based on news reporting and conflict databases, not an official classification. Backer information comes from UN and media reports; some parties deny it. Data refreshes automatically on a schedule.",
+   srcs:"Sources:",noRes:"No results"}
+};
+const SEVK=["war","high","ongoing","tension"];
+const SEVR={war:9,high:7,ongoing:5.5,tension:4.5};
+const col=s=>`var(--${s})`;
+
+let lang="ar";
+try{const s=localStorage.getItem("atlas-lang");if(s==="en"||s==="ar")lang=s;}catch(e){}
+let tab=0;
+try{const s=+localStorage.getItem("atlas-tab");if(s>=0&&s<3)tab=s;}catch(e){}
+let DATA=SEED.conflicts.slice().sort((a,b)=>a.rank-b.rank);
+let META=SEED.meta, liveOn=true;
+const active=new Set(SEVK);
+let query="", selected=DATA[0].id, k=1;
+const L=()=>T[lang], tx=o=>o?(o[lang]||o.ar||""):"";
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const now=()=>Date.now();
+function ago(iso){const d=(now()-Date.parse(iso))/60000;if(!(d>=0))return new Date(iso).toISOString().slice(0,10);if(d<2)return L().justnow;if(d<60)return L().ago(Math.round(d),"m");if(d<48*60)return L().ago(Math.round(d/60),"h");return L().ago(Math.round(d/1440),"d");}
+function fmtDate(iso){try{return new Date(iso).toLocaleString(lang==="ar"?"ar-EG-u-nu-latn":"en-GB",{day:"numeric",month:"short",hour:"2-digit",minute:"2-digit",timeZone:"UTC"})+" UTC";}catch(e){return iso}}
+const fresh=iso=>now()-Date.parse(iso)<48*3600e3;
+const news=u=>u.kind!=="status";
+const isFresh=u=>news(u)&&fresh(u.t);
+const byT=(a,b)=>Date.parse(b.t)-Date.parse(a.t);
+const visible=()=>DATA.filter(c=>active.has(c.sev)&&(!query||(tx(c.name)+" "+c.name.en+" "+c.name.ar+" "+tx(c.region)).toLowerCase().includes(query)));
+
+/* ---------- map ---------- */
+const W=1000,H=560, svg=d3.select("#map").attr("viewBox",`0 0 ${W} ${H}`);
+const proj=d3.geoNaturalEarth1().fitExtent([[6,6],[W-6,H-6]],{type:"Sphere"});
+const path=d3.geoPath(proj);
+const g=svg.append("g");
+g.append("path").attr("class","sphere").attr("d",path({type:"Sphere"}));
+g.append("path").attr("class","grat").attr("d",path(d3.geoGraticule10()));
+const countries=topojson.feature(TOPO,TOPO.objects.countries).features.filter(f=>f.properties.name!=="Antarctica");
+const cg=g.append("g");
+const mg=g.append("g");
+const box=document.getElementById("mapbox"), tip=document.getElementById("tip");
+function showTip(e,html){const r=box.getBoundingClientRect();tip.hidden=false;tip.innerHTML=html;let x=e.clientX-r.left+14,y=e.clientY-r.top+14;if(x>r.width-270)x=e.clientX-r.left-270;if(y>r.height-70)y=e.clientY-r.top-60;tip.style.left=x+"px";tip.style.top=y+"px";}
+function drawCountries(){
+  const inv=new Map();DATA.forEach(c=>c.iso.forEach(i=>{if(!inv.has(i))inv.set(i,c.id)}));
+  const sel=DATA.find(c=>c.id===selected);
+  cg.selectAll("path").data(countries).join("path").attr("d",path)
+   .attr("class",d=>"country"+(inv.has(String(d.id))?" inv":"")+(sel&&sel.iso.includes(String(d.id))?" focus":""))
+   .on("mousemove",(e,d)=>{const cid=inv.get(String(d.id));const c=cid&&DATA.find(x=>x.id===cid);showTip(e,`<b>${esc(d.properties.name)}</b>${c?`<small>${esc(tx(c.name))}</small>`:""}`)})
+   .on("mouseleave",()=>tip.hidden=true)
+   .on("click",(e,d)=>{const cid=inv.get(String(d.id));if(cid)select(cid,false)});
+}
+function drawMarkers(){
+  const rtl=lang==="ar", data=visible();
+  const s=mg.selectAll("g.m").data(data,d=>d.id);
+  s.exit().remove();
+  const en=s.enter().append("g").attr("class","m");
+  en.append("circle").attr("class","pulse");
+  en.append("circle").attr("class","mk")
+    .on("click",(e,d)=>{e.stopPropagation();select(d.id,true)})
+    .on("mousemove",(e,d)=>{const u=d.updates.slice().sort(byT)[0];showTip(e,`<b>${esc(tx(d.name))}</b><small>${esc(L().sev[d.sev])}${u?" · "+esc(ago(u.t)):""}</small>`)})
+    .on("mouseleave",()=>tip.hidden=true);
+  en.append("text").attr("class","lbl");
+  const all=en.merge(s);
+  all.attr("transform",d=>`translate(${proj(d.ll)})`);
+  const rs=d=>SEVR[d.sev]/Math.pow(k,.85);
+  all.select(".pulse").attr("r",rs).style("stroke",d=>col(d.sev))
+     .style("display",d=>(d.sev==="war"||d.id===selected||d.updates.some(isFresh))?null:"none");
+  all.select(".mk").attr("r",rs).style("fill",d=>col(d.sev)).classed("sel",d=>d.id===selected);
+  all.select(".lbl").text(d=>tx(d.name)).attr("font-size",11.5/k)
+     .attr("x",d=>(rtl?-1:1)*(rs(d)+4/k)).attr("y",4/k).attr("text-anchor","start")
+     .style("stroke-width",3.2/k+"px")
+     .style("display",d=>(d.id===selected||k>=2.4||(d.sev==="war"&&k>=1.5))?null:"none");
+  all.filter(d=>d.id===selected).raise();
+}
+const zoom=d3.zoom().scaleExtent([1,60]).translateExtent([[-80,-40],[W+80,H+40]])
+  .on("zoom",e=>{g.attr("transform",e.transform);k=e.transform.k;document.getElementById("zlvl").textContent=(k<10?k.toFixed(1):Math.round(k))+"×";drawMarkers();});
+svg.call(zoom);
+const reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;
+document.getElementById("zin").onclick=()=>svg.transition().duration(300).call(zoom.scaleBy,1.8);
+document.getElementById("zout").onclick=()=>svg.transition().duration(300).call(zoom.scaleBy,1/1.8);
+document.getElementById("zreset").onclick=()=>svg.transition().duration(500).call(zoom.transform,d3.zoomIdentity);
+function focusOn(c){
+  const feats=countries.filter(f=>c.iso.includes(String(f.id)));
+  let s=4,[x,y]=proj(c.ll);
+  if(feats.length){const b=path.bounds({type:"FeatureCollection",features:feats});const dx=b[1][0]-b[0][0],dy=b[1][1]-b[0][1];
+    if(dx<W*.6){s=Math.max(2,Math.min(14,.55/Math.max(dx/W,dy/H)));x=(b[0][0]+b[1][0])/2;y=(b[0][1]+b[1][1])/2;}}
+  svg.transition().duration(reduce?0:800).call(zoom.transform,d3.zoomIdentity.translate(W/2-x*s,H/2-y*s).scale(s));
+}
+
+/* ---------- UI ---------- */
+function renderStatic(){
+  const app=document.getElementById("app");app.dir=lang==="ar"?"rtl":"ltr";app.lang=lang;document.documentElement.lang=lang;
+  document.getElementById("l-ar").setAttribute("aria-pressed",lang==="ar");document.getElementById("l-en").setAttribute("aria-pressed",lang==="en");
+  document.getElementById("t-title").textContent=L().title;document.getElementById("t-tag").textContent=L().tag;
+  document.getElementById("t-latest").textContent=L().latest;document.getElementById("t-hint").textContent=L().hint;
+  document.getElementById("q").placeholder=L().search;document.getElementById("t-all").textContent=L().all;document.getElementById("t-sorted").textContent=L().sorted;
+  document.getElementById("t-disc").textContent=L().disc;document.getElementById("t-src").textContent=L().srcs;
+  document.getElementById("legend").innerHTML=`<span><i></i>${esc(L().legend)}</span>`+SEVK.map(s=>`<span><span class="dot" style="background:${col(s)}"></span>${esc(L().sev[s])}</span>`).join("");
+  document.getElementById("map").setAttribute("aria-label",L().title);
+}
+function renderLive(){
+  const el=document.getElementById("live");el.classList.toggle("off",!liveOn);
+  document.getElementById("liveTxt").textContent=(liveOn?L().live:L().static)+" "+ago(META.updatedAt);
+}
+function renderStats(){
+  const all=DATA, isoN=new Set(all.flatMap(c=>c.iso)).size;
+  const f=all.reduce((n,c)=>n+c.updates.filter(isFresh).length,0);
+  const v=[all.length,all.filter(c=>c.sev==="war").length,f,isoN];
+  document.getElementById("stats").innerHTML=v.map((n,i)=>`<span class="stat"><b>${n}</b>${esc(L().stats[i])}</span>`).join("");
+}
+function renderChips(){
+  const el=document.getElementById("chips");el.innerHTML="";
+  SEVK.forEach(s=>{const b=document.createElement("button");b.className="chip";b.setAttribute("aria-pressed",active.has(s));
+    b.innerHTML=`<span class="dot" style="background:${col(s)}"></span>${esc(L().sev[s])}<span class="n">${DATA.filter(c=>c.sev===s).length}</span>`;
+    b.onclick=()=>{active.has(s)?active.delete(s):active.add(s);refresh();};el.appendChild(b);});
+}
+function renderTicker(){
+  const items=DATA.flatMap(c=>c.updates.map(u=>({c,u}))).filter(x=>news(x.u)&&x.u.src!=="—").sort((a,b)=>byT(a.u,b.u)).slice(0,14);
+  const html=items.map(({c,u})=>`<button class="tk" data-id="${c.id}"><span class="dot" style="background:${col(c.sev)}"></span><b>${esc(tx(c.name))}</b> ${esc(tx(u))} <time>${esc(ago(u.t))}</time></button>`).join("");
+  const rail=document.getElementById("rail");rail.innerHTML=html+(reduce?"":html);
+  rail.style.setProperty("--dur",Math.max(60,items.length*9)+"s");
+  rail.querySelectorAll(".tk").forEach(b=>b.onclick=()=>select(b.dataset.id,true));
+}
+function renderList(){
+  const el=document.getElementById("list"),v=visible();
+  if(!v.length){el.innerHTML=`<div class="item"><span></span><span class="r">${esc(L().noRes)}</span></div>`;return;}
+  el.innerHTML=v.map(c=>{const u=c.updates.slice().sort(byT)[0];const hot=c.updates.some(isFresh);
+    return `<button class="item${c.id===selected?" sel":""}" data-id="${c.id}"><span class="dot" style="background:${col(c.sev)}"></span><span><span class="t">${esc(tx(c.name))}</span><span class="r">${esc(tx(c.region))}</span></span><span class="y">${hot?`<span class="hot">${esc(L().newTag)}</span>`:""}${esc(c.since)}</span></button>`}).join("");
+  el.querySelectorAll(".item[data-id]").forEach(b=>b.onclick=()=>select(b.dataset.id,true));
+}
+function renderHead(){
+  const c=DATA.find(x=>x.id===selected); if(!c)return;
+  const u=c.updates.slice().sort(byT)[0];
+  document.getElementById("head").innerHTML=`<span class="sevb" style="background:${col(c.sev)}">${esc(L().sev[c.sev])}</span>
+   <h2>${esc(tx(c.name))}</h2>
+   <div class="meta"><span>${esc(tx(c.region))}</span><span>${esc(L().since)} <span class="m">${esc(c.since)}</span></span>${u?`<span>${esc(L().updated)}: ${esc(ago(u.t))}</span>`:""}</div>`;
+  const nfresh=c.updates.filter(isFresh).length;
+  document.getElementById("tabs").innerHTML=L().tabs.map((t,i)=>`<button class="tab" role="tab" aria-selected="${i===tab}" data-i="${i}">${esc(t)}${i===2&&nfresh?`<span class="cnt">${nfresh}</span>`:""}</button>`).join("");
+  document.querySelectorAll(".tab").forEach(b=>b.onclick=()=>{tab=+b.dataset.i;try{localStorage.setItem("atlas-tab",tab)}catch(e){};renderHead();renderPane();});
+}
+function renderPane(){
+  const c=DATA.find(x=>x.id===selected), p=document.getElementById("pane"); if(!c)return;
+  if(tab===0){
+    p.innerHTML=`<div class="row"><small>${esc(L().cause)}</small></div><p>${esc(tx(c.cause))}</p>
+     <div class="kpi"><small>${esc(L().toll)}</small>${esc(tx(c.toll))}</div>
+     ${(()=>{const u=c.updates.slice().sort(byT)[0];return u?`<div class="kpi"><small>${esc(L().tabs[2])} · ${esc(ago(u.t))}</small>${esc(tx(u))}</div>`:""})()}`;
+  }else if(tab===1){
+    p.innerHTML=`<div class="vs">
+      <div class="side"><small>${esc(L().sideA)}</small><div class="who">${esc(tx(c.sideA))}</div><small>${esc(L().backers)}</small><div class="bk">${esc(tx(c.backA))}</div></div>
+      <div class="vsx">${esc(L().vs)}</div>
+      <div class="side"><small>${esc(L().sideB)}</small><div class="who">${esc(tx(c.sideB))}</div><small>${esc(L().backers)}</small><div class="bk">${esc(tx(c.backB))}</div></div></div>
+      <div class="row"><small>${esc(L().mediators)}</small>${esc(tx(c.mediators))}</div>`;
+  }else if(tab===2){
+    p.innerHTML=`<ul class="tl">${c.updates.slice().sort(byT).map(u=>`<li class="${isFresh(u)?"fresh":""}"><time>${esc(fmtDate(u.t))} · ${esc(ago(u.t))}${isFresh(u)?`<span class="new">${esc(L().newTag)}</span>`:""}</time><p>${esc(tx(u))}</p>${u.url?`<a href="${esc(u.url)}" target="_blank" rel="noopener">${esc(L().src)}: ${esc(u.src)}</a>`:(u.src&&u.src!=="—"?`<span class="note">${esc(u.src)}</span>`:"")}</li>`).join("")}</ul>`;
+  }
+}
+function select(id,zoomTo){
+  selected=id;tip.hidden=true;renderHead();renderPane();renderList();drawCountries();drawMarkers();
+  const c=DATA.find(x=>x.id===id);if(zoomTo&&c)focusOn(c);
+  if(matchMedia("(max-width:980px)").matches&&zoomTo)document.getElementById("panel").scrollIntoView({behavior:reduce?"auto":"smooth",block:"start"});
+}
+function refresh(){
+  const v=visible();if(v.length&&!v.find(c=>c.id===selected))selected=v[0].id;
+  renderChips();renderList();drawMarkers();renderHead();renderPane();
+}
+function renderAll(){renderStatic();renderLive();renderStats();renderChips();renderTicker();drawCountries();refresh();}
+function setLang(l){lang=l;try{localStorage.setItem("atlas-lang",l)}catch(e){};renderAll();}
+document.getElementById("l-ar").onclick=()=>setLang("ar");
+document.getElementById("l-en").onclick=()=>setLang("en");
+document.getElementById("q").addEventListener("input",e=>{query=e.target.value.trim().toLowerCase();refresh();});
+renderAll();
+setInterval(()=>{renderLive();renderTicker();},60000);
+
+/* ---------- auto refresh from data/conflicts.json ---------- */
+async function poll(){
+  const d=await loadData(); if(!d)return;
+  if(d.meta&&d.meta.updatedAt===META.updatedAt)return;
+  META=d.meta;DATA=d.conflicts.slice().sort((a,b)=>a.rank-b.rank);
+  if(!DATA.find(c=>c.id===selected))selected=DATA[0].id;
+  renderLive();renderStats();renderChips();renderTicker();drawCountries();refresh();
+}
+setInterval(poll,5*60*1000);
+document.addEventListener("visibilitychange",()=>{if(!document.hidden)poll();});
+})();
+</script>
+
+</body>
+</html>

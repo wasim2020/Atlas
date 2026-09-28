@@ -1,0 +1,1437 @@
+{
+ "meta": {
+  "updatedAt": "2026-09-28T08:07:10Z",
+  "note": {
+   "ar": "تحديث أخبار ثمانية نزاعات: أوكرانيا، إيران، اليمن، السودان، غزة، أفغانستان وباكستان، الكونغو الديمقراطية، ميانمار.",
+   "en": "News added for 8 conflicts: Ukraine, Iran, Yemen, Sudan, Gaza, Afghanistan–Pakistan, DRC, Myanmar."
+  }
+ },
+ "conflicts": [
+  {
+   "id": "iran",
+   "backA": {
+    "ar": "السعودية، الإمارات، الكويت، البحرين (مشاركة في العمليات)",
+    "en": "Saudi Arabia, UAE, Kuwait, Bahrain (participating)"
+   },
+   "backB": {
+    "ar": "محور المقاومة: الحوثيون، حزب الله، الحشد الشعبي والفصائل العراقية",
+    "en": "Axis of Resistance: Houthis, Hezbollah, Iraqi PMF & militias"
+   },
+   "cause": {
+    "ar": "بدأت الحرب في 28 فبراير 2026 بضربات أمريكية وإسرائيلية على مواقع عسكرية وحكومية إيرانية، على خلفية البرنامج النووي الإيراني والمواجهة الإقليمية الممتدة. ردّت إيران بإغلاق مضيق هرمز وضرب قواعد أمريكية ومنشآت نفطية في الخليج. توقف القتال بهدنة في 8 أبريل ثم بمذكرة إسلام آباد في 17 يونيو، لكنها انهارت في 8 يوليو بعد هجمات إيرانية على السفن لفرض سيادتها على المضيق.",
+    "en": "The war began on 28 February 2026 when the US and Israel struck Iranian military and government sites, rooted in the nuclear dispute and the wider regional confrontation. Iran closed the Strait of Hormuz and hit US bases and Gulf oil infrastructure. A truce on 8 April and the Islamabad Memorandum of 17 June paused fighting, but it collapsed on 8 July after Iran attacked ships to assert control over the strait."
+   },
+   "iso": [
+    "364"
+   ],
+   "ll": [
+    56.3,
+    26.6
+   ],
+   "mediators": {
+    "ar": "باكستان، قطر، عُمان، الصين",
+    "en": "Pakistan, Qatar, Oman, China"
+   },
+   "name": {
+    "ar": "حرب إيران ومضيق هرمز",
+    "en": "Iran War & Strait of Hormuz"
+   },
+   "rank": 0,
+   "region": {
+    "ar": "الشرق الأوسط",
+    "en": "Middle East"
+   },
+   "sev": "war",
+   "sideA": {
+    "ar": "الولايات المتحدة وإسرائيل",
+    "en": "United States & Israel"
+   },
+   "sideB": {
+    "ar": "إيران",
+    "en": "Iran"
+   },
+   "since": "2026",
+   "toll": {
+    "ar": "الحصار البحري أوقف صادرات النفط الإيرانية الجديدة، وسعر خام برنت اقترب من 100 دولار",
+    "en": "Blockade has halted new Iranian oil exports; Brent near $100"
+   },
+   "updates": [
+    {
+     "ar": "قال ترامب إنه يتوقع استئناف المحادثات مع إيران خلال الأسبوع، لكنه لم يستبعد توجيه ضربات عسكرية جديدة قبل الانتخابات النصفية.",
+     "en": "Trump said he expects talks with Iran to resume this week but did not rule out further military strikes before the midterm elections.",
+     "kind": "news",
+     "src": "CBS News",
+     "t": "2026-09-27T21:20:00Z",
+     "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-7-day-proposal/"
+    },
+    {
+     "ar": "الولايات المتحدة تنفي ادعاء إيران الاستيلاء على طائرة مسيّرة «متطورة» في هرمز، وطهران تنتظر رداً رسمياً على مقترحها.",
+     "en": "US denies Iran's claim to have seized an 'advanced' drone in Hormuz; Tehran awaits an official US reply to its proposal.",
+     "kind": "news",
+     "src": "Al Jazeera",
+     "t": "2026-09-27T18:00:00Z",
+     "url": "https://www.aljazeera.com/news/liveblog/2026/9/27/iran-war-live-tehran-awaits-official-response-as-trump-rejects-hormuz-plan"
+    },
+    {
+     "ar": "قالت طهران إنها لن تخفف مطالبها بعد رفض ترامب عرضها لإعادة فتح مضيق هرمز.",
+     "en": "Tehran said it will not soften its demands after Trump rejected its offer to reopen the Strait of Hormuz.",
+     "kind": "news",
+     "src": "Bloomberg",
+     "t": "2026-09-27T15:00:00Z",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-27/iran-says-won-t-soften-demands-after-trump-rejects-hormuz-offer"
+    },
+    {
+     "ar": "ترامب يرفض مقترحاً إيرانياً لإعادة فتح مضيق هرمز خلال سبعة أيام ويصفه بأنه «غير مقبول».",
+     "en": "Trump rejects an Iranian plan to reopen Hormuz within seven days, calling it 'not acceptable'.",
+     "kind": "news",
+     "src": "NPR",
+     "t": "2026-09-26T16:00:00Z",
+     "url": "https://www.npr.org/2026/09/26/nx-s1-5981990/trump-rejects-iranian-deal-strait-of-hormuz"
+    },
+    {
+     "ar": "القوات الأمريكية تدمّر خمس ناقلات نفط مرتبطة بالحرس الثوري بعد هجوم صاروخي إيراني على سفينة حربية أمريكية.",
+     "en": "US forces destroy five IRGC-linked tankers after an Iranian missile attack on a US warship.",
+     "kind": "news",
+     "src": "CBS News",
+     "t": "2026-09-08T12:00:00Z",
+     "url": "https://www.cbsnews.com/live-updates/iran-war-us-strait-of-hormuz-oil-gas-price-strikes/"
+    }
+   ]
+  },
+  {
+   "id": "ukraine",
+   "backA": {
+    "ar": "الولايات المتحدة، الاتحاد الأوروبي، المملكة المتحدة ودول الناتو (سلاح، تمويل، استخبارات)",
+    "en": "US, EU, UK and NATO states (arms, funding, intelligence)"
+   },
+   "backB": {
+    "ar": "كوريا الشمالية (جنود وذخائر)، إيران (مسيّرات)، والصين (دعم اقتصادي ومواد مزدوجة الاستخدام وفق حكومات غربية)",
+    "en": "North Korea (troops, munitions), Iran (drones), China (economic and dual-use support, per Western governments)"
+   },
+   "cause": {
+    "ar": "غزت روسيا أوكرانيا غزواً شاملاً في 24 فبراير 2022، بعد ضمّ القرم عام 2014 والحرب في إقليم دونباس. تتمحور الحرب حول السيادة الأوكرانية والأراضي وتوسّع حلف الناتو شرقاً. دخلت الحرب عامها الخامس، وتُعدّ أكبر حرب تقليدية في أوروبا منذ 1945.",
+    "en": "Russia launched a full-scale invasion on 24 February 2022, after annexing Crimea in 2014 and fuelling war in Donbas. The war centres on Ukrainian sovereignty, territory and NATO's eastward expansion. Now in its fifth year, it is Europe's largest conventional war since 1945."
+   },
+   "iso": [
+    "804",
+    "643"
+   ],
+   "ll": [
+    37.6,
+    48
+   ],
+   "mediators": {
+    "ar": "الولايات المتحدة (مبعوثان: ويتكوف وكوشنر)، تركيا",
+    "en": "United States (envoys Witkoff & Kushner), Turkey"
+   },
+   "name": {
+    "ar": "الحرب الروسية الأوكرانية",
+    "en": "Russia–Ukraine War"
+   },
+   "rank": 1,
+   "region": {
+    "ar": "أوروبا الشرقية",
+    "en": "Eastern Europe"
+   },
+   "sev": "war",
+   "sideA": {
+    "ar": "أوكرانيا",
+    "en": "Ukraine"
+   },
+   "sideB": {
+    "ar": "روسيا",
+    "en": "Russia"
+   },
+   "since": "2022",
+   "toll": {
+    "ar": "مكاسب روسية محدودة: نحو 37 ميلاً مربعاً في أربعة أسابيع حتى 22 سبتمبر",
+    "en": "Slow Russian gains: ~37 sq mi in the four weeks to 22 Sept"
+   },
+   "updates": [
+    {
+     "ar": "قُتل ثمانية أشخاص في أنحاء أوكرانيا خلال يوم واحد وأصيب اثنان وعشرون في خاركيف بقنبلة موجهة، فيما قال زيلينسكي إن روسيا أطلقت أكثر من ألفين ومئتي مسيّرة خلال أسبوع، وضربت مسيّرات أوكرانية مستودع نفط بافلوفسكايا في كراسنودار.",
+     "en": "Eight killed across Ukraine in 24 hours and 22 injured by a guided bomb in Kharkiv; Zelenskyy says Russia launched over 2,200 drones in a week, while Ukrainian drones hit the Pavlovskaya oil depot in Krasnodar.",
+     "kind": "news",
+     "src": "Al Jazeera",
+     "t": "2026-09-28T08:00:00Z",
+     "url": "https://www.aljazeera.com/news/2026/9/28/russian-strikes-kill-eight-injure-dozens-across-ukraine"
+    },
+    {
+     "ar": "ضربات تقتل 8 أشخاص على الأقل في أوكرانيا وشخصاً في روسيا، وتصيب سوقاً في زابوريجيا. موسكو ترفض دعوات ألمانية لخفض التصعيد.",
+     "en": "Strikes kill at least 8 in Ukraine and 1 in Russia, hitting a market in Zaporizhzhia; Moscow rejects German calls to de-escalate.",
+     "kind": "news",
+     "src": "AP / The Columbian",
+     "t": "2026-09-27T20:00:00Z",
+     "url": "https://www.columbian.com/news/2026/sep/27/strikes-kill-at-least-8-in-ukraine-1-in-russia/"
+    },
+    {
+     "ar": "مقتل 10 أشخاص على الأقل في هجمات متبادلة، فيما تضغط واشنطن لإجراء محادثات ولافروف يتهم أوروبا بعرقلتها.",
+     "en": "At least 10 killed in cross-border attacks as Washington pushes for talks and Lavrov blames Europe for blocking them.",
+     "kind": "news",
+     "src": "Al Jazeera",
+     "t": "2026-09-26T15:00:00Z",
+     "url": "https://www.aljazeera.com/news/2026/9/26/at-least-10-people-killed-in-russian-and-ukrainian-attacks"
+    },
+    {
+     "ar": "روسيا تسيطر على ماركوفي، وأوكرانيا تستعيد شاندريهولوفي وديريلوفي وسيريدني (وفق ديب ستيت).",
+     "en": "Russia takes Markove; Ukraine retakes Shandryholove, Derylove and Seredne (per DeepState).",
+     "kind": "news",
+     "src": "Russia Matters",
+     "t": "2026-09-22T12:00:00Z",
+     "url": "https://www.russiamatters.org/news/russia-ukraine-war-report-card/russia-ukraine-war-report-card-sept-23-2026"
+    }
+   ]
+  },
+  {
+   "id": "sudan",
+   "backA": {
+    "ar": "مصر وتركيا وإيران والسعودية (وفق تقارير)",
+    "en": "Egypt, Turkey, Iran, Saudi Arabia (reported)"
+   },
+   "backB": {
+    "ar": "الإمارات وفق تقارير أممية وإعلامية (تنفي الإمارات ذلك)، وخطوط إمداد عبر تشاد وليبيا",
+    "en": "UAE per UN and media reports (UAE denies), supply routes via Chad and Libya"
+   },
+   "cause": {
+    "ar": "اندلعت في 15 أبريل 2023 بسبب صراع على السلطة بين قائد الجيش عبد الفتاح البرهان وقائد قوات الدعم السريع محمد حمدان دقلو (حميدتي)، وبالأخص حول دمج قوات الدعم السريع في الجيش. سقطت الفاشر بيد الدعم السريع في أكتوبر 2025، وانتقل ثقل المعارك إلى كردفان.",
+    "en": "It erupted on 15 April 2023 from a power struggle between army chief Abdel Fattah al-Burhan and RSF commander Mohamed Hamdan Dagalo (Hemedti), chiefly over merging the RSF into the army. The RSF took El Fasher in October 2025 and the fighting has shifted to Kordofan."
+   },
+   "iso": [
+    "729"
+   ],
+   "ll": [
+    30.2,
+    13.2
+   ],
+   "mediators": {
+    "ar": "الولايات المتحدة، السعودية، مصر، الإمارات (الرباعية)",
+    "en": "US, Saudi Arabia, Egypt, UAE (the 'Quad')"
+   },
+   "name": {
+    "ar": "الحرب الأهلية في السودان",
+    "en": "Sudan Civil War"
+   },
+   "rank": 2,
+   "region": {
+    "ar": "شرق أفريقيا",
+    "en": "East Africa"
+   },
+   "sev": "war",
+   "sideA": {
+    "ar": "القوات المسلحة السودانية وحلفاؤها",
+    "en": "Sudanese Armed Forces & allies"
+   },
+   "sideB": {
+    "ar": "قوات الدعم السريع وحلفاؤها",
+    "en": "Rapid Support Forces & allies"
+   },
+   "since": "2023",
+   "toll": {
+    "ar": "8.6 مليون نازح داخلياً وفق منظمة الهجرة الدولية",
+    "en": "8.6 million internally displaced (IOM)"
+   },
+   "updates": [
+    {
+     "ar": "ضربت مسيّرات الدعم السريع مستودع وقود أم عليلة قرب ود مدني في ولاية الجزيرة، وفق شهود.",
+     "en": "RSF drones struck the Um Aleila fuel depot near Wad Madani in Al Jazirah state, according to witnesses.",
+     "kind": "news",
+     "src": "Sudan Tribune",
+     "t": "2026-09-27T08:00:00Z",
+     "url": "https://sudantribune.com/article/319309"
+    },
+    {
+     "ar": "قدّمت السعودية شكوى إلى مجلس الأمن تتهم فيها الدعم السريع باستهداف شحنة مساعدات غذائية قرب الأبيض بمسيّرة.",
+     "en": "Saudi Arabia filed a UN Security Council complaint accusing the RSF of a drone strike on a food aid shipment near El Obeid.",
+     "kind": "news",
+     "src": "Sudan Tribune",
+     "t": "2026-09-26T10:00:00Z",
+     "url": "https://sudantribune.com/article/319294"
+    },
+    {
+     "ar": "صعّدت قوات الدعم السريع ضرباتها بالمسيّرات على مدن الجبهة في شمال كردفان، وتقول الأمم المتحدة إن هجمات المسيّرات من الطرفين قتلت أكثر من ألف مدني في النصف الأول من العام.",
+     "en": "The RSF has stepped up drone strikes on frontline cities in North Kordofan; the UN says drone attacks by both sides killed over 1,000 civilians in the first half of 2026.",
+     "kind": "news",
+     "src": "Reuters",
+     "t": "2026-09-25T10:00:00Z",
+     "url": "https://www.timeslive.co.za/news/africa/2026-09-25-sudans-rsf-steps-up-deadly-drone-attacks-on-frontline-cities/"
+    },
+    {
+     "ar": "منظمة الهجرة الدولية: 8.6 مليون شخص ما زالوا نازحين داخل السودان، مع عودة 4.9 مليون.",
+     "en": "IOM: 8.6 million people remain internally displaced, with 4.9 million returnees recorded.",
+     "kind": "news",
+     "src": "Terrorism Watch / IOM",
+     "t": "2026-09-18T10:00:00Z",
+     "url": "https://www.terrorismwatch.org/2026/09/international-day-of-peace-2026.html"
+    },
+    {
+     "ar": "بعثة تقصي الحقائق الأممية: الدعم الخارجي عزّز قدرات المسيّرات لدى الطرفين. ضربة للدعم السريع في كالوقي قتلت 114 شخصاً، وضربة للجيش في الضعين قتلت 70 على الأقل.",
+     "en": "UN Fact-Finding Mission: foreign support boosted both sides' drones. An RSF strike in Kalogi killed 114; an army strike in Ad-Da'ein killed at least 70.",
+     "kind": "news",
+     "src": "OHCHR",
+     "t": "2026-09-05T10:00:00Z",
+     "url": "https://www.ohchr.org/en/press-releases/2026/09/sudan-external-support-networks-are-fuelling-conflict-and-civilian-harm-un"
+    },
+    {
+     "ar": "برنامج الأغذية العالمي: غارة جوية أصابت شاحنتي مساعدات أممية في الدلنج بجنوب كردفان.",
+     "en": "WFP: an airstrike hit two UN food trucks in Dilling, South Kordofan.",
+     "kind": "news",
+     "src": "Wikipedia Current Events",
+     "t": "2026-09-01T10:00:00Z",
+     "url": "https://en.wikipedia.org/wiki/Portal:Current_events/September_2026"
+    }
+   ]
+  },
+  {
+   "id": "ethiopia",
+   "backA": {
+    "ar": "قوة سلام تيغراي المنشقة عن جبهة تيغراي",
+    "en": "Tigray Peace Force (TPLF splinter group)"
+   },
+   "backB": {
+    "ar": "فانو (أمهرة)، جيش تحرير أورومو، جبهة تحرير أوغادين وغيرها. تتهم أديس أبابا إريتريا بدعمهم (وتنفي إريتريا)",
+    "en": "Fano (Amhara), Oromo Liberation Army, ONLF and others. Addis Ababa accuses Eritrea of backing them (Eritrea denies)"
+   },
+   "cause": {
+    "ar": "تعثّر تنفيذ اتفاق بريتوريا (2022) الذي أنهى حرب تيغراي، وتصاعد الخلاف حول الأراضي المتنازع عليها والسلطة. استعادت جبهة تيغراي السيطرة على حكومة الإقليم في مايو، ولم تُجرَ انتخابات يونيو في تيغراي. في 20 سبتمبر 2026 تشكّل تحالف من سبع حركات مسلحة لإسقاط حكومة آبي أحمد، واندلع القتال الواسع في 23 سبتمبر.",
+    "en": "Implementation of the 2022 Pretoria deal that ended the Tigray war stalled amid disputes over territory and power. The TPLF retook the regional government in May and Tigray did not vote in June's election. On 20 September 2026 seven armed movements formed an alliance to topple Abiy Ahmed's government; full-scale fighting broke out on 23 September."
+   },
+   "iso": [
+    "231"
+   ],
+   "ll": [
+    39.5,
+    13.5
+   ],
+   "mediators": {
+    "ar": "الاتحاد الأفريقي، كينيا، نيجيريا، جنوب أفريقيا",
+    "en": "African Union, Kenya, Nigeria, South Africa"
+   },
+   "name": {
+    "ar": "الحرب المتجددة في إثيوبيا",
+    "en": "Ethiopia: Renewed War"
+   },
+   "rank": 3,
+   "region": {
+    "ar": "القرن الأفريقي",
+    "en": "Horn of Africa"
+   },
+   "sev": "war",
+   "sideA": {
+    "ar": "الحكومة الفيدرالية والجيش الإثيوبي",
+    "en": "Federal government & Ethiopian army (ENDF)"
+   },
+   "sideB": {
+    "ar": "جبهة تحرير تيغراي وتحالف القوى الشعبية الإثيوبية للبقاء",
+    "en": "TPLF & the Ethiopian People's Forces Alliance for Survival"
+   },
+   "since": "2026",
+   "toll": {
+    "ar": "أخطر تصعيد منذ حرب 2020–2022 التي قتلت نحو 600 ألف شخص",
+    "en": "Worst escalation since the 2020–22 war that killed ~600,000"
+   },
+   "updates": [
+    {
+     "ar": "الجيش يعلن التزامه «بضبط النفس» ويقول إنه قتل 272 مقاتلاً في شمال ولّو. معارك في أبالا (عفر) ورايا ألاماطا، وقطع الإنترنت في الشمال.",
+     "en": "Army pledges 'restraint', says it killed 272 fighters in North Wollo. Battles around Abala (Afar) and Raya Alamata; internet cut across the north.",
+     "kind": "news",
+     "src": "Al Jazeera",
+     "t": "2026-09-27T12:00:00Z",
+     "url": "https://www.aljazeera.com/news/2026/9/27/ethiopias-army-promises-restraint-amid-fears-of-new-civil-war"
+    },
+    {
+     "ar": "جبهة تيغراي تعلن «حرباً دفاعية» وتسيطر على مطارات في الإقليم، والخطوط الإثيوبية تعلّق رحلاتها إلى تيغراي.",
+     "en": "TPLF declares a 'defensive war' and seizes airports; Ethiopian Airlines suspends Tigray flights.",
+     "kind": "news",
+     "src": "CNN",
+     "t": "2026-09-23T09:00:00Z",
+     "url": "https://www.cnn.com/2026/09/23/africa/tigray-ethiopia-fighting-erupts-intl"
+    },
+    {
+     "ar": "ضربات بطائرات مسيّرة تصيب مدرستين في ألاماطا وتقتل 14 مدنياً على الأقل.",
+     "en": "Drone strikes hit two schools in Alamata, killing at least 14 civilians.",
+     "kind": "news",
+     "src": "Wikipedia",
+     "t": "2026-09-22T10:00:00Z",
+     "url": "https://en.wikipedia.org/wiki/2026_Ethiopian_offensive"
+    }
+   ]
+  },
+  {
+   "id": "yemen",
+   "backA": {
+    "ar": "إيران",
+    "en": "Iran"
+   },
+   "backB": {
+    "ar": "السعودية، الإمارات، ضربات أمريكية",
+    "en": "Saudi Arabia, UAE, US strikes"
+   },
+   "cause": {
+    "ar": "حرب أهلية منذ سيطرة الحوثيين على صنعاء عام 2014. انهارت هدنة 2022 في يوليو 2026، وانخرط الحوثيون في حرب إيران، وشنّوا هجوماً للسيطرة على محيط مضيق باب المندب وهاجموا منشآت نفطية سعودية.",
+    "en": "A civil war since the Houthis seized Sanaa in 2014. The 2022 truce collapsed in July 2026; the Houthis joined the Iran war, pushed to seize ground near the Bab al-Mandab strait and struck Saudi oil sites."
+   },
+   "iso": [
+    "887"
+   ],
+   "ll": [
+    44.2,
+    15.4
+   ],
+   "mediators": {
+    "ar": "الأمم المتحدة، عُمان",
+    "en": "United Nations, Oman"
+   },
+   "name": {
+    "ar": "اليمن وباب المندب",
+    "en": "Yemen & Bab al-Mandab"
+   },
+   "rank": 4,
+   "region": {
+    "ar": "الشرق الأوسط",
+    "en": "Middle East"
+   },
+   "sev": "war",
+   "sideA": {
+    "ar": "الحوثيون (أنصار الله)",
+    "en": "Houthis (Ansar Allah)"
+   },
+   "sideB": {
+    "ar": "الحكومة اليمنية (مجلس القيادة الرئاسي)",
+    "en": "Yemeni government (Presidential Leadership Council)"
+   },
+   "since": "2014",
+   "toll": {
+    "ar": "أكثر من 300 قتيل في أيام من معارك باب المندب",
+    "en": "300+ killed in days of fighting near Bab al-Mandab"
+   },
+   "updates": [
+    {
+     "ar": "قال إعلام الحوثيين إن غارة سعودية على تعز قتلت سبعة مدنيين وأصابت العشرات.",
+     "en": "A Saudi airstrike on Taiz killed seven civilians and wounded dozens, according to Houthi media.",
+     "kind": "news",
+     "src": "CBS News",
+     "t": "2026-09-27T11:51:00Z",
+     "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-7-day-proposal/"
+    },
+    {
+     "ar": "قال التحالف بقيادة السعودية إنه اعترض صاروخين باليستيين ومسيّرتين أطلقها الحوثيون، ثم شنّ ضربات على منطقة تعز.",
+     "en": "The Saudi-led coalition said it intercepted two Houthi ballistic missiles and two drones, then carried out strikes in the Taiz area.",
+     "kind": "news",
+     "src": "Haaretz / Reuters",
+     "t": "2026-09-26T12:00:00Z",
+     "url": "https://www.haaretz.com/middle-east-news/2026-09-26/ty-article/saudi-coalition-says-houthi-attack-intercepted-after-regional-security-talks/000001a0-dc46-d9ab-abfd-ffe7baa20000"
+    },
+    {
+     "ar": "هجمات حوثية على منشآت نفط سعودية تشعل حرائق وتصيب 73 شخصاً، والسعودية ترد بضربات.",
+     "en": "Houthi attacks on Saudi oil facilities spark fires and wound 73; Saudi Arabia strikes back.",
+     "kind": "news",
+     "src": "NPR",
+     "t": "2026-09-08T12:00:00Z",
+     "url": "https://www.npr.org/2026/09/08/g-s1-142296/houthi-attacks-saudi-arabia"
+    },
+    {
+     "ar": "الحوثيون: 7 قتلى في ضربة سعودية على سجن في الحزم بالجوف، مع احتدام معركة باب المندب.",
+     "en": "Houthis say a Saudi strike on a prison in Al-Hazm, Jawf killed 7 as the Bab al-Mandab battle intensifies.",
+     "kind": "news",
+     "src": "Times of Israel",
+     "t": "2026-09-07T12:00:00Z",
+     "url": "https://www.timesofisrael.com/houthis-say-7-killed-in-saudi-strike-on-yemen-prison-as-bab-al-mandab-battle-intensifies/"
+    }
+   ]
+  },
+  {
+   "id": "gaza",
+   "backA": {
+    "ar": "الولايات المتحدة",
+    "en": "United States"
+   },
+   "backB": {
+    "ar": "إيران (تاريخياً)",
+    "en": "Iran (historically)"
+   },
+   "cause": {
+    "ar": "اندلعت الحرب بعد هجوم حماس في 7 أكتوبر 2023 والحرب الإسرائيلية على غزة، في سياق عقود من الاحتلال والصراع. وُقّع وقف لإطلاق النار في أكتوبر 2025، لكن الغارات وإطلاق النار مستمران، إلى جانب تصاعد عنف المستوطنين في الضفة.",
+    "en": "The war followed Hamas's 7 October 2023 attack and Israel's war on Gaza, set against decades of occupation and conflict. A ceasefire was signed in October 2025, but strikes and shootings continue, alongside rising settler violence in the West Bank."
+   },
+   "iso": [
+    "275"
+   ],
+   "ll": [
+    34.45,
+    31.45
+   ],
+   "mediators": {
+    "ar": "مصر، قطر، الولايات المتحدة، تركيا",
+    "en": "Egypt, Qatar, US, Turkey"
+   },
+   "name": {
+    "ar": "غزة والضفة الغربية",
+    "en": "Gaza & the West Bank"
+   },
+   "rank": 105,
+   "region": {
+    "ar": "الشرق الأوسط",
+    "en": "Middle East"
+   },
+   "sev": "high",
+   "sideA": {
+    "ar": "إسرائيل",
+    "en": "Israel"
+   },
+   "sideB": {
+    "ar": "حماس والفصائل الفلسطينية",
+    "en": "Hamas & Palestinian factions"
+   },
+   "since": "2023",
+   "toll": {
+    "ar": "1,417 قتيلاً منذ وقف إطلاق النار في أكتوبر 2025 (وفق أرقام محلية)",
+    "en": "1,417 killed since the Oct 2025 ceasefire (local figures)"
+   },
+   "updates": [
+    {
+     "ar": "قُتل أربعة فلسطينيين على الأقل وأصيب اثنا عشر في ضربات وإطلاق نار إسرائيلي في غزة وخان يونس والمواصي، وفق مصادر طبية محلية.",
+     "en": "At least four Palestinians killed and 12 injured in Israeli strikes and gunfire in Gaza City, Khan Younis and al-Mawasi, according to local medical sources.",
+     "kind": "news",
+     "src": "The Tribune / Al Jazeera",
+     "t": "2026-09-28T01:15:00Z",
+     "url": "https://www.tribuneindia.com/news/world/at-least-4-palestinians-killed-12-injured-in-israeli-strikes-across-gaza"
+    },
+    {
+     "ar": "مقتل 8 فلسطينيين على الأقل خلال ثلاثة أيام في مدينة غزة ورفح وخان يونس، بينهم طفل في الثامنة.",
+     "en": "At least 8 Palestinians killed over three days in Gaza City, Rafah and Khan Younis, including an 8-year-old boy.",
+     "kind": "news",
+     "src": "Antiwar.com",
+     "t": "2026-09-27T14:00:00Z",
+     "url": "https://news.antiwar.com/2026/09/27/israeli-strikes-in-gaza-kill-at-least-eight-palestinians-over-three-days-as-relentless-attacks-continue/"
+    },
+    {
+     "ar": "مقتل فتيين في المغيّر قرب رام الله في حادث مع مستوطنين وجنود إسرائيليين.",
+     "en": "Two teenagers killed in al-Mughayyir near Ramallah in an incident involving settlers and soldiers.",
+     "kind": "news",
+     "src": "BBC via Wikipedia",
+     "t": "2026-09-02T10:00:00Z",
+     "url": "https://en.wikipedia.org/wiki/Portal:Current_events/September_2026"
+    }
+   ]
+  },
+  {
+   "id": "lebanon",
+   "backA": {
+    "ar": "الولايات المتحدة",
+    "en": "United States"
+   },
+   "backB": {
+    "ar": "إيران",
+    "en": "Iran"
+   },
+   "cause": {
+    "ar": "استأنف حزب الله المواجهة مع إسرائيل ضمن حرب إيران عام 2026. تطالب إسرائيل بنزع سلاح الحزب دون التزام بوقف النار أو الانسحاب، وفشلت المفاوضات الثلاثية في التوصل إلى اتفاق.",
+    "en": "Hezbollah resumed hostilities with Israel as part of the 2026 Iran war. Israel demands the group's disarmament without committing to a ceasefire or withdrawal; trilateral talks have failed."
+   },
+   "iso": [
+    "422"
+   ],
+   "ll": [
+    35.6,
+    33.4
+   ],
+   "mediators": {
+    "ar": "الولايات المتحدة، فرنسا",
+    "en": "United States, France"
+   },
+   "name": {
+    "ar": "الحرب في لبنان",
+    "en": "Lebanon War"
+   },
+   "rank": 106,
+   "region": {
+    "ar": "الشرق الأوسط",
+    "en": "Middle East"
+   },
+   "sev": "high",
+   "sideA": {
+    "ar": "إسرائيل",
+    "en": "Israel"
+   },
+   "sideB": {
+    "ar": "حزب الله",
+    "en": "Hezbollah"
+   },
+   "since": "2026",
+   "toll": {
+    "ar": "غارات يومية على الجنوب وأوامر إخلاء لقرى عديدة",
+    "en": "Daily strikes on the south; many villages under evacuation orders"
+   },
+   "updates": [
+    {
+     "ar": "تصاعد الغارات الإسرائيلية على جنوب لبنان بعد إطلاق حزب الله مسيّرة مفخخة نحو قوات إسرائيلية. قصف على المنصوري وميفدون، وتقارير عن فوسفور أبيض قرب النبطية.",
+     "en": "Israeli strikes surge across south Lebanon after a Hezbollah explosive drone; shelling of Mansouri and Mayfadoun, reports of white phosphorus near Nabatieh.",
+     "kind": "news",
+     "src": "Antiwar.com / Haaretz",
+     "t": "2026-09-27T16:00:00Z",
+     "url": "https://news.antiwar.com/2026/09/27/israeli-strikes-surge-across-southern-lebanon-in-latest-escalation/"
+    },
+    {
+     "ar": "غارة إسرائيلية على مبنى سكني في كفر رمان تقتل تسعة أشخاص بينهم طفلان.",
+     "en": "An Israeli strike on a residential building in Kfar Reman kills nine, including two children.",
+     "kind": "news",
+     "src": "Wikipedia Current Events",
+     "t": "2026-09-03T10:00:00Z",
+     "url": "https://en.wikipedia.org/wiki/Portal:Current_events/September_2026"
+    }
+   ]
+  },
+  {
+   "id": "drc",
+   "backA": {
+    "ar": "ميليشيات وازاليندو، بوروندي، القوات الديمقراطية لتحرير رواندا",
+    "en": "Wazalendo militias, Burundi, FDLR"
+   },
+   "backB": {
+    "ar": "رواندا وفق خبراء الأمم المتحدة (تنفي رواندا)",
+    "en": "Rwanda, per UN experts (Rwanda denies)"
+   },
+   "cause": {
+    "ar": "تمرد حركة إم 23 التي تطالب بحماية التوتسي الكونغوليين، وتقول رواندا إنها تواجه تهديد جماعة القوات الديمقراطية لتحرير رواندا. يغذّي الصراع التنافس على المعادن الثمينة كالكولتان والذهب. سيطرت الحركة على غوما وبوكافو عام 2025 رغم اتفاق واشنطن للسلام.",
+    "en": "An insurgency by M23, which claims to protect Congolese Tutsis, while Rwanda cites the threat of the FDLR militia. Competition over minerals such as coltan and gold fuels it. M23 took Goma and Bukavu in 2025 despite the Washington peace deal."
+   },
+   "iso": [
+    "180"
+   ],
+   "ll": [
+    28.9,
+    -1.7
+   ],
+   "mediators": {
+    "ar": "الولايات المتحدة، قطر",
+    "en": "United States, Qatar"
+   },
+   "name": {
+    "ar": "شرق الكونغو الديمقراطية",
+    "en": "Eastern DR Congo"
+   },
+   "rank": 107,
+   "region": {
+    "ar": "وسط أفريقيا",
+    "en": "Central Africa"
+   },
+   "sev": "high",
+   "sideA": {
+    "ar": "الجيش الكونغولي",
+    "en": "Congolese army (FARDC)"
+   },
+   "sideB": {
+    "ar": "حركة إم 23 / تحالف نهر الكونغو",
+    "en": "M23 / Congo River Alliance (AFC)"
+   },
+   "since": "2022",
+   "toll": {
+    "ar": "أكثر من 7 ملايين نازح",
+    "en": "7+ million displaced"
+   },
+   "updates": [
+    {
+     "ar": "تواصلت الاشتباكات حول مينيمبوي في جنوب كيفو وفي جنوب ماسيسي، بينما أجرت آلية التحقق المشتركة بعثات لمراقبة وقف إطلاق النار، وفق تقرير أمني.",
+     "en": "Clashes continued around Minembwe in South Kivu and in southern Masisi while the joint verification mechanism carried out ceasefire monitoring missions, per a security review.",
+     "kind": "news",
+     "src": "Critical Threats",
+     "t": "2026-09-25T16:30:00Z",
+     "url": "https://www.criticalthreats.org/briefs/congo-war-security-review"
+    },
+    {
+     "ar": "مسؤولون كونغوليون وروانديون يعقدون جولة محادثات أمنية في جنيف، بينما يستمر القتال في شمال وجنوب كيفو.",
+     "en": "Congolese and Rwandan officials hold security talks in Geneva while fighting continues in North and South Kivu.",
+     "kind": "news",
+     "src": "CFR / Terrorism Watch",
+     "t": "2026-09-15T10:00:00Z",
+     "url": "https://www.terrorismwatch.org/2026/09/international-day-of-peace-2026.html"
+    }
+   ]
+  },
+  {
+   "id": "sahel",
+   "backA": {
+    "ar": "روسيا (الفيلق الأفريقي)",
+    "en": "Russia (Africa Corps)"
+   },
+   "backB": {
+    "ar": "تنظيما القاعدة والدولة",
+    "en": "Al-Qaeda & Islamic State networks"
+   },
+   "cause": {
+    "ar": "تمرد جهادي بدأ في شمال مالي عام 2012 وامتد إلى بوركينا فاسو والنيجر. تحكم البلدانَ الثلاثة مجالسُ عسكرية طردت القوات الفرنسية واتجهت إلى روسيا. تفرض جماعة نصرة الإسلام والمسلمين حصاراً جزئياً على باماكو منذ سبتمبر 2025.",
+    "en": "A jihadist insurgency that began in northern Mali in 2012 and spread to Burkina Faso and Niger. All three are ruled by juntas that expelled French forces and turned to Russia. JNIM has imposed a partial blockade on Bamako since September 2025."
+   },
+   "iso": [
+    "466",
+    "854",
+    "562"
+   ],
+   "ll": [
+    -2,
+    14
+   ],
+   "mediators": {
+    "ar": "لا وساطة فعّالة",
+    "en": "No active mediation"
+   },
+   "name": {
+    "ar": "تمرد الساحل",
+    "en": "Sahel Insurgency"
+   },
+   "rank": 108,
+   "region": {
+    "ar": "غرب أفريقيا",
+    "en": "West Africa"
+   },
+   "sev": "high",
+   "sideA": {
+    "ar": "المجالس العسكرية (تحالف دول الساحل)",
+    "en": "Military juntas (Alliance of Sahel States)"
+   },
+   "sideB": {
+    "ar": "جماعة نصرة الإسلام والمسلمين، وتنظيم الدولة في الساحل",
+    "en": "JNIM (al-Qaeda) & Islamic State Sahel"
+   },
+   "since": "2012",
+   "toll": {
+    "ar": "ارتفاع حاد في العنف خلال 2026 وفق أكليد",
+    "en": "Sharp rise in violence in 2026 (ACLED)"
+   },
+   "updates": [
+    {
+     "ar": "بيانات أكليد: ارتفاع حاد في عنف الجماعات المرتبطة بالقاعدة وتنظيم الدولة في مالي وبوركينا فاسو والنيجر خلال 2026.",
+     "en": "ACLED data show a sharp 2026 rise in violence by al-Qaeda and IS affiliates in Mali, Burkina Faso and Niger.",
+     "kind": "news",
+     "src": "Terrorism Watch / ACLED",
+     "t": "2026-09-21T10:00:00Z",
+     "url": "https://www.terrorismwatch.org/2026/09/international-day-of-peace-2026.html"
+    }
+   ]
+  },
+  {
+   "id": "myanmar",
+   "backA": {
+    "ar": "الصين وروسيا (سلاح ودعم دبلوماسي)",
+    "en": "China & Russia (arms, diplomatic cover)"
+   },
+   "backB": {
+    "ar": "لا داعم دولي معلن",
+    "en": "No declared state backer"
+   },
+   "cause": {
+    "ar": "انقلاب الجيش على الحكومة المنتخبة في فبراير 2021 أشعل مقاومة مسلحة واسعة تحالفت فيها قوات الدفاع الشعبي مع الجماعات العرقية المسلحة. خسر الجيش مساحات كبيرة ويعتمد على الغارات الجوية.",
+    "en": "The military's February 2021 coup against the elected government sparked a broad armed resistance uniting People's Defence Forces with ethnic armed groups. The army has lost large areas and relies on airstrikes."
+   },
+   "iso": [
+    "104"
+   ],
+   "ll": [
+    96,
+    21
+   ],
+   "mediators": {
+    "ar": "رابطة آسيان، الصين",
+    "en": "ASEAN, China"
+   },
+   "name": {
+    "ar": "الحرب الأهلية في ميانمار",
+    "en": "Myanmar Civil War"
+   },
+   "rank": 109,
+   "region": {
+    "ar": "جنوب شرق آسيا",
+    "en": "Southeast Asia"
+   },
+   "sev": "high",
+   "sideA": {
+    "ar": "المجلس العسكري",
+    "en": "Military junta"
+   },
+   "sideB": {
+    "ar": "حكومة الوحدة الوطنية وقوات الدفاع الشعبي والجماعات العرقية",
+    "en": "National Unity Government, PDFs & ethnic armed groups"
+   },
+   "since": "2021",
+   "toll": {
+    "ar": "16.2 مليون بحاجة لمساعدة، و3.8 مليون نازح",
+    "en": "16.2m need aid; 3.8m displaced"
+   },
+   "updates": [
+    {
+     "ar": "قصف الجيش مقر قيادة إقليمية لحكومة الوحدة الوطنية على حدود باغو ومون، ما أسفر عن مقتل ستة أشخاص بينهم محلل عسكري منشق.",
+     "en": "The military bombed a National Unity Government regional command HQ on the Bago–Mon border, killing six including a prominent defector analyst.",
+     "kind": "news",
+     "src": "The Irrawaddy",
+     "t": "2026-09-25T10:00:00Z",
+     "url": "https://www.irrawaddy.com/news/burma/prominent-defector-among-6-killed-as-regime-bombs-nug-regional-hq.html"
+    },
+    {
+     "ar": "اليونيسف: الوضع الإنساني تدهور في النصف الأول من 2026؛ 16.2 مليون شخص يحتاجون مساعدة و3.8 مليون نازحون.",
+     "en": "UNICEF: humanitarian situation worsened in H1 2026; 16.2 million need aid and 3.8 million are displaced.",
+     "kind": "news",
+     "src": "Terrorism Watch / UNICEF",
+     "t": "2026-09-10T10:00:00Z",
+     "url": "https://www.terrorismwatch.org/2026/09/international-day-of-peace-2026.html"
+    }
+   ]
+  },
+  {
+   "id": "afpak",
+   "backA": {
+    "ar": "لا داعم مباشر",
+    "en": "No direct backer"
+   },
+   "backB": {
+    "ar": "لا داعم معلن",
+    "en": "No declared backer"
+   },
+   "cause": {
+    "ar": "تتهم باكستان حكومة طالبان بإيواء حركة طالبان باكستان التي تشن هجمات داخل أراضيها، إلى جانب النزاع التاريخي حول خط دوراند. تحولت الاتهامات إلى اشتباكات حدودية وغارات باكستانية داخل أفغانستان.",
+    "en": "Pakistan accuses the Taliban government of sheltering the Pakistani Taliban (TTP), which attacks inside Pakistan, on top of the old dispute over the Durand Line. This has escalated into border clashes and Pakistani airstrikes in Afghanistan."
+   },
+   "iso": [
+    "4",
+    "586"
+   ],
+   "ll": [
+    70.5,
+    33.5
+   ],
+   "mediators": {
+    "ar": "قطر، تركيا",
+    "en": "Qatar, Turkey"
+   },
+   "name": {
+    "ar": "الحدود الأفغانية الباكستانية",
+    "en": "Afghanistan–Pakistan Border"
+   },
+   "rank": 110,
+   "region": {
+    "ar": "جنوب آسيا",
+    "en": "South Asia"
+   },
+   "sev": "high",
+   "sideA": {
+    "ar": "باكستان",
+    "en": "Pakistan"
+   },
+   "sideB": {
+    "ar": "حكومة طالبان وحركة طالبان باكستان",
+    "en": "Taliban government & TTP"
+   },
+   "since": "2025",
+   "toll": {
+    "ar": "من أشد المواجهات بين البلدين منذ عقود",
+    "en": "Among the worst interstate hostilities in decades"
+   },
+   "updates": [
+    {
+     "ar": "قالت وزارة الدفاع الأفغانية إنها قتلت ثمانية وعشرين مسلحًا تسللوا من باكستان إلى نورستان، ونفت إسلام آباد أي تورط ووصفت الاتهامات بأنها لا أساس لها.",
+     "en": "Afghanistan's defence ministry said it killed 28 fighters who crossed from Pakistan into Nuristan; Islamabad denied involvement and called the claims baseless.",
+     "kind": "news",
+     "src": "Al Jazeera",
+     "t": "2026-09-27T12:00:00Z",
+     "url": "https://www.aljazeera.com/news/2026/9/27/afghanistan-says-28-fighters-killed-as-islamabad-kabul-trade-accusations"
+    },
+    {
+     "ar": "قالت باكستان إن قواتها قتلت عناصر من طالبان في اشتباكات حدودية، بعد غارات جوية على قندهار وبكتيا وخوست توعّدت كابول بالرد عليها.",
+     "en": "Pakistan said its forces killed Afghan Taliban fighters in border clashes, after air strikes on Kandahar, Paktia and Khost that Kabul vowed to answer.",
+     "kind": "news",
+     "src": "Al Jazeera",
+     "t": "2026-09-25T12:00:00Z",
+     "url": "https://www.aljazeera.com/news/2026/9/25/pakistani-forces-kill-afghan-taliban-fighters-in-border-escalation"
+    }
+   ]
+  },
+  {
+   "id": "somalia",
+   "backA": {
+    "ar": "بعثة الاتحاد الأفريقي، الولايات المتحدة (ضربات جوية)، تركيا",
+    "en": "AU mission (AUSSOM), US airstrikes, Turkey"
+   },
+   "backB": {
+    "ar": "شبكة القاعدة",
+    "en": "Al-Qaeda network"
+   },
+   "cause": {
+    "ar": "تمرد حركة الشباب المرتبطة بالقاعدة ضد الحكومة الفيدرالية منذ 2006، إلى جانب فرع تنظيم الدولة في بونتلاند.",
+    "en": "Al-Qaeda-linked al-Shabaab has fought the federal government since 2006, alongside an Islamic State branch in Puntland."
+   },
+   "iso": [
+    "706"
+   ],
+   "ll": [
+    45.3,
+    3.5
+   ],
+   "mediators": {
+    "ar": "—",
+    "en": "—"
+   },
+   "name": {
+    "ar": "الصومال",
+    "en": "Somalia"
+   },
+   "rank": 211,
+   "region": {
+    "ar": "القرن الأفريقي",
+    "en": "Horn of Africa"
+   },
+   "sev": "ongoing",
+   "sideA": {
+    "ar": "الحكومة الصومالية",
+    "en": "Somali federal government"
+   },
+   "sideB": {
+    "ar": "حركة الشباب، تنظيم الدولة",
+    "en": "Al-Shabaab, Islamic State"
+   },
+   "since": "2006",
+   "toll": {
+    "ar": "من أطول النزاعات في أفريقيا",
+    "en": "One of Africa's longest wars"
+   },
+   "updates": [
+    {
+     "ar": "استمرار عمليات التمرد ضد القوات الصومالية والحليفة.",
+     "en": "Insurgent operations against Somali and allied forces continue.",
+     "kind": "status",
+     "src": "Substack OSINT",
+     "t": "2026-09-28T04:00:00Z",
+     "url": "https://gcoleman86.substack.com/p/world-on-fire-the-bloody-map-of-2026s"
+    }
+   ]
+  },
+  {
+   "id": "syria",
+   "backA": {
+    "ar": "الولايات المتحدة، تركيا",
+    "en": "United States, Turkey"
+   },
+   "backB": {
+    "ar": "إيران",
+    "en": "Iran"
+   },
+   "cause": {
+    "ar": "امتدادات لحرب إيران تشمل هجمات الفصائل العراقية المسلحة، إلى جانب هشاشة الوضع الأمني في سوريا بعد سقوط نظام الأسد في ديسمبر 2024.",
+    "en": "Spillover from the Iran war, including attacks by Iraqi armed factions, plus fragile security in Syria after Assad's fall in December 2024."
+   },
+   "iso": [
+    "760",
+    "368"
+   ],
+   "ll": [
+    40.5,
+    34.8
+   ],
+   "mediators": {
+    "ar": "—",
+    "en": "—"
+   },
+   "name": {
+    "ar": "سوريا والعراق",
+    "en": "Syria & Iraq"
+   },
+   "rank": 212,
+   "region": {
+    "ar": "الشرق الأوسط",
+    "en": "Middle East"
+   },
+   "sev": "ongoing",
+   "sideA": {
+    "ar": "الحكومتان وقوات التحالف الأمريكي",
+    "en": "Governments & US-led coalition"
+   },
+   "sideB": {
+    "ar": "فصائل عراقية موالية لإيران، خلايا تنظيم الدولة",
+    "en": "Iran-aligned Iraqi militias, IS cells"
+   },
+   "since": "2011",
+   "toll": {
+    "ar": "هجمات متقطعة مرتبطة بالمواجهة الإقليمية",
+    "en": "Sporadic attacks tied to the regional war"
+   },
+   "updates": [
+    {
+     "ar": "هجمات متقطعة في سوريا والعراق والأردن مرتبطة بحرب إيران.",
+     "en": "Sporadic spillover violence in Syria, Iraq and Jordan linked to the Iran war.",
+     "kind": "status",
+     "src": "Substack OSINT",
+     "t": "2026-09-28T04:00:00Z",
+     "url": "https://gcoleman86.substack.com/p/world-on-fire-the-bloody-map-of-2026s"
+    }
+   ]
+  },
+  {
+   "id": "nigeria",
+   "backA": {
+    "ar": "الولايات المتحدة، المملكة المتحدة (تدريب)",
+    "en": "US, UK (training)"
+   },
+   "backB": {
+    "ar": "تنظيم الدولة",
+    "en": "Islamic State"
+   },
+   "cause": {
+    "ar": "تمرد جهادي في الشمال الشرقي منذ 2009 (بوكو حرام وتنظيم الدولة في غرب أفريقيا)، وعصابات مسلحة في الشمال الغربي، ونزاعات على الأرض في الوسط.",
+    "en": "A jihadist insurgency in the north-east since 2009 (Boko Haram, ISWAP), armed banditry in the north-west and land conflicts in the Middle Belt."
+   },
+   "iso": [
+    "566"
+   ],
+   "ll": [
+    8.5,
+    11.5
+   ],
+   "mediators": {
+    "ar": "—",
+    "en": "—"
+   },
+   "name": {
+    "ar": "نيجيريا",
+    "en": "Nigeria"
+   },
+   "rank": 213,
+   "region": {
+    "ar": "غرب أفريقيا",
+    "en": "West Africa"
+   },
+   "sev": "ongoing",
+   "sideA": {
+    "ar": "الجيش النيجيري",
+    "en": "Nigerian military"
+   },
+   "sideB": {
+    "ar": "بوكو حرام، تنظيم الدولة في غرب أفريقيا، عصابات",
+    "en": "Boko Haram, ISWAP, bandit groups"
+   },
+   "since": "2009",
+   "toll": {
+    "ar": "عنف مستمر وخطف جماعي",
+    "en": "Persistent violence and mass kidnappings"
+   },
+   "updates": [
+    {
+     "ar": "لا تحديث بارز في الأيام الأخيرة ضمن المصادر المتابَعة.",
+     "en": "No major update in tracked sources in recent days.",
+     "kind": "status",
+     "src": "—",
+     "t": "2026-09-28T04:00:00Z",
+     "url": ""
+    }
+   ]
+  },
+  {
+   "id": "haiti",
+   "backA": {
+    "ar": "الولايات المتحدة، كينيا، الأمم المتحدة",
+    "en": "US, Kenya, UN"
+   },
+   "backB": {
+    "ar": "تهريب سلاح من الولايات المتحدة",
+    "en": "Arms trafficked from the US"
+   },
+   "cause": {
+    "ar": "انهيار الدولة بعد اغتيال الرئيس جوفينيل مويز عام 2021 سمح لتحالفات العصابات بالسيطرة على معظم العاصمة.",
+    "en": "State collapse after President Jovenel Moïse's 2021 assassination let gang coalitions seize most of the capital."
+   },
+   "iso": [
+    "332"
+   ],
+   "ll": [
+    -72.3,
+    18.9
+   ],
+   "mediators": {
+    "ar": "—",
+    "en": "—"
+   },
+   "name": {
+    "ar": "هايتي",
+    "en": "Haiti"
+   },
+   "rank": 214,
+   "region": {
+    "ar": "الكاريبي",
+    "en": "Caribbean"
+   },
+   "sev": "ongoing",
+   "sideA": {
+    "ar": "الشرطة الهايتية والقوة الدولية",
+    "en": "Haitian police & international force"
+   },
+   "sideB": {
+    "ar": "تحالفات العصابات",
+    "en": "Gang coalitions"
+   },
+   "since": "2021",
+   "toll": {
+    "ar": "أزمة أمنية وإنسانية حادة",
+    "en": "Severe security and humanitarian crisis"
+   },
+   "updates": [
+    {
+     "ar": "لا تحديث بارز في الأيام الأخيرة ضمن المصادر المتابَعة.",
+     "en": "No major update in tracked sources in recent days.",
+     "kind": "status",
+     "src": "—",
+     "t": "2026-09-28T04:00:00Z",
+     "url": ""
+    }
+   ]
+  },
+  {
+   "id": "colombia",
+   "backA": {
+    "ar": "الولايات المتحدة",
+    "en": "United States"
+   },
+   "backB": {
+    "ar": "—",
+    "en": "—"
+   },
+   "cause": {
+    "ar": "صراع بين جماعات مسلحة (جيش التحرير الوطني، منشقو فارك، عصابة الخليج) على اقتصادات غير مشروعة كالتعدين وتهريب المخدرات.",
+    "en": "Armed groups (ELN, FARC dissidents, Gulf Clan) fight over illicit economies such as mining and drug trafficking."
+   },
+   "iso": [
+    "170"
+   ],
+   "ll": [
+    -75.5,
+    7
+   ],
+   "mediators": {
+    "ar": "كوبا، النرويج (سابقاً)",
+    "en": "Cuba, Norway (earlier talks)"
+   },
+   "name": {
+    "ar": "كولومبيا",
+    "en": "Colombia"
+   },
+   "rank": 215,
+   "region": {
+    "ar": "أمريكا الجنوبية",
+    "en": "South America"
+   },
+   "sev": "ongoing",
+   "sideA": {
+    "ar": "الحكومة الكولومبية",
+    "en": "Colombian government"
+   },
+   "sideB": {
+    "ar": "جيش التحرير الوطني، منشقو فارك، عصابة الخليج",
+    "en": "ELN, FARC dissidents, Clan del Golfo"
+   },
+   "since": "1964",
+   "toll": {
+    "ar": "تصاعد متوقع في شمال أنتيوكيا",
+    "en": "Escalation expected in northern Antioquia"
+   },
+   "updates": [
+    {
+     "ar": "أكليد: العنف بين الجماعات المسلحة في شمال أنتيوكيا مرجّح للتصاعد رغم الهجوم الحكومي.",
+     "en": "ACLED: armed-group violence in northern Antioquia likely to intensify despite the government offensive.",
+     "kind": "news",
+     "src": "ACLED",
+     "t": "2026-09-24T10:00:00Z",
+     "url": "https://acleddata.com/"
+    }
+   ]
+  },
+  {
+   "id": "mexico",
+   "backA": {
+    "ar": "الولايات المتحدة",
+    "en": "United States"
+   },
+   "backB": {
+    "ar": "—",
+    "en": "—"
+   },
+   "cause": {
+    "ar": "حرب الكارتلات على طرق تهريب المخدرات والنفوذ، ومواجهتها مع الدولة منذ 2006.",
+    "en": "Cartel wars over trafficking routes and territory, and their confrontation with the state since 2006."
+   },
+   "iso": [
+    "484"
+   ],
+   "ll": [
+    -104.5,
+    24
+   ],
+   "mediators": {
+    "ar": "—",
+    "en": "—"
+   },
+   "name": {
+    "ar": "المكسيك",
+    "en": "Mexico"
+   },
+   "rank": 216,
+   "region": {
+    "ar": "أمريكا الشمالية",
+    "en": "North America"
+   },
+   "sev": "ongoing",
+   "sideA": {
+    "ar": "الحكومة المكسيكية",
+    "en": "Mexican government"
+   },
+   "sideB": {
+    "ar": "كارتلات سينالوا وخاليسكو وغيرها",
+    "en": "Sinaloa, CJNG and other cartels"
+   },
+   "since": "2006",
+   "toll": {
+    "ar": "مستويات قتل مرتفعة في عدة ولايات",
+    "en": "High homicide levels in several states"
+   },
+   "updates": [
+    {
+     "ar": "لا تحديث بارز في الأيام الأخيرة ضمن المصادر المتابَعة.",
+     "en": "No major update in tracked sources in recent days.",
+     "kind": "status",
+     "src": "—",
+     "t": "2026-09-28T04:00:00Z",
+     "url": ""
+    }
+   ]
+  },
+  {
+   "id": "southsudan",
+   "backA": {
+    "ar": "أوغندا",
+    "en": "Uganda"
+   },
+   "backB": {
+    "ar": "—",
+    "en": "—"
+   },
+   "cause": {
+    "ar": "خلافات بين أطراف اتفاق السلام وتأجيل الانتخابات، مع تأثير مباشر لحرب السودان المجاورة.",
+    "en": "Rifts among peace-deal parties and delayed elections, with direct spillover from Sudan's war."
+   },
+   "iso": [
+    "728"
+   ],
+   "ll": [
+    31,
+    7.5
+   ],
+   "mediators": {
+    "ar": "إيغاد، الاتحاد الأفريقي",
+    "en": "IGAD, African Union"
+   },
+   "name": {
+    "ar": "جنوب السودان",
+    "en": "South Sudan"
+   },
+   "rank": 317,
+   "region": {
+    "ar": "شرق أفريقيا",
+    "en": "East Africa"
+   },
+   "sev": "tension",
+   "sideA": {
+    "ar": "حكومة الرئيس سلفا كير",
+    "en": "President Salva Kiir's government"
+   },
+   "sideB": {
+    "ar": "الحركة الشعبية في المعارضة وفصائل أخرى",
+    "en": "SPLM-IO and other factions"
+   },
+   "since": "2013",
+   "toll": {
+    "ar": "خطر تجدد الحرب الأهلية",
+    "en": "Risk of renewed civil war"
+   },
+   "updates": [
+    {
+     "ar": "لا تحديث بارز في الأيام الأخيرة ضمن المصادر المتابَعة.",
+     "en": "No major update in tracked sources in recent days.",
+     "kind": "status",
+     "src": "—",
+     "t": "2026-09-28T04:00:00Z",
+     "url": ""
+    }
+   ]
+  },
+  {
+   "id": "mozambique",
+   "backA": {
+    "ar": "رواندا (قوات)",
+    "en": "Rwanda (troops)"
+   },
+   "backB": {
+    "ar": "تنظيم الدولة",
+    "en": "Islamic State"
+   },
+   "cause": {
+    "ar": "تمرد مرتبط بتنظيم الدولة في إقليم كابو ديلغادو الغني بالغاز منذ 2017.",
+    "en": "An IS-linked insurgency in gas-rich Cabo Delgado since 2017."
+   },
+   "iso": [
+    "508"
+   ],
+   "ll": [
+    40,
+    -12.5
+   ],
+   "mediators": {
+    "ar": "—",
+    "en": "—"
+   },
+   "name": {
+    "ar": "شمال موزمبيق",
+    "en": "Northern Mozambique"
+   },
+   "rank": 318,
+   "region": {
+    "ar": "جنوب أفريقيا",
+    "en": "Southern Africa"
+   },
+   "sev": "tension",
+   "sideA": {
+    "ar": "حكومة موزمبيق",
+    "en": "Mozambique government"
+   },
+   "sideB": {
+    "ar": "تنظيم الدولة في موزمبيق",
+    "en": "Islamic State Mozambique"
+   },
+   "since": "2017",
+   "toll": {
+    "ar": "موجات نزوح متكررة",
+    "en": "Recurrent displacement"
+   },
+   "updates": [
+    {
+     "ar": "لا تحديث بارز في الأيام الأخيرة ضمن المصادر المتابَعة.",
+     "en": "No major update in tracked sources in recent days.",
+     "kind": "status",
+     "src": "—",
+     "t": "2026-09-28T04:00:00Z",
+     "url": ""
+    }
+   ]
+  },
+  {
+   "id": "venezuela",
+   "backA": {
+    "ar": "—",
+    "en": "—"
+   },
+   "backB": {
+    "ar": "—",
+    "en": "—"
+   },
+   "cause": {
+    "ar": "عملية عسكرية أمريكية في 3 يناير 2026 انتهت باعتقال الرئيس نيكولاس مادورو، وتلتها مرحلة انتقالية غير مستقرة.",
+    "en": "A US military operation on 3 January 2026 ended with President Nicolás Maduro's capture, followed by an unstable transition."
+   },
+   "iso": [
+    "862"
+   ],
+   "ll": [
+    -66.9,
+    8
+   ],
+   "mediators": {
+    "ar": "—",
+    "en": "—"
+   },
+   "name": {
+    "ar": "فنزويلا",
+    "en": "Venezuela"
+   },
+   "rank": 319,
+   "region": {
+    "ar": "أمريكا الجنوبية",
+    "en": "South America"
+   },
+   "sev": "tension",
+   "sideA": {
+    "ar": "الولايات المتحدة والسلطة الانتقالية",
+    "en": "US & transitional authorities"
+   },
+   "sideB": {
+    "ar": "بقايا النظام السابق وجماعات مسلحة",
+    "en": "Old-regime loyalists & armed groups"
+   },
+   "since": "2026",
+   "toll": {
+    "ar": "مخاوف من فوضى أمنية",
+    "en": "Fears of security breakdown"
+   },
+   "updates": [
+    {
+     "ar": "تحذيرات إنسانية من تبعات التدخل الأمريكي وعدم اليقين بشأن المرحلة المقبلة.",
+     "en": "Humanitarian warnings over the fallout of US intervention and uncertainty ahead.",
+     "kind": "news",
+     "src": "The New Humanitarian",
+     "t": "2026-03-20T10:00:00Z",
+     "url": "https://www.thenewhumanitarian.org/analysis/2026/01/07/ten-humanitarian-crises-demand-your-attention-now-2026"
+    }
+   ]
+  },
+  {
+   "id": "kashmir",
+   "backA": {
+    "ar": "—",
+    "en": "—"
+   },
+   "backB": {
+    "ar": "الصين (شريك استراتيجي)",
+    "en": "China (strategic partner)"
+   },
+   "cause": {
+    "ar": "نزاع إقليمي بين الهند وباكستان منذ التقسيم عام 1947. شهد 2025 أسوأ تبادل لإطلاق النار بينهما منذ عقود.",
+    "en": "A territorial dispute between India and Pakistan since 1947 partition; 2025 saw their worst exchange of fire in decades."
+   },
+   "iso": [],
+   "ll": [
+    75,
+    34.2
+   ],
+   "mediators": {
+    "ar": "الولايات المتحدة، السعودية",
+    "en": "US, Saudi Arabia"
+   },
+   "name": {
+    "ar": "كشمير",
+    "en": "Kashmir"
+   },
+   "rank": 320,
+   "region": {
+    "ar": "جنوب آسيا",
+    "en": "South Asia"
+   },
+   "sev": "tension",
+   "sideA": {
+    "ar": "الهند",
+    "en": "India"
+   },
+   "sideB": {
+    "ar": "باكستان",
+    "en": "Pakistan"
+   },
+   "since": "1947",
+   "toll": {
+    "ar": "توتر على خط المراقبة",
+    "en": "Tension along the Line of Control"
+   },
+   "updates": [
+    {
+     "ar": "لا تحديث بارز في الأيام الأخيرة ضمن المصادر المتابَعة.",
+     "en": "No major update in tracked sources in recent days.",
+     "kind": "status",
+     "src": "—",
+     "t": "2026-09-28T04:00:00Z",
+     "url": ""
+    }
+   ]
+  }
+ ]
+}
