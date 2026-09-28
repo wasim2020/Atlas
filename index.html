@@ -207,6 +207,8 @@ aside{background:var(--panel);border:1px solid var(--line);border-radius:8px;dis
 @media (max-width:760px){.fb{grid-template-columns:1fr}}
 footer{font-size:12px;color:var(--muted);display:flex;flex-direction:column;gap:6px;max-width:110ch}
 footer a{color:var(--focus)}
+.visits{font-size:12px;color:var(--muted)}
+.visits b{font-family:var(--mono);color:var(--ink);font-weight:500;font-variant-numeric:tabular-nums}
 
 @media (max-width:980px){
   .grid{grid-template-columns:1fr}
@@ -295,6 +297,7 @@ footer a{color:var(--focus)}
   </div>
 
   <footer>
+    <div class="visits" id="visits" hidden></div>
     <div id="t-disc"></div>
     <div><span id="t-src"></span> <a href="https://acleddata.com/" target="_blank" rel="noopener">ACLED</a> · <a href="https://www.aljazeera.com/" target="_blank" rel="noopener">Al Jazeera</a> · <a href="https://www.cfr.org/global-conflict-tracker" target="_blank" rel="noopener">CFR Global Conflict Tracker</a> · <a href="https://www.crisisgroup.org/" target="_blank" rel="noopener">Crisis Group</a> · <a href="https://www.ohchr.org/" target="_blank" rel="noopener">OHCHR</a> · <a href="https://www.russiamatters.org/" target="_blank" rel="noopener">Russia Matters</a></div>
   </footer>
@@ -324,7 +327,7 @@ const T = {
    askPh:"اكتب سؤالك عن هذا النزاع…",askBtn:"اسأل",askQs:["لماذا بدأ هذا النزاع؟","ما السيناريوهات المحتملة؟","ما أثره على المنطقة والعالم؟"],
    askOff:"هذه الميزة غير متاحة في هذا العرض.",thinking:"جارٍ التفكير…",
    disc:"تصنيف الشدة تقديري ومبني على التقارير الإخبارية وقواعد بيانات النزاعات، وليس تصنيفاً رسمياً. معلومات الداعمين مأخوذة من تقارير أممية وإعلامية، وبعض الأطراف تنفيها. تُحدَّث البيانات تلقائياً بشكل دوري.",
-   srcs:"المصادر:",noRes:"لا توجد نتائج",
+   srcs:"المصادر:",noRes:"لا توجد نتائج",visits:"عدد الزيارات",
    fb:{title:"ما رأيك في الأطلس؟",sub:"قيّم الموقع واترك تعليقك.",rate:"تقييمك",name:"اسمك (اختياري)",text:"اكتب تعليقك (اختياري)…",send:"إرسال",
      count:n=>n===0?"لا توجد تقييمات بعد":n===1?"تقييم واحد":n===2?"تقييمان":(n<=10?`${n} تقييمات`:`${n} تقييماً`),
      need:"اختر عدد النجوم أولاً.",ok:"شكراً لك! تم نشر تقييمك وتعليقك.",err:"تعذّر الإرسال. حاول مرة أخرى بعد قليل.",wait:"أرسلت تقييماً قبل قليل. يمكنك الإرسال مرة أخرى بعد دقائق.",
@@ -343,7 +346,7 @@ const T = {
    askPh:"Ask a question about this conflict…",askBtn:"Ask",askQs:["Why did this conflict start?","What are the likely scenarios?","What is its regional and global impact?"],
    askOff:"This feature isn't available in this view.",thinking:"Thinking…",
    disc:"Severity levels are an editorial estimate based on news reporting and conflict databases, not an official classification. Backer information comes from UN and media reports; some parties deny it. Data refreshes automatically on a schedule.",
-   srcs:"Sources:",noRes:"No results",
+   srcs:"Sources:",noRes:"No results",visits:"Visits",
    fb:{title:"What do you think of the Atlas?",sub:"Rate the site and leave a comment.",rate:"Your rating",name:"Your name (optional)",text:"Write a comment (optional)…",send:"Send",
      count:n=>n===0?"No ratings yet":n===1?"1 rating":`${n} ratings`,
      need:"Please choose a star rating first.",ok:"Thank you! Your rating and comment are published.",err:"Couldn't send. Please try again shortly.",wait:"You just sent a rating. You can send another in a few minutes.",
@@ -509,7 +512,7 @@ function refresh(){
   renderChips();renderList();drawMarkers();renderHead();renderPane();
 }
 function renderAll(){renderStatic();renderLive();renderStats();renderChips();renderTicker();drawCountries();refresh();}
-function setLang(l){lang=l;try{localStorage.setItem("atlas-lang",l)}catch(e){};renderAll();fbRender();}
+function setLang(l){lang=l;try{localStorage.setItem("atlas-lang",l)}catch(e){};renderAll();fbRender();visitRender();}
 
 /* ---------- feedback (Supabase REST) ---------- */
 const FB=(window.ATLAS_CONFIG||{}).feedback||{};
@@ -563,6 +566,18 @@ document.getElementById("fb-form").addEventListener("submit",async e=>{
   fbRender();
 });
 fbRender();fbLoad();
+
+/* ---------- visit counter ---------- */
+let visitTotal=null;
+function visitRender(){const el=document.getElementById("visits");if(visitTotal==null){el.hidden=true;return;}
+  el.hidden=false;el.innerHTML=`${esc(L().visits)}: <b>${Number(visitTotal).toLocaleString("en-US")}</b>`;}
+(async()=>{
+  if(!fbOn)return;
+  const day=new Date().toISOString().slice(0,10);let seen="";try{seen=localStorage.getItem("atlas-visit-day")||""}catch(e){}
+  const fn=seen===day?"visit_total":"count_visit";
+  try{const r=await fetch(FB.url+"/rest/v1/rpc/"+fn,{method:"POST",headers:fbHead(),body:"{}"});
+    if(r.ok){const v=await r.json();if(typeof v==="number"){visitTotal=v;if(fn==="count_visit"){try{localStorage.setItem("atlas-visit-day",day)}catch(e){}}visitRender();}}}catch(e){}
+})();
 document.getElementById("l-ar").onclick=()=>setLang("ar");
 document.getElementById("l-en").onclick=()=>setLang("en");
 document.getElementById("q").addEventListener("input",e=>{query=e.target.value.trim().toLowerCase();refresh();});

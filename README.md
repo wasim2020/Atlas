@@ -13,3 +13,7 @@ Hosting: GitHub Pages (Settings → Pages → Deploy from branch → `main` / ro
 ## Visitor ratings & comments
 
 Stored in a free Supabase project. Run `supabase/feedback.sql` once in the Supabase SQL Editor, then put the project URL and anon key in `config.js`. Comments are hidden until you tick `approved` in the Supabase Table Editor. Until `config.js` is filled in, the section shows "coming soon".
+
+## Visit counter
+
+Run `supabase/visits.sql` once in the Supabase SQL Editor. The footer then shows total visits (one per browser per day).
