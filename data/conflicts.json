@@ -1,9 +1,9 @@
 {
  "meta": {
-  "updatedAt": "2026-09-28T08:07:10Z",
+  "updatedAt": "2026-09-28T08:32:57Z",
   "note": {
-   "ar": "تحديث أخبار ثمانية نزاعات: أوكرانيا، إيران، اليمن، السودان، غزة، أفغانستان وباكستان، الكونغو الديمقراطية، ميانمار.",
-   "en": "News added for 8 conflicts: Ukraine, Iran, Yemen, Sudan, Gaza, Afghanistan–Pakistan, DRC, Myanmar."
+   "ar": "فحص سريع: أخبار جديدة لإثيوبيا (اتهامات لإريتريا والسودان ومصر وضربة على تلفزيون تيغراي) والسودان (سيطرة الجيش على سودري). لا تغيير في مستويات الخطورة.",
+   "en": "Quick scan: new items for Ethiopia (army chief's accusations; Tigrai TV strike) and Sudan (army takes Sodari). No severity changes."
   }
  },
  "conflicts": [
@@ -240,6 +240,14 @@
      "url": "https://sudantribune.com/article/319309"
     },
     {
+     "ar": "الجيش السوداني والقوة المشتركة يسيطران على بلدة سودري في شمال كردفان بعد معارك عنيفة، فيما تحتفظ قوات الدعم السريع بأجزاء أخرى من المحلية.",
+     "en": "The Sudanese army and the Joint Force captured Sodari town in North Kordofan after heavy fighting; the RSF still holds other parts of the locality.",
+     "kind": "news",
+     "src": "Sudans Post",
+     "t": "2026-09-26T10:50:00Z",
+     "url": "https://www.sudanspost.com/sudanese-army-and-allies-seize-sodari-in-fresh-blow-to-rsf/"
+    },
+    {
      "ar": "قدّمت السعودية شكوى إلى مجلس الأمن تتهم فيها الدعم السريع باستهداف شحنة مساعدات غذائية قرب الأبيض بمسيّرة.",
      "en": "Saudi Arabia filed a UN Security Council complaint accusing the RSF of a drone strike on a food aid shipment near El Obeid.",
      "kind": "news",
@@ -330,6 +338,14 @@
     "en": "Worst escalation since the 2020–22 war that killed ~600,000"
    },
    "updates": [
+    {
+     "ar": "رئيس أركان الجيش الإثيوبي يتهم إريتريا والسودان ومصر بدعم جبهة تيغراي، ومسيّرة تصيب مقر تلفزيون تيغراي في مقلي وتوقف بثه، مع نزوح 150 ألف شخص على الأقل في إقليم عفر.",
+     "en": "Ethiopia's army chief accuses Eritrea, Sudan and Egypt of backing the TPLF; a drone strike knocks Tigrai TV's Mekelle headquarters off air; at least 150,000 displaced in Afar.",
+     "kind": "news",
+     "src": "AFP / France 24",
+     "t": "2026-09-27T20:00:00Z",
+     "url": "https://www.france24.com/en/africa/20260927-ethiopia-accuses-eritrea-sudan-backing-tigray-rebels"
+    },
     {
      "ar": "الجيش يعلن التزامه «بضبط النفس» ويقول إنه قتل 272 مقاتلاً في شمال ولّو. معارك في أبالا (عفر) ورايا ألاماطا، وقطع الإنترنت في الشمال.",
      "en": "Army pledges 'restraint', says it killed 272 fighters in North Wollo. Battles around Abala (Afar) and Raya Alamata; internet cut across the north.",
