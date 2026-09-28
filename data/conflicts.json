@@ -1,9 +1,9 @@
 {
  "meta": {
-  "updatedAt": "2026-09-28T20:01:53Z",
+  "updatedAt": "2026-09-28T22:01:46Z",
   "note": {
-   "ar": "تحديث: ألاماطا في إثيوبيا، هجمات المسيّرات على أوكرانيا، تطورات إيران واليمن.",
-   "en": "Update: Alamata in Ethiopia, drone strikes on Ukraine, Iran and Yemen developments."
+   "ar": "تحديث: السودان (الأبيض ونيالا والمزروب) وإيران (حركة النفط في هرمز).",
+   "en": "Update: Sudan (El Obeid, Nyala, Al-Mazroub) and Iran (Hormuz oil flows)."
   }
  },
  "conflicts": [
@@ -56,6 +56,14 @@
     "en": "Blockade has halted new Iranian oil exports; Brent near $100"
    },
    "updates": [
+    {
+     "t": "2026-09-28T20:00:00Z",
+     "ar": "وزير الطاقة الأمريكي يقول إن نحو 13 مليون برميل يومياً تعبر مضيق هرمز مقابل نحو 20 مليوناً قبل الحرب، وصادرات المنطقة في سبتمبر تبلغ أعلى مستوى منذ بدء الحرب، فيما يؤكد المرشد الإيراني أن القوات الأمريكية تتجنب التقدم بسبب «الضربات المؤلمة».",
+     "en": "The US energy secretary says about 13 million barrels a day now pass through Hormuz versus ~20 million pre-war, with September regional exports the highest since the war began; Iran's supreme leader says US forces are holding back because of 'painful blows'.",
+     "src": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/9/28/iran-touts-hormuz-attacks-as-oil-flows-increase-despite-tensions",
+     "kind": "news"
+    },
     {
      "t": "2026-09-28T15:00:00Z",
      "ar": "إيران تنتظر رداً أمريكياً عبر الوسطاء القطريين على مقترحها لإعادة فتح مضيق هرمز، وتشترط وقف النار على كل الجبهات بما فيها لبنان والإفراج عن أموالها المجمدة ورفع العقوبات. وتحدثت تقارير عن محادثات غير مباشرة في نيويورك بين عراقجي والمبعوثَين ويتكوف وكوشنر.",
@@ -111,14 +119,6 @@
      "src": "Bloomberg",
      "t": "2026-09-27T15:00:00Z",
      "url": "https://www.bloomberg.com/news/articles/2026-09-27/iran-says-won-t-soften-demands-after-trump-rejects-hormuz-offer"
-    },
-    {
-     "ar": "ترامب يرفض مقترحاً إيرانياً لإعادة فتح مضيق هرمز خلال سبعة أيام ويصفه بأنه «غير مقبول».",
-     "en": "Trump rejects an Iranian plan to reopen Hormuz within seven days, calling it 'not acceptable'.",
-     "kind": "news",
-     "src": "NPR",
-     "t": "2026-09-26T16:00:00Z",
-     "url": "https://www.npr.org/2026/09/26/nx-s1-5981990/trump-rejects-iranian-deal-strait-of-hormuz"
     }
    ]
   },
@@ -272,6 +272,14 @@
    },
    "updates": [
     {
+     "t": "2026-09-28T12:00:00Z",
+     "ar": "مقتل شخص وإصابة آخرين بقصف للدعم السريع على الأبيض، ومصدر عسكري يقول إن الدفاعات الجوية اعترضت مسيّرات استهدفت المدينة، وإن الطيران ضرب ثلاثة مواقع للدعم السريع في نيالا، وإن الجيش يقترب من السيطرة على المزروب آخر معاقل الدعم السريع في شمال كردفان.",
+     "en": "One killed and others injured by RSF shelling of El Obeid; a military source says air defences intercepted drones targeting the city, jets struck three RSF positions in Nyala, and the army is close to taking Al-Mazroub, the RSF's last stronghold in North Kordofan.",
+     "src": "Al Jazeera",
+     "url": "https://www.aljazeera.net/news/2026/9/28/%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A-%D9%8A%D8%B9%D9%84%D9%86-%D8%A7%D9%84%D8%AA%D8%B5%D8%AF%D9%8A-%D9%84%D9%85%D8%B3%D9%8A%D8%B1%D8%A7%D8%AA",
+     "kind": "news"
+    },
+    {
      "t": "2026-09-27T09:00:00Z",
      "ar": "الجيش السوداني يعلن إسقاط طائرة مسيّرة معادية في ولاية شمال كردفان، بعد يوم من إسقاطه مسيّرة صينية الصنع في شمال دارفور.",
      "en": "Sudan's army says it shot down a hostile drone in North Kordofan, a day after downing a Chinese-made drone in North Darfur.",
@@ -326,14 +334,6 @@
      "src": "Terrorism Watch / IOM",
      "t": "2026-09-18T10:00:00Z",
      "url": "https://www.terrorismwatch.org/2026/09/international-day-of-peace-2026.html"
-    },
-    {
-     "ar": "بعثة تقصي الحقائق الأممية: الدعم الخارجي عزّز قدرات المسيّرات لدى الطرفين. ضربة للدعم السريع في كالوقي قتلت 114 شخصاً، وضربة للجيش في الضعين قتلت 70 على الأقل.",
-     "en": "UN Fact-Finding Mission: foreign support boosted both sides' drones. An RSF strike in Kalogi killed 114; an army strike in Ad-Da'ein killed at least 70.",
-     "kind": "news",
-     "src": "OHCHR",
-     "t": "2026-09-05T10:00:00Z",
-     "url": "https://www.ohchr.org/en/press-releases/2026/09/sudan-external-support-networks-are-fuelling-conflict-and-civilian-harm-un"
     }
    ]
   },
