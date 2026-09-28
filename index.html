@@ -303,7 +303,7 @@ footer a{color:var(--focus)}
   </footer>
 </div>
 
-<script src="config.js?v=2"></script>
+<script src="config.js?v=3"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
 <script>
@@ -569,14 +569,17 @@ fbRender();fbLoad();
 
 /* ---------- visit counter ---------- */
 let visitTotal=null;
-function visitRender(){const el=document.getElementById("visits");if(visitTotal==null){el.hidden=true;return;}
-  el.hidden=false;el.innerHTML=`${esc(L().visits)}: <b>${Number(visitTotal).toLocaleString("en-US")}</b>`;}
+let visitErr="";
+function visitRender(){const el=document.getElementById("visits");if(!fbOn){el.hidden=true;return;}
+  el.hidden=false;el.innerHTML=`${esc(L().visits)}: <b>${visitTotal==null?"—":Number(visitTotal).toLocaleString("en-US")}</b>`;el.title=visitErr;}
 (async()=>{
   if(!fbOn)return;
   const day=new Date().toISOString().slice(0,10);let seen="";try{seen=localStorage.getItem("atlas-visit-day")||""}catch(e){}
   const fn=seen===day?"visit_total":"count_visit";
   try{const r=await fetch(FB.url+"/rest/v1/rpc/"+fn,{method:"POST",headers:fbHead(),body:"{}"});
-    if(r.ok){const v=await r.json();if(typeof v==="number"){visitTotal=v;if(fn==="count_visit"){try{localStorage.setItem("atlas-visit-day",day)}catch(e){}}visitRender();}}}catch(e){}
+    if(r.ok){const v=await r.json();const n=Number(v);if(Number.isFinite(n)){visitTotal=n;if(fn==="count_visit"){try{localStorage.setItem("atlas-visit-day",day)}catch(e){}}}}
+    else{visitErr="HTTP "+r.status+" "+(await r.text()).slice(0,200);console.warn("visit counter:",visitErr);}}catch(e){visitErr=String(e);console.warn("visit counter:",e);}
+  visitRender();
 })();
 document.getElementById("l-ar").onclick=()=>setLang("ar");
 document.getElementById("l-en").onclick=()=>setLang("en");
