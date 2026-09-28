@@ -1,9 +1,9 @@
 {
  "meta": {
-  "updatedAt": "2026-09-28T16:10:34Z",
+  "updatedAt": "2026-09-28T18:01:44Z",
   "note": {
-   "ar": "تحديث: أخبار جديدة لليمن والسودان وإيران من الجزيرة والعربية.",
-   "en": "Update: new Yemen, Sudan and Iran items from Al Jazeera and Al Arabiya."
+   "ar": "تحديث: أخبار جديدة لإيران واليمن وإثيوبيا وميانمار وباكستان.",
+   "en": "Update: new items for Iran, Yemen, Ethiopia, Myanmar and Pakistan."
   }
  },
  "conflicts": [
@@ -56,6 +56,22 @@
     "en": "Blockade has halted new Iranian oil exports; Brent near $100"
    },
    "updates": [
+    {
+     "t": "2026-09-28T15:00:00Z",
+     "ar": "إيران تنتظر رداً أمريكياً عبر الوسطاء القطريين على مقترحها لإعادة فتح مضيق هرمز، وتشترط وقف النار على كل الجبهات بما فيها لبنان والإفراج عن أموالها المجمدة ورفع العقوبات. وتحدثت تقارير عن محادثات غير مباشرة في نيويورك بين عراقجي والمبعوثَين ويتكوف وكوشنر.",
+     "en": "Iran awaits a US reply via Qatari mediators on its Hormuz proposal, conditioned on a ceasefire on all fronts including Lebanon, release of frozen assets and lifting of sanctions; indirect talks between Araghchi and envoys Witkoff and Kushner were reported in New York.",
+     "src": "Al Jazeera",
+     "url": "https://www.aljazeera.net/news/2026/9/28/%D9%85%D9%87%D9%84%D8%A9-%D8%A7%D9%84%D8%A3%D9%8A%D8%A7%D9%85-%D8%A7%D9%84%D8%B3%D8%A8%D8%B9%D8%A9-%D8%AA%D8%AA%D8%A2%D9%83%D9%84-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%AA%D8%B1%D9%82%D8%A8",
+     "kind": "news"
+    },
+    {
+     "t": "2026-09-28T14:00:00Z",
+     "ar": "تقرير أمريكي يفيد بأن صاروخ كروز إيرانياً أصاب سفينة في مضيق هرمز وأوقع إصابات بين مشاة البحرية الأمريكية، بحسب العربية.",
+     "en": "A US report says an Iranian cruise missile hit a ship in the Strait of Hormuz, injuring US Marines, according to Al Arabiya.",
+     "src": "Al Arabiya",
+     "url": "https://www.alarabiya.net/arab-and-world/american-elections-2016/2026/09/28/%D8%AA%D9%82%D8%B1%D9%8A%D8%B1-%D8%A7%D9%85%D9%8A%D8%B1%D9%83%D9%8A-%D8%B5%D8%A7%D8%B1%D9%88%D8%AE-%D9%83%D8%B1%D9%88%D8%B2-%D8%A7%D9%8A%D8%B1%D8%A7%D9%86%D9%8A-%D8%A7%D8%B5%D8%A7%D8%A8-%D8%B3%D9%81%D9%8A%D9%86%D8%A9-%D8%A8%D9%87%D8%B1%D9%85%D8%B2-%D9%88%D8%A7%D9%88%D9%82%D8%B9-%D8%A7%D8%B5%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A8%D9%8A%D9%86-%D9%85%D8%B4%D8%A7%D8%A9-%D8%A7%D9%84%D8%A8%D8%AD%D8%B1%D9%8A%D8%A9",
+     "kind": "news"
+    },
     {
      "ar": "قال وزير الخارجية الإيراني عباس عراقجي إن طهران منفتحة على دبلوماسية حقيقية لكنها مستعدة لحرب شاملة إذا تعرضت لهجمات أمريكية جديدة، فيما أفادت وسائل إعلام إيرانية بأنه سيلتقي وسطاء في نيويورك.",
      "en": "Iranian FM Abbas Araghchi said Tehran is open to 'real diplomacy' but ready for an 'apocalyptic war' if attacked again; Iranian media say he will meet mediators in New York.",
@@ -363,6 +379,14 @@
    },
    "updates": [
     {
+     "t": "2026-09-28T13:00:00Z",
+     "ar": "الجيش السوداني يرفض اتهامات إثيوبيا بدعم جماعات مسلحة مناوئة لأديس أبابا، بحسب العربية.",
+     "en": "Sudan's army rejects Ethiopia's accusations that it backs armed groups opposed to Addis Ababa, according to Al Arabiya.",
+     "src": "Al Arabiya",
+     "url": "https://www.alarabiya.net/arab-and-world/2026/09/28/%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A-%D9%86%D8%B1%D9%81%D8%B6-%D9%85%D8%B2%D8%A7%D8%B9%D9%85-%D8%A7%D8%AB%D9%8A%D9%88%D8%A8%D9%8A%D8%A7-%D8%A8%D8%B4%D8%A7%D9%86-%D8%AF%D8%B9%D9%85-%D8%AC%D9%85%D8%A7%D8%B9%D8%A7%D8%AA-%D9%85%D9%86%D8%A7%D9%88%D8%A6%D8%A9-%D9%84%D8%A7%D8%AF%D9%8A%D8%B3-%D8%A7%D8%A8%D8%A7%D8%A8%D8%A7",
+     "kind": "news"
+    },
+    {
      "t": "2026-09-28T09:00:00Z",
      "ar": "قوات تيغراي وحلفاؤها في عفر يسيطرون على إربتي ويتقدمون نحو أفديرا، فيما تتبادل الأطراف السيطرة على سقوطا وواجا على حدود أمهرة وتيغراي، بحسب الباحث مارتن بلاوت.",
      "en": "Tigrayan forces and Afar allies took Erbeti and are advancing toward Afdera, while Seqota and Waja on the Amhara–Tigray border keep changing hands, according to analyst Martin Plaut.",
@@ -453,6 +477,14 @@
     "en": "300+ killed in days of fighting near Bab al-Mandab"
    },
    "updates": [
+    {
+     "t": "2026-09-28T14:00:00Z",
+     "ar": "البرلمان اليمني يقر إعلان التعبئة العامة لمواجهة التصعيد الحوثي، بحسب العربية.",
+     "en": "Yemen's parliament approves a general mobilisation declaration to confront the Houthi escalation, according to Al Arabiya.",
+     "src": "Al Arabiya",
+     "url": "https://www.alarabiya.net/arab-and-world/yemen/2026/09/28/%D8%A7%D9%84%D9%8A%D9%85%D9%86-%D8%A7%D9%84%D8%A8%D8%B1%D9%84%D9%85%D8%A7%D9%86-%D9%8A%D9%82%D8%B1-%D8%A7%D8%B9%D9%84%D8%A7%D9%86-%D8%A7%D9%84%D8%AA%D8%B9%D8%A8%D8%A6%D8%A9-%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%A9-%D9%84%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%A7%D9%84%D8%AA%D8%B5%D8%B9%D9%8A%D8%AF-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A",
+     "kind": "news"
+    },
     {
      "t": "2026-09-28T10:00:00Z",
      "ar": "القوات الحكومية اليمنية تستهدف مواقع الحوثيين في مديرية المخا غرب تعز، بحسب قناة العربية.",
@@ -831,6 +863,14 @@
    },
    "updates": [
     {
+     "t": "2026-09-28T10:00:00Z",
+     "ar": "غارة جوية للجيش في ولاية راخين غرب ميانمار تقتل 33 شخصاً على الأقل، بحسب جماعة مسلحة معارضة وعامل إغاثة.",
+     "en": "A military airstrike in Rakhine state, western Myanmar, kills at least 33 people, according to a rebel group and an aid worker.",
+     "src": "AP via FMT",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/09/28/myanmar-s-military-airstrike-kills-at-least-33-in-rakhine-state",
+     "kind": "news"
+    },
+    {
      "ar": "قصف الجيش مقر قيادة إقليمية لحكومة الوحدة الوطنية على حدود باغو ومون، ما أسفر عن مقتل ستة أشخاص بينهم محلل عسكري منشق.",
      "en": "The military bombed a National Unity Government regional command HQ on the Bago–Mon border, killing six including a prominent defector analyst.",
      "kind": "news",
@@ -898,6 +938,14 @@
     "en": "Among the worst interstate hostilities in decades"
    },
    "updates": [
+    {
+     "t": "2026-09-28T06:00:00Z",
+     "ar": "هجوم انتحاري على نقطة للشرطة في ديرة إسماعيل خان شمال غرب باكستان يقتل 12 شخصاً ويصيب نحو 35، وحركة طالبان باكستان تتبنى الهجوم.",
+     "en": "A suicide attack on a police checkpoint in Dera Ismail Khan, north-west Pakistan, kills 12 and wounds about 35; the Pakistani Taliban (TTP) claimed it.",
+     "src": "Manila Times (AP)",
+     "url": "https://www.manilatimes.net/2026/09/28/world/asia-oceania/12-killed-35-wounded-in-pakistan-bomb-attack/2433620",
+     "kind": "news"
+    },
     {
      "ar": "قالت وزارة الدفاع الأفغانية إنها قتلت ثمانية وعشرين مسلحًا تسللوا من باكستان إلى نورستان، ونفت إسلام آباد أي تورط ووصفت الاتهامات بأنها لا أساس لها.",
      "en": "Afghanistan's defence ministry said it killed 28 fighters who crossed from Pakistan into Nuristan; Islamabad denied involvement and called the claims baseless.",
