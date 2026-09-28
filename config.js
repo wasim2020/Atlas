@@ -2,7 +2,7 @@
 // security comes from the database's row-level security policies (see supabase/feedback.sql).
 window.ATLAS_CONFIG = {
   feedback: {
-    url: "",      // e.g. "https://abcdefghijk.supabase.co"
-    anonKey: ""   // Supabase project's anon / publishable key
+    url: "https://pxanxxorhmwjrsxzzoom.supabase.co",
+    anonKey: "sb_publishable_NiZsVD0KvKZPEaeCs8JrUQ_UtW0Xy8E"   // publishable key (public by design)
   }
 };

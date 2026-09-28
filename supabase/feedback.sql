@@ -8,21 +8,21 @@ create table if not exists public.feedback (
   name        text        check (char_length(name) <= 40),
   comment     text        check (char_length(comment) <= 600),
   lang        text        check (lang in ('ar','en')),
-  approved    boolean     not null default false
+  approved    boolean     not null default true   -- published immediately; untick to hide
 );
 
 alter table public.feedback enable row level security;
 
--- Visitors (anon) may only INSERT these four columns; "approved" always starts false.
+-- Visitors (anon) may only INSERT these four columns; they cannot set "approved".
 revoke all on public.feedback from anon, authenticated;
 grant insert (rating, name, comment, lang) on public.feedback to anon;
 grant select (id, created_at, rating, name, comment) on public.feedback to anon;
 
 drop policy if exists "anon insert" on public.feedback;
 create policy "anon insert" on public.feedback
-  for insert to anon with check (approved = false);
+  for insert to anon with check (true);
 
--- Visitors can read ONLY comments you approved.
+-- Visitors see every comment except ones you hide (approved = false).
 drop policy if exists "anon read approved" on public.feedback;
 create policy "anon read approved" on public.feedback
   for select to anon using (approved = true);
@@ -49,5 +49,6 @@ $$;
 revoke all on function public.feedback_stats() from public;
 grant execute on function public.feedback_stats() to anon;
 
--- Moderation: Table Editor -> feedback -> tick "approved" on a row to publish it
--- (or delete the row to discard it).
+-- Moderation: comments publish immediately. To hide one: Table Editor -> feedback ->
+-- untick "approved" (or delete the row). To switch to review-first later, run:
+--   alter table public.feedback alter column approved set default false;
