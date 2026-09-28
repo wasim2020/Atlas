@@ -1,9 +1,9 @@
 {
  "meta": {
-  "updatedAt": "2026-09-28T08:32:57Z",
+  "updatedAt": "2026-09-28T16:00:51Z",
   "note": {
-   "ar": "فحص سريع: أخبار جديدة لإثيوبيا (اتهامات لإريتريا والسودان ومصر وضربة على تلفزيون تيغراي) والسودان (سيطرة الجيش على سودري). لا تغيير في مستويات الخطورة.",
-   "en": "Quick scan: new items for Ethiopia (army chief's accusations; Tigrai TV strike) and Sudan (army takes Sodari). No severity changes."
+   "ar": "تحديث يدوي: أخبار جديدة لأوكرانيا وإثيوبيا وغزة والسودان.",
+   "en": "Manual update: new items for Ukraine, Ethiopia, Gaza and Sudan."
   }
  },
  "conflicts": [
@@ -149,6 +149,14 @@
    },
    "updates": [
     {
+     "t": "2026-09-28T12:00:00Z",
+     "ar": "ترامب يوافق على منح أوكرانيا تراخيص لإنتاج صواريخ الاعتراض الخاصة بمنظومة باتريوت، ويقول خبراء إن الإنتاج سيستغرق سنوات. القوات الأوكرانية تعلن تقدماً قرب ليمان.",
+     "en": "Trump agrees to license Ukraine to produce Patriot interceptors; experts say output would take years. Ukrainian forces report advances near Lyman.",
+     "src": "Forbes",
+     "url": "https://www.forbes.com/sites/katyasoldak/2026/09/28/monday-september-28-russias-war-on-ukraine-news-and-information-from-ukraine/",
+     "kind": "news"
+    },
+    {
      "ar": "قُتل ثمانية أشخاص في أنحاء أوكرانيا خلال يوم واحد وأصيب اثنان وعشرون في خاركيف بقنبلة موجهة، فيما قال زيلينسكي إن روسيا أطلقت أكثر من ألفين ومئتي مسيّرة خلال أسبوع، وضربت مسيّرات أوكرانية مستودع نفط بافلوفسكايا في كراسنودار.",
      "en": "Eight killed across Ukraine in 24 hours and 22 injured by a guided bomb in Kharkiv; Zelenskyy says Russia launched over 2,200 drones in a week, while Ukrainian drones hit the Pavlovskaya oil depot in Krasnodar.",
      "kind": "news",
@@ -264,6 +272,14 @@
      "url": "https://www.timeslive.co.za/news/africa/2026-09-25-sudans-rsf-steps-up-deadly-drone-attacks-on-frontline-cities/"
     },
     {
+     "t": "2026-09-22T12:00:00Z",
+     "ar": "الجيش السوداني يستأنف غارات جوية مكثفة على مواقع الدعم السريع في نيالا بجنوب دارفور، مستهدفاً مخازن ذخيرة ومواقع تدريب.",
+     "en": "Sudan's army resumes heavy airstrikes on RSF positions in Nyala, South Darfur, hitting ammunition depots and training sites.",
+     "src": "Sudan Tribune",
+     "url": "https://sudantribune.com/article/319114",
+     "kind": "news"
+    },
+    {
      "ar": "منظمة الهجرة الدولية: 8.6 مليون شخص ما زالوا نازحين داخل السودان، مع عودة 4.9 مليون.",
      "en": "IOM: 8.6 million people remain internally displaced, with 4.9 million returnees recorded.",
      "kind": "news",
@@ -338,6 +354,14 @@
     "en": "Worst escalation since the 2020–22 war that killed ~600,000"
    },
    "updates": [
+    {
+     "t": "2026-09-28T09:00:00Z",
+     "ar": "قوات تيغراي وحلفاؤها في عفر يسيطرون على إربتي ويتقدمون نحو أفديرا، فيما تتبادل الأطراف السيطرة على سقوطا وواجا على حدود أمهرة وتيغراي، بحسب الباحث مارتن بلاوت.",
+     "en": "Tigrayan forces and Afar allies took Erbeti and are advancing toward Afdera, while Seqota and Waja on the Amhara–Tigray border keep changing hands, according to analyst Martin Plaut.",
+     "src": "Martin Plaut",
+     "url": "https://martinplaut.com/2026/09/28/a-brief-summary-of-ethiopias-2026-war/",
+     "kind": "news"
+    },
     {
      "ar": "رئيس أركان الجيش الإثيوبي يتهم إريتريا والسودان ومصر بدعم جبهة تيغراي، ومسيّرة تصيب مقر تلفزيون تيغراي في مقلي وتوقف بثه، مع نزوح 150 ألف شخص على الأقل في إقليم عفر.",
      "en": "Ethiopia's army chief accuses Eritrea, Sudan and Egypt of backing the TPLF; a drone strike knocks Tigrai TV's Mekelle headquarters off air; at least 150,000 displaced in Afar.",
@@ -504,6 +528,14 @@
     "en": "1,417 killed since the Oct 2025 ceasefire (local figures)"
    },
    "updates": [
+    {
+     "t": "2026-09-28T13:00:00Z",
+     "ar": "غارات إسرائيلية تقتل امرأتين على الأقل في مدينة غزة ومخيم النصيرات، والجيش الإسرائيلي يقول إنه استهدف مسلحاً في النصيرات.",
+     "en": "Israeli strikes kill at least two women in Gaza City and Nuseirat camp; Israel says it struck a militant in Nuseirat.",
+     "src": "Reuters via Arab News",
+     "url": "https://www.arabnews.com/middle-east/israeli-strikes-kill-at-least-two-people-in-gaza-officials-say-3003570",
+     "kind": "news"
+    },
     {
      "ar": "قُتل أربعة فلسطينيين على الأقل وأصيب اثنا عشر في ضربات وإطلاق نار إسرائيلي في غزة وخان يونس والمواصي، وفق مصادر طبية محلية.",
      "en": "At least four Palestinians killed and 12 injured in Israeli strikes and gunfire in Gaza City, Khan Younis and al-Mawasi, according to local medical sources.",
