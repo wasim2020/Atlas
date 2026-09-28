@@ -1,9 +1,9 @@
 {
  "meta": {
-  "updatedAt": "2026-09-28T18:01:44Z",
+  "updatedAt": "2026-09-28T20:01:53Z",
   "note": {
-   "ar": "تحديث: أخبار جديدة لإيران واليمن وإثيوبيا وميانمار وباكستان.",
-   "en": "Update: new items for Iran, Yemen, Ethiopia, Myanmar and Pakistan."
+   "ar": "تحديث: ألاماطا في إثيوبيا، هجمات المسيّرات على أوكرانيا، تطورات إيران واليمن.",
+   "en": "Update: Alamata in Ethiopia, drone strikes on Ukraine, Iran and Yemen developments."
   }
  },
  "conflicts": [
@@ -81,6 +81,14 @@
      "url": "https://www.aljazeera.com/news/liveblog/2026/9/28/iran-war-live-tehran-warns-its-fully-prepared-for-war-amid-hormuz-tensions"
     },
     {
+     "t": "2026-09-28T08:02:00Z",
+     "ar": "وكالة الأنباء الإيرانية الرسمية تقول إن وفد إيران في نيويورك لا يخطط لمفاوضات مع الولايات المتحدة، وإنه نقل مواقفه عبر وسيط قطري.",
+     "en": "Iran's state news agency IRNA says Iran's delegation in New York has no plans to negotiate with the US and conveyed its positions via a Qatari mediator.",
+     "src": "Al Arabiya",
+     "url": "https://english.alarabiya.net/News/middle-east/2026/09/28/iran-has-no-plans-to-negotiate-with-us-state-media",
+     "kind": "news"
+    },
+    {
      "ar": "قال ترامب إنه يتوقع استئناف المحادثات مع إيران خلال الأسبوع، لكنه لم يستبعد توجيه ضربات عسكرية جديدة قبل الانتخابات النصفية.",
      "en": "Trump said he expects talks with Iran to resume this week but did not rule out further military strikes before the midterm elections.",
      "kind": "news",
@@ -111,14 +119,6 @@
      "src": "NPR",
      "t": "2026-09-26T16:00:00Z",
      "url": "https://www.npr.org/2026/09/26/nx-s1-5981990/trump-rejects-iranian-deal-strait-of-hormuz"
-    },
-    {
-     "ar": "القوات الأمريكية تدمّر خمس ناقلات نفط مرتبطة بالحرس الثوري بعد هجوم صاروخي إيراني على سفينة حربية أمريكية.",
-     "en": "US forces destroy five IRGC-linked tankers after an Iranian missile attack on a US warship.",
-     "kind": "news",
-     "src": "CBS News",
-     "t": "2026-09-08T12:00:00Z",
-     "url": "https://www.cbsnews.com/live-updates/iran-war-us-strait-of-hormuz-oil-gas-price-strikes/"
     }
    ]
   },
@@ -172,6 +172,14 @@
     "en": "Slow Russian gains: ~37 sq mi in the four weeks to 22 Sept"
    },
    "updates": [
+    {
+     "t": "2026-09-28T17:00:00Z",
+     "ar": "مسيّرات روسية تقتل سبعة أشخاص على الأقل وتصيب أكثر من خمسين في كييف ودنيبرو وخاركيف وتشيرنيهيف وأوديسا، وتلحق أضراراً بمبنى الأكاديمية الوطنية للعلوم في كييف. والفيلق الأوكراني الثالث يقول إنه استعاد 51 كيلومتراً مربعاً في دونيتسك.",
+     "en": "Russian drones kill at least 7 and wound 50+ in Kyiv, Dnipro, Kharkiv, Chernihiv and Odesa, damaging the National Academy of Sciences building in Kyiv; Ukraine's Third Army Corps says it retook 51 sq km in Donetsk.",
+     "src": "AP via CP24",
+     "url": "https://www.cp24.com/news/world/2026/09/28/russian-drones-hammer-apartments-offices-and-a-cultural-landmark-in-ukraine-killing-7/",
+     "kind": "news"
+    },
     {
      "t": "2026-09-28T12:00:00Z",
      "ar": "ترامب يوافق على منح أوكرانيا تراخيص لإنتاج صواريخ الاعتراض الخاصة بمنظومة باتريوت، ويقول خبراء إن الإنتاج سيستغرق سنوات. القوات الأوكرانية تعلن تقدماً قرب ليمان.",
@@ -379,6 +387,14 @@
    },
    "updates": [
     {
+     "t": "2026-09-28T16:30:00Z",
+     "ar": "الجيش الإثيوبي وقوة سلام تيغراي الموالية للحكومة يعلنان السيطرة على بلدة ألاماطا، مركز الإمداد الرئيسي جنوب تيغراي، ومصدر مقرب من المعارضة يقول إن قواتها تنسحب منها.",
+     "en": "Ethiopia's army and the pro-government Tigrai Peace Force claim control of Alamata, a key supply hub in southern Tigray; a source close to the opposition said its forces were withdrawing.",
+     "src": "Reuters via TimesLIVE",
+     "url": "https://www.timeslive.co.za/news/africa/2026-09-28-ethiopian-forces-claim-strategic-town-in-tigray-offensive/",
+     "kind": "news"
+    },
+    {
      "t": "2026-09-28T13:00:00Z",
      "ar": "الجيش السوداني يرفض اتهامات إثيوبيا بدعم جماعات مسلحة مناوئة لأديس أبابا، بحسب العربية.",
      "en": "Sudan's army rejects Ethiopia's accusations that it backs armed groups opposed to Addis Ababa, according to Al Arabiya.",
@@ -477,6 +493,14 @@
     "en": "300+ killed in days of fighting near Bab al-Mandab"
    },
    "updates": [
+    {
+     "t": "2026-09-28T16:00:00Z",
+     "ar": "القوات الحكومية اليمنية تقول إنها نفذت 356 عملية استهداف ضد الحوثيين خلال 24 ساعة، بحسب العربية.",
+     "en": "Yemen's government forces say they carried out 356 strikes on Houthi targets in 24 hours, according to Al Arabiya.",
+     "src": "Al Arabiya",
+     "url": "https://www.alarabiya.net/arab-and-world/yemen/2026/09/28/%D8%A7%D9%84%D9%8A%D9%85%D9%86-%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%B3%D9%84%D8%AD%D8%A9-%D8%AA%D9%86%D9%81%D8%B0-356-%D8%B9%D9%85%D9%84%D9%8A%D8%A9-%D8%A7%D8%B3%D8%AA%D9%87%D8%AF%D8%A7%D9%81-%D9%84%D9%84%D8%AD%D9%88%D8%AB%D9%8A%D9%8A%D9%86-%D8%AE%D9%84%D8%A7%D9%84-24-%D8%B3%D8%A7%D8%B9%D8%A9",
+     "kind": "news"
+    },
     {
      "t": "2026-09-28T14:00:00Z",
      "ar": "البرلمان اليمني يقر إعلان التعبئة العامة لمواجهة التصعيد الحوثي، بحسب العربية.",
