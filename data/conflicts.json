@@ -1,9 +1,9 @@
 {
  "meta": {
-  "updatedAt": "2026-09-28T16:00:51Z",
+  "updatedAt": "2026-09-28T16:09:29Z",
   "note": {
-   "ar": "تحديث يدوي: أخبار جديدة لأوكرانيا وإثيوبيا وغزة والسودان.",
-   "en": "Manual update: new items for Ukraine, Ethiopia, Gaza and Sudan."
+   "ar": "تحديث: أخبار جديدة لليمن والسودان من الجزيرة والعربية.",
+   "en": "Update: new Yemen and Sudan items from Al Jazeera and Al Arabiya."
   }
  },
  "conflicts": [
@@ -240,6 +240,14 @@
    },
    "updates": [
     {
+     "t": "2026-09-27T09:00:00Z",
+     "ar": "الجيش السوداني يعلن إسقاط طائرة مسيّرة معادية في ولاية شمال كردفان، بعد يوم من إسقاطه مسيّرة صينية الصنع في شمال دارفور.",
+     "en": "Sudan's army says it shot down a hostile drone in North Kordofan, a day after downing a Chinese-made drone in North Darfur.",
+     "src": "Al Jazeera",
+     "url": "https://www.aljazeera.net/news/2026/9/27/%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D9%8A%D8%B3%D9%82%D8%B7-%D9%85%D8%B3%D9%8A%D8%B1%D8%A9-%D8%B4%D9%85%D8%A7%D9%84-%D9%83%D8%B1%D8%AF%D9%81%D8%A7%D9%86-%D9%88%D8%A7%D9%84%D8%AF%D8%B9%D9%85",
+     "kind": "news"
+    },
+    {
      "ar": "ضربت مسيّرات الدعم السريع مستودع وقود أم عليلة قرب ود مدني في ولاية الجزيرة، وفق شهود.",
      "en": "RSF drones struck the Um Aleila fuel depot near Wad Madani in Al Jazirah state, according to witnesses.",
      "kind": "news",
@@ -294,14 +302,6 @@
      "src": "OHCHR",
      "t": "2026-09-05T10:00:00Z",
      "url": "https://www.ohchr.org/en/press-releases/2026/09/sudan-external-support-networks-are-fuelling-conflict-and-civilian-harm-un"
-    },
-    {
-     "ar": "برنامج الأغذية العالمي: غارة جوية أصابت شاحنتي مساعدات أممية في الدلنج بجنوب كردفان.",
-     "en": "WFP: an airstrike hit two UN food trucks in Dilling, South Kordofan.",
-     "kind": "news",
-     "src": "Wikipedia Current Events",
-     "t": "2026-09-01T10:00:00Z",
-     "url": "https://en.wikipedia.org/wiki/Portal:Current_events/September_2026"
     }
    ]
   },
@@ -445,6 +445,22 @@
     "en": "300+ killed in days of fighting near Bab al-Mandab"
    },
    "updates": [
+    {
+     "t": "2026-09-28T10:00:00Z",
+     "ar": "القوات الحكومية اليمنية تستهدف مواقع الحوثيين في مديرية المخا غرب تعز، بحسب قناة العربية.",
+     "en": "Yemeni government forces strike Houthi positions in Mocha, west of Taiz, according to Al Arabiya.",
+     "src": "Al Arabiya",
+     "url": "https://www.alarabiya.net/arab-and-world/yemen/2026/09/28/%D8%A7%D9%84%D9%8A%D9%85%D9%86-%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%B3%D9%84%D8%AD%D8%A9-%D8%AA%D8%B3%D8%AA%D9%87%D8%AF%D9%81-%D9%85%D9%88%D8%A7%D9%82%D8%B9-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A%D9%8A%D9%86-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D8%AE%D8%A7",
+     "kind": "news"
+    },
+    {
+     "t": "2026-09-27T15:00:00Z",
+     "ar": "القوات الحكومية اليمنية تقول إنها قتلت أربعة خبراء إيرانيين في الصواريخ والطائرات المسيّرة في تعز، ولم يصدر تعليق من الحوثيين أو إيران.",
+     "en": "Yemen's government forces say they killed four Iranian missile and drone experts in Taiz; no comment from the Houthis or Iran.",
+     "src": "Al Arabiya",
+     "url": "https://www.alarabiya.net/arab-and-world/yemen/2026/09/27/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%B3%D9%84%D8%AD%D8%A9-%D8%A7%D9%84%D9%8A%D9%85%D9%86%D9%8A%D8%A9-%D9%85%D9%82%D8%AA%D9%84-4-%D8%AE%D8%A8%D8%B1%D8%A7%D8%A1-%D8%A7%D9%8A%D8%B1%D8%A7%D9%86%D9%8A%D9%8A%D9%86-%D9%85%D8%AA%D8%AE%D8%B5%D8%B5%D9%8A%D9%86-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D8%B3%D9%8A%D8%B1%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D8%B5%D9%88%D8%A7%D8%B1%D9%8A%D8%AE-%D8%A8%D8%AA%D8%B9%D8%B2",
+     "kind": "news"
+    },
     {
      "ar": "قال إعلام الحوثيين إن غارة سعودية على تعز قتلت سبعة مدنيين وأصابت العشرات.",
      "en": "A Saudi airstrike on Taiz killed seven civilians and wounded dozens, according to Houthi media.",
