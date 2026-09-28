@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https://*.supabase.co; object-src 'none'; base-uri 'none'; form-action 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="description" content="أطلس تفاعلي ثنائي اللغة للحروب والنزاعات المسلحة النشطة في العالم، يُحدَّث تلقائياً. A bilingual, auto-updating interactive map of the world's active armed conflicts.">
 <meta property="og:title" content="أطلس النزاعات · Conflict Atlas">
@@ -90,7 +90,8 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(22px,3vw,32px);lin
 
 /* main grid */
 .grid{display:grid;grid-template-columns:minmax(0,1fr) 400px;gap:14px;align-items:start}
-.mapbox{position:sticky;top:calc(env(safe-area-inset-top,0px) + 10px);background:var(--ocean);border:1px solid var(--line);border-radius:8px;overflow:hidden;aspect-ratio:1.7/1;max-width:100%}
+.mapcol{display:flex;flex-direction:column;gap:14px;min-width:0}
+.mapbox{position:relative;background:var(--ocean);border:1px solid var(--line);border-radius:8px;overflow:hidden;aspect-ratio:1.7/1;max-width:100%}
 .mapbox svg{display:block;width:100%;height:100%;cursor:grab;touch-action:none}
 .mapbox svg:active{cursor:grabbing}
 .sphere{fill:var(--ocean)}
@@ -169,12 +170,50 @@ aside{background:var(--panel);border:1px solid var(--line);border-radius:8px;dis
 .item .y{font-family:var(--mono);font-size:10.5px;color:var(--muted);text-align:end}
 .item .y .hot{color:var(--war);font-weight:700;display:block;font-family:var(--sans);font-size:11px}
 
+/* feedback */
+.fb{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:18px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:18px 24px}
+.fb h3{font-family:var(--display);font-weight:600;font-size:18px;margin:0 0 2px;grid-column:1/-1}
+.fb .sub{grid-column:1/-1;margin:-14px 0 0;color:var(--muted);font-size:13px}
+.score{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.score b{font-family:var(--mono);font-size:34px;line-height:1;font-variant-numeric:tabular-nums}
+.score small{color:var(--muted);font-size:12.5px;display:block}
+.stars{display:inline-flex;gap:2px;direction:ltr}
+.stars i{font-style:normal;font-size:18px;color:var(--line)}
+.stars i.on{color:var(--ongoing)}
+.fbform{display:flex;flex-direction:column;gap:10px;margin-top:12px}
+.rate{display:inline-flex;gap:2px;direction:ltr;border:0;padding:0;margin:0}
+.rate legend{font-size:12.5px;color:var(--muted);margin-bottom:4px;padding:0;direction:inherit}
+.rate button{border:0;background:none;font-size:28px;line-height:1;cursor:pointer;color:var(--line);padding:2px}
+.rate button.on{color:var(--ongoing)}
+.rate button:hover{transform:scale(1.12)}
+.fbform input[type=text],.fbform textarea{width:100%;border:1px solid var(--line);background:var(--bg);border-radius:6px;padding:8px 10px;font:inherit;font-size:14px;color:var(--ink)}
+.fbform textarea{min-height:84px;resize:vertical}
+.fbrow{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.fbrow .cnt{font-family:var(--mono);font-size:11px;color:var(--muted)}
+.fbform .send{border:0;background:var(--ink);color:var(--bg);border-radius:6px;padding:8px 18px;font-weight:600;cursor:pointer}
+.fbform .send:disabled{opacity:.45;cursor:not-allowed}
+.hp{position:absolute;inset-inline-start:-9999px;width:1px;height:1px;overflow:hidden}
+.fbmsg{font-size:13px;min-height:1.4em}
+.fbmsg.ok{color:var(--live)}.fbmsg.err{color:var(--war)}
+.cmts{display:flex;flex-direction:column;gap:10px;max-height:420px;overflow-y:auto;padding-inline-end:4px}
+.cmts h4{margin:0;font-size:12.5px;color:var(--muted);font-weight:500}
+.cmt{border-bottom:1px solid var(--line);padding-bottom:10px;display:flex;flex-direction:column;gap:3px}
+.cmt:last-child{border-bottom:0}
+.cmt .who{display:flex;gap:10px;align-items:center;flex-wrap:wrap;font-size:13px;font-weight:600}
+.cmt .who time{font-weight:400;color:var(--muted);font-size:11.5px}
+.cmt .stars i{font-size:13px}
+.cmt p{margin:0;font-size:14px;white-space:pre-wrap;overflow-wrap:anywhere}
+.empty{color:var(--muted);font-size:13px}
+@media (max-width:760px){.fb{grid-template-columns:1fr}}
 footer{font-size:12px;color:var(--muted);display:flex;flex-direction:column;gap:6px;max-width:110ch}
 footer a{color:var(--focus)}
 
 @media (max-width:980px){
   .grid{grid-template-columns:1fr}
-  .mapbox{position:relative;top:auto;aspect-ratio:1.3/1}
+  .mapbox{aspect-ratio:1.3/1;order:1}
+  .mapcol{display:contents}
+  aside{order:2}
+  .fb{order:3}
   .legend{display:none}
   .search{width:100%}
 }
@@ -212,6 +251,7 @@ footer a{color:var(--focus)}
   </div>
 
   <div class="grid">
+   <div class="mapcol">
     <div class="mapbox" id="mapbox">
       <svg id="map" role="img"></svg>
       <div class="hint" id="t-hint"></div>
@@ -224,6 +264,24 @@ footer a{color:var(--focus)}
       <div class="legend" id="legend"></div>
       <div class="tip" id="tip" hidden></div>
     </div>
+
+    <section class="fb" id="fb" aria-labelledby="fb-title">
+      <h3 id="fb-title"></h3>
+      <p class="sub" id="fb-sub"></p>
+      <div>
+        <div class="score"><b id="fb-avg">–</b><div><span class="stars" id="fb-avgstars"></span><small id="fb-count"></small></div></div>
+        <form class="fbform" id="fb-form" novalidate>
+          <fieldset class="rate" id="fb-rate"><legend id="fb-rlab"></legend></fieldset>
+          <input type="text" id="fb-name" maxlength="40" autocomplete="nickname">
+          <textarea id="fb-text" maxlength="600"></textarea>
+          <div class="hp" aria-hidden="true"><input type="text" id="fb-web" tabindex="-1" autocomplete="off"></div>
+          <div class="fbrow"><span class="cnt" id="fb-cnt">0/600</span><button class="send" type="submit" id="fb-send"></button></div>
+          <div class="fbmsg" id="fb-msg" role="status"></div>
+        </form>
+      </div>
+      <div class="cmts" id="fb-list"></div>
+    </section>
+   </div>
 
     <aside id="panel">
       <div class="head" id="head"></div>
@@ -242,6 +300,7 @@ footer a{color:var(--focus)}
   </footer>
 </div>
 
+<script src="config.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
 <script>
@@ -265,7 +324,11 @@ const T = {
    askPh:"اكتب سؤالك عن هذا النزاع…",askBtn:"اسأل",askQs:["لماذا بدأ هذا النزاع؟","ما السيناريوهات المحتملة؟","ما أثره على المنطقة والعالم؟"],
    askOff:"هذه الميزة غير متاحة في هذا العرض.",thinking:"جارٍ التفكير…",
    disc:"تصنيف الشدة تقديري ومبني على التقارير الإخبارية وقواعد بيانات النزاعات، وليس تصنيفاً رسمياً. معلومات الداعمين مأخوذة من تقارير أممية وإعلامية، وبعض الأطراف تنفيها. تُحدَّث البيانات تلقائياً بشكل دوري.",
-   srcs:"المصادر:",noRes:"لا توجد نتائج"},
+   srcs:"المصادر:",noRes:"لا توجد نتائج",
+   fb:{title:"ما رأيك في الأطلس؟",sub:"قيّم الموقع واترك تعليقك. تظهر التعليقات بعد مراجعتها.",rate:"تقييمك",name:"اسمك (اختياري)",text:"اكتب تعليقك (اختياري)…",send:"إرسال",
+     count:n=>n===0?"لا توجد تقييمات بعد":n===1?"تقييم واحد":n===2?"تقييمان":(n<=10?`${n} تقييمات`:`${n} تقييماً`),
+     need:"اختر عدد النجوم أولاً.",ok:"شكراً لك! وصل تقييمك، وسيظهر تعليقك بعد المراجعة.",err:"تعذّر الإرسال. حاول مرة أخرى بعد قليل.",wait:"أرسلت تقييماً قبل قليل. يمكنك الإرسال مرة أخرى بعد دقائق.",
+     off:"خانة التقييم ستتفعّل قريباً.",list:"آخر التعليقات",none:"لا توجد تعليقات منشورة بعد. كن أول من يعلّق.",anon:"زائر",star:n=>`${n} من 5`}},
  en:{title:"Conflict Atlas",tag:"A live map of the world's major active wars and armed conflicts",latest:"LATEST",
    live:"Live · updated",static:"Saved copy · updated",
    stats:["active conflicts","major wars","updates in 48h","countries involved"],
@@ -280,7 +343,11 @@ const T = {
    askPh:"Ask a question about this conflict…",askBtn:"Ask",askQs:["Why did this conflict start?","What are the likely scenarios?","What is its regional and global impact?"],
    askOff:"This feature isn't available in this view.",thinking:"Thinking…",
    disc:"Severity levels are an editorial estimate based on news reporting and conflict databases, not an official classification. Backer information comes from UN and media reports; some parties deny it. Data refreshes automatically on a schedule.",
-   srcs:"Sources:",noRes:"No results"}
+   srcs:"Sources:",noRes:"No results",
+   fb:{title:"What do you think of the Atlas?",sub:"Rate the site and leave a comment. Comments appear after review.",rate:"Your rating",name:"Your name (optional)",text:"Write a comment (optional)…",send:"Send",
+     count:n=>n===0?"No ratings yet":n===1?"1 rating":`${n} ratings`,
+     need:"Please choose a star rating first.",ok:"Thank you! Your rating was received; your comment will appear after review.",err:"Couldn't send. Please try again shortly.",wait:"You just sent a rating. You can send another in a few minutes.",
+     off:"Ratings will be enabled soon.",list:"Latest comments",none:"No published comments yet. Be the first.",anon:"Visitor",star:n=>`${n} of 5`}}
 };
 const SEVK=["war","high","ongoing","tension"];
 const SEVR={war:9,high:7,ongoing:5.5,tension:4.5};
@@ -442,7 +509,60 @@ function refresh(){
   renderChips();renderList();drawMarkers();renderHead();renderPane();
 }
 function renderAll(){renderStatic();renderLive();renderStats();renderChips();renderTicker();drawCountries();refresh();}
-function setLang(l){lang=l;try{localStorage.setItem("atlas-lang",l)}catch(e){};renderAll();}
+function setLang(l){lang=l;try{localStorage.setItem("atlas-lang",l)}catch(e){};renderAll();fbRender();}
+
+/* ---------- feedback (Supabase REST) ---------- */
+const FB=(window.ATLAS_CONFIG||{}).feedback||{};
+const fbOn=!!(FB.url&&FB.anonKey&&/^https:\/\/[a-z0-9-]+\.supabase\.co$/.test(FB.url));
+let fbRating=0, fbStats={avg:null,count:0}, fbItems=[], fbSent=false;
+const fbHead=()=>({"apikey":FB.anonKey,"Authorization":"Bearer "+FB.anonKey,"Content-Type":"application/json"});
+const starsHtml=(v)=>{let s="";for(let i=1;i<=5;i++)s+=`<i class="${v>=i-0.25?"on":""}">★</i>`;return s;};
+function fbRender(){
+  const F=L().fb, $=id=>document.getElementById(id);
+  $("fb-title").textContent=F.title;$("fb-sub").textContent=fbOn?F.sub:F.off;
+  $("fb-rlab").textContent=F.rate;$("fb-name").placeholder=F.name;$("fb-text").placeholder=F.text;$("fb-send").textContent=F.send;
+  $("fb-avg").textContent=fbStats.avg?Number(fbStats.avg).toFixed(1):"–";
+  $("fb-avgstars").innerHTML=starsHtml(fbStats.avg||0);$("fb-avgstars").setAttribute("aria-label",fbStats.avg?F.star(Number(fbStats.avg).toFixed(1)):"");
+  $("fb-count").textContent=F.count(fbStats.count||0);
+  const r=$("fb-rate");r.querySelectorAll("button").forEach(b=>b.remove());
+  for(let i=1;i<=5;i++){const b=document.createElement("button");b.type="button";b.textContent="★";b.className=i<=fbRating?"on":"";b.setAttribute("aria-label",F.star(i));b.setAttribute("aria-pressed",i===fbRating);
+    b.onclick=()=>{fbRating=i;fbRender();};r.appendChild(b);}
+  ["fb-name","fb-text","fb-send"].forEach(id=>$(id).disabled=!fbOn||fbSent);
+  r.querySelectorAll("button").forEach(b=>b.disabled=!fbOn||fbSent);
+  const list=$("fb-list");
+  list.innerHTML=`<h4>${esc(F.list)}</h4>`+(fbItems.length?fbItems.map(c=>`<div class="cmt"><div class="who"><span dir="auto">${esc(c.name||F.anon)}</span><span class="stars">${starsHtml(c.rating)}</span><time>${esc(ago(c.created_at))}</time></div>${c.comment?`<p dir="auto">${esc(c.comment)}</p>`:""}</div>`).join(""):`<div class="empty">${esc(F.none)}</div>`);
+}
+async function fbLoad(){
+  if(!fbOn)return;
+  try{
+    const [s,l]=await Promise.all([
+      fetch(FB.url+"/rest/v1/rpc/feedback_stats",{method:"POST",headers:fbHead(),body:"{}"}).then(r=>r.ok?r.json():null),
+      fetch(FB.url+"/rest/v1/feedback?select=name,rating,comment,created_at&order=created_at.desc&limit=30",{headers:fbHead()}).then(r=>r.ok?r.json():[])
+    ]);
+    if(s)fbStats=s; if(Array.isArray(l))fbItems=l.filter(c=>c&&c.rating>=1&&c.rating<=5);
+  }catch(e){}
+  fbRender();
+}
+document.getElementById("fb-text").addEventListener("input",e=>{document.getElementById("fb-cnt").textContent=e.target.value.length+"/600";});
+document.getElementById("fb-form").addEventListener("submit",async e=>{
+  e.preventDefault(); const F=L().fb, msg=document.getElementById("fb-msg");
+  if(!fbOn||fbSent)return;
+  if(document.getElementById("fb-web").value){fbSent=true;msg.className="fbmsg ok";msg.textContent=F.ok;fbRender();return;}
+  if(!fbRating){msg.className="fbmsg err";msg.textContent=F.need;return;}
+  let last=0;try{last=+localStorage.getItem("atlas-fb-at")||0}catch(e){}
+  if(Date.now()-last<10*60*1000){msg.className="fbmsg err";msg.textContent=F.wait;return;}
+  const clean=s=>s.replace(/[\u0000-\u0008\u000B-\u001F\u007F]/g,"").trim();
+  const body={rating:fbRating,name:clean(document.getElementById("fb-name").value).slice(0,40)||null,comment:clean(document.getElementById("fb-text").value).slice(0,600)||null,lang};
+  document.getElementById("fb-send").disabled=true;
+  try{
+    const r=await fetch(FB.url+"/rest/v1/feedback",{method:"POST",headers:{...fbHead(),"Prefer":"return=minimal"},body:JSON.stringify(body)});
+    if(!r.ok)throw new Error(r.status);
+    fbSent=true;try{localStorage.setItem("atlas-fb-at",String(Date.now()))}catch(e){}
+    msg.className="fbmsg ok";msg.textContent=F.ok;fbLoad();
+  }catch(err){msg.className="fbmsg err";msg.textContent=F.err;document.getElementById("fb-send").disabled=false;}
+  fbRender();
+});
+fbRender();fbLoad();
 document.getElementById("l-ar").onclick=()=>setLang("ar");
 document.getElementById("l-en").onclick=()=>setLang("en");
 document.getElementById("q").addEventListener("input",e=>{query=e.target.value.trim().toLowerCase();refresh();});
