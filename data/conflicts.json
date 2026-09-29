@@ -1,9 +1,9 @@
 {
  "meta": {
-  "updatedAt": "2026-09-28T22:01:46Z",
+  "updatedAt": "2026-09-29T02:01:41Z",
   "note": {
-   "ar": "تحديث: السودان (الأبيض ونيالا والمزروب) وإيران (حركة النفط في هرمز).",
-   "en": "Update: Sudan (El Obeid, Nyala, Al-Mazroub) and Iran (Hormuz oil flows)."
+   "ar": "تحديث: أخبار موثقة لهايتي وجنوب السودان بدل الملخصات العامة. لا جديد بارز في اليمن ولبنان منذ آخر تحديث.",
+   "en": "Update: sourced items for Haiti and South Sudan replacing generic summaries. Nothing major new for Yemen or Lebanon since last run."
   }
  },
  "conflicts": [
@@ -1216,12 +1216,12 @@
    },
    "updates": [
     {
-     "ar": "لا تحديث بارز في الأيام الأخيرة ضمن المصادر المتابَعة.",
-     "en": "No major update in tracked sources in recent days.",
-     "kind": "status",
-     "src": "—",
-     "t": "2026-09-28T04:00:00Z",
-     "url": ""
+     "t": "2026-08-26T12:00:00Z",
+     "ar": "هجوم لعصابات مسلحة على بلدة كنسكوف قرب العاصمة يقتل 47 شخصاً على الأقل ويخطف أكثر من خمسين، بحسب الأمم المتحدة، والسلطات المحلية تتهم تحالف «فيف أنسانم».",
+     "en": "A gang raid on Kenscoff near Port-au-Prince kills at least 47 and abducts more than 50, per the UN; local officials blame the Viv Ansanm coalition.",
+     "src": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/8/26/at-least-47-killed-50-kidnapped-in-grisly-gang-raid-in-haiti-says-un",
+     "kind": "news"
     }
    ]
   },
@@ -1393,12 +1393,20 @@
    },
    "updates": [
     {
-     "ar": "لا تحديث بارز في الأيام الأخيرة ضمن المصادر المتابَعة.",
-     "en": "No major update in tracked sources in recent days.",
-     "kind": "status",
-     "src": "—",
-     "t": "2026-09-28T04:00:00Z",
-     "url": ""
+     "t": "2026-09-17T12:00:00Z",
+     "ar": "مقتل 26 شخصاً على الأقل في اشتباكات بالمنطقة الحدودية بين السودان وجنوب السودان.",
+     "en": "At least 26 killed in clashes along the Sudan–South Sudan border region.",
+     "src": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/9/17/at-least-26-killed-in-clashes-along-sudan-south-sudan-border-region",
+     "kind": "news"
+    },
+    {
+     "t": "2026-09-10T12:00:00Z",
+     "ar": "لجنة أممية لحقوق الإنسان تحذر من أن إجراء انتخابات ديسمبر دون ضمانات قد يشعل نزاعاً جديداً، مع تعثر تنفيذ اتفاق السلام لعام 2018.",
+     "en": "A UN human rights commission warns December elections without safeguards could trigger renewed conflict, as the 2018 peace deal stalls.",
+     "src": "UN News",
+     "url": "https://news.un.org/en/story/2026/09/1168307",
+     "kind": "news"
     }
    ]
   },
