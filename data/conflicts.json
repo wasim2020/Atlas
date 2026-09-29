@@ -1,9 +1,9 @@
 {
  "meta": {
-  "updatedAt": "2026-09-29T04:01:03Z",
+  "updatedAt": "2026-09-29T06:01:30Z",
   "note": {
-   "ar": "تحديث: إيران (نفي تخفيف العقوبات ومحادثات غير مباشرة) ولبنان.",
-   "en": "Update: Iran (sanctions-relief denial, indirect talks) and Lebanon."
+   "ar": "تحديث: هجوم مستوطنين في جالود بالضفة الغربية، واشتباكات تعز ولحج في اليمن.",
+   "en": "Update: settler attack in Jalud (West Bank); clashes in Taiz and Lahij (Yemen)."
   }
  },
  "conflicts": [
@@ -494,6 +494,14 @@
    },
    "updates": [
     {
+     "t": "2026-09-29T05:00:00Z",
+     "ar": "اشتباكات مستمرة بين القوات الحكومية والحوثيين في محافظتي تعز ولحج، بحسب العربية.",
+     "en": "Clashes continue between government forces and the Houthis in Taiz and Lahij, according to Al Arabiya.",
+     "src": "Al Arabiya",
+     "url": "https://www.alarabiya.net/arab-and-world/yemen/2026/09/29/%D8%A7%D8%B4%D8%AA%D8%A8%D8%A7%D9%83%D8%A7%D8%AA-%D9%85%D8%B3%D8%AA%D9%85%D8%B1%D8%A9-%D8%A8%D9%8A%D9%86-%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%8A%D9%85%D9%86%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A%D9%8A%D9%86-%D9%81%D9%8A-%D8%AA%D8%B9%D8%B2-%D9%88%D9%84%D8%AD%D8%AC",
+     "kind": "news"
+    },
+    {
      "t": "2026-09-28T16:00:00Z",
      "ar": "القوات الحكومية اليمنية تقول إنها نفذت 356 عملية استهداف ضد الحوثيين خلال 24 ساعة، بحسب العربية.",
      "en": "Yemen's government forces say they carried out 356 strikes on Houthi targets in 24 hours, according to Al Arabiya.",
@@ -548,14 +556,6 @@
      "src": "NPR",
      "t": "2026-09-08T12:00:00Z",
      "url": "https://www.npr.org/2026/09/08/g-s1-142296/houthi-attacks-saudi-arabia"
-    },
-    {
-     "ar": "الحوثيون: 7 قتلى في ضربة سعودية على سجن في الحزم بالجوف، مع احتدام معركة باب المندب.",
-     "en": "Houthis say a Saudi strike on a prison in Al-Hazm, Jawf killed 7 as the Bab al-Mandab battle intensifies.",
-     "kind": "news",
-     "src": "Times of Israel",
-     "t": "2026-09-07T12:00:00Z",
-     "url": "https://www.timesofisrael.com/houthis-say-7-killed-in-saudi-strike-on-yemen-prison-as-bab-al-mandab-battle-intensifies/"
     }
    ]
   },
@@ -608,6 +608,14 @@
     "en": "1,417 killed since the Oct 2025 ceasefire (local figures)"
    },
    "updates": [
+    {
+     "t": "2026-09-29T04:53:00Z",
+     "ar": "أكثر من مئة مستوطن يهاجمون قرية جالود في الضفة الغربية ويحرقون منازل ويمنعون عائلة فلسطينية من العودة إلى بيتها رغم قرار قضائي، بحسب الجيش الإسرائيلي.",
+     "en": "More than 100 settlers rioted in Jalud in the West Bank, burning homes and blocking a Palestinian family's court-ordered return, according to the Israeli military.",
+     "src": "Times of Israel",
+     "url": "https://www.timesofisrael.com/liveblog-september-29-2026/",
+     "kind": "news"
+    },
     {
      "t": "2026-09-28T13:00:00Z",
      "ar": "غارات إسرائيلية تقتل امرأتين على الأقل في مدينة غزة ومخيم النصيرات، والجيش الإسرائيلي يقول إنه استهدف مسلحاً في النصيرات.",
