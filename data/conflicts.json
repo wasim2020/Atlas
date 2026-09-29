@@ -1,9 +1,9 @@
 {
  "meta": {
-  "updatedAt": "2026-09-29T02:01:41Z",
+  "updatedAt": "2026-09-29T04:01:03Z",
   "note": {
-   "ar": "تحديث: أخبار موثقة لهايتي وجنوب السودان بدل الملخصات العامة. لا جديد بارز في اليمن ولبنان منذ آخر تحديث.",
-   "en": "Update: sourced items for Haiti and South Sudan replacing generic summaries. Nothing major new for Yemen or Lebanon since last run."
+   "ar": "تحديث: إيران (نفي تخفيف العقوبات ومحادثات غير مباشرة) ولبنان.",
+   "en": "Update: Iran (sanctions-relief denial, indirect talks) and Lebanon."
   }
  },
  "conflicts": [
@@ -56,6 +56,14 @@
     "en": "Blockade has halted new Iranian oil exports; Brent near $100"
    },
    "updates": [
+    {
+     "t": "2026-09-29T03:00:00Z",
+     "ar": "ترامب ينفي تقارير عن عرض تخفيف العقوبات على إيران أو الإفراج عن أموالها المجمدة، ويصفها بأنها «خدعة»، وعراقجي يقول إن طهران أجرت محادثات غير مباشرة إضافية مع واشنطن عبر وسطاء قطريين وتنتظر رداً رسمياً.",
+     "en": "Trump denies reports he offered Iran sanctions relief or frozen funds, calling them a 'hoax'; Araghchi says Tehran held further indirect talks with Washington via Qatari mediators and awaits a formal reply.",
+     "src": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/liveblog/2026/9/29/iran-war-live-trump-says-he-did-not-offer-tehran-sanctions-relief",
+     "kind": "news"
+    },
     {
      "t": "2026-09-28T20:00:00Z",
      "ar": "وزير الطاقة الأمريكي يقول إن نحو 13 مليون برميل يومياً تعبر مضيق هرمز مقابل نحو 20 مليوناً قبل الحرب، وصادرات المنطقة في سبتمبر تبلغ أعلى مستوى منذ بدء الحرب، فيما يؤكد المرشد الإيراني أن القوات الأمريكية تتجنب التقدم بسبب «الضربات المؤلمة».",
@@ -111,14 +119,6 @@
      "src": "Al Jazeera",
      "t": "2026-09-27T18:00:00Z",
      "url": "https://www.aljazeera.com/news/liveblog/2026/9/27/iran-war-live-tehran-awaits-official-response-as-trump-rejects-hormuz-plan"
-    },
-    {
-     "ar": "قالت طهران إنها لن تخفف مطالبها بعد رفض ترامب عرضها لإعادة فتح مضيق هرمز.",
-     "en": "Tehran said it will not soften its demands after Trump rejected its offer to reopen the Strait of Hormuz.",
-     "kind": "news",
-     "src": "Bloomberg",
-     "t": "2026-09-27T15:00:00Z",
-     "url": "https://www.bloomberg.com/news/articles/2026-09-27/iran-says-won-t-soften-demands-after-trump-rejects-hormuz-offer"
     }
    ]
   },
@@ -691,6 +691,14 @@
     "en": "Daily strikes on the south; many villages under evacuation orders"
    },
    "updates": [
+    {
+     "t": "2026-09-29T02:00:00Z",
+     "ar": "الجيش اللبناني يعلن العثور على جهاز تجسس تابع لإسرائيل، بحسب العربية.",
+     "en": "The Lebanese army says it found an Israeli spying device, according to Al Arabiya.",
+     "src": "Al Arabiya",
+     "url": "https://www.alarabiya.net/arab-and-world/2026/09/29/%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D8%A7%D9%84%D9%84%D8%A8%D9%86%D8%A7%D9%86%D9%8A-%D9%8A%D8%B9%D9%84%D9%86-%D8%A7%D9%84%D8%B9%D8%AB%D9%88%D8%B1-%D8%B9%D9%84%D9%89-%D8%AC%D9%87%D8%A7%D8%B2-%D8%AA%D8%AC%D8%B3%D8%B3-%D8%AA%D8%A7%D8%A8%D8%B9-%D9%84%D9%84%D8%A7%D8%AD%D8%AA%D9%84%D8%A7%D9%84-%D8%A7%D9%84%D8%A7%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A",
+     "kind": "news"
+    },
     {
      "ar": "تصاعد الغارات الإسرائيلية على جنوب لبنان بعد إطلاق حزب الله مسيّرة مفخخة نحو قوات إسرائيلية. قصف على المنصوري وميفدون، وتقارير عن فوسفور أبيض قرب النبطية.",
      "en": "Israeli strikes surge across south Lebanon after a Hezbollah explosive drone; shelling of Mansouri and Mayfadoun, reports of white phosphorus near Nabatieh.",
