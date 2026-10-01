@@ -1,9 +1,9 @@
 {
  "meta": {
-  "updatedAt": "2026-09-29T06:01:30Z",
+  "updatedAt": "2026-10-01T06:41:52Z",
   "note": {
-   "ar": "تحديث: هجوم مستوطنين في جالود بالضفة الغربية، واشتباكات تعز ولحج في اليمن.",
-   "en": "Update: settler attack in Jalud (West Bank); clashes in Taiz and Lahij (Yemen)."
+   "ar": "تحديث: اليمن وإثيوبيا (اقتراب القوات الفيدرالية من مقلي).",
+   "en": "Update: Yemen and Ethiopia (federal forces approach Mekelle)."
   }
  },
  "conflicts": [
@@ -387,6 +387,14 @@
    },
    "updates": [
     {
+     "t": "2026-09-30T14:00:00Z",
+     "ar": "القوات الفيدرالية الإثيوبية تتقدم إلى نحو 40 كيلومتراً من مقلي، ومصادر في جبهة تيغراي تصف ذلك بأنه «انسحاب استراتيجي»، مع انقطاع الكهرباء والإنترنت في الإقليم وتحذيرات من حصار أكثر من 80 ألفاً من سكان عفر.",
+     "en": "Federal forces advance to about 40 km from Mekelle, which Tigray Front sources call a 'strategic withdrawal'; power and internet cut in Tigray; warnings that over 80,000 Afar residents are trapped in conflict zones.",
+     "src": "Al Jazeera",
+     "url": "https://www.aljazeera.net/news/2026/9/30/%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D8%B1%D9%83-%D8%AA%D9%82%D8%AA%D8%B1%D8%A8-%D9%85%D9%86-%D9%85%D9%8A%D9%83%D9%8A%D9%84%D9%8A-%D9%85%D8%AE%D8%A7%D9%88%D9%81-%D9%85%D9%86-%D8%A7%D8%AA%D8%B3%D8%A7%D8%B9",
+     "kind": "news"
+    },
+    {
      "t": "2026-09-28T16:30:00Z",
      "ar": "الجيش الإثيوبي وقوة سلام تيغراي الموالية للحكومة يعلنان السيطرة على بلدة ألاماطا، مركز الإمداد الرئيسي جنوب تيغراي، ومصدر مقرب من المعارضة يقول إن قواتها تنسحب منها.",
      "en": "Ethiopia's army and the pro-government Tigrai Peace Force claim control of Alamata, a key supply hub in southern Tigray; a source close to the opposition said its forces were withdrawing.",
@@ -494,6 +502,14 @@
    },
    "updates": [
     {
+     "t": "2026-10-01T05:00:00Z",
+     "ar": "القوات الحكومية اليمنية تعلن تنفيذ 468 عملية استهداف ضد الحوثيين خلال أيام، والحوثيون يتحدثون عن 51 غارة سعودية، ومقتل أربعة في قصف صاروخي على مدينة التربة، ووزارة الداخلية تعلن كشف خلايا حوثية نائمة.",
+     "en": "Yemeni government forces report 468 strikes on Houthi targets; the Houthis cite 51 Saudi airstrikes; four killed in a missile strike on Al-Turbah; the Interior Ministry announces the discovery of Houthi sleeper cells.",
+     "src": "Al Jazeera",
+     "url": "https://www.aljazeera.net/news/2026/10/1/%D9%82%D8%AA%D9%84%D9%89-%D9%88%D8%BA%D8%A7%D8%B1%D8%A7%D8%AA-%D9%88%D8%AE%D9%84%D8%A7%D9%8A%D8%A7-%D8%AD%D9%88%D8%AB%D9%8A%D8%A9-%D8%A5%D9%84%D9%8A%D9%83-%D8%A2%D8%AE%D8%B1",
+     "kind": "news"
+    },
+    {
      "t": "2026-09-29T05:00:00Z",
      "ar": "اشتباكات مستمرة بين القوات الحكومية والحوثيين في محافظتي تعز ولحج، بحسب العربية.",
      "en": "Clashes continue between government forces and the Houthis in Taiz and Lahij, according to Al Arabiya.",
@@ -548,14 +564,6 @@
      "src": "Haaretz / Reuters",
      "t": "2026-09-26T12:00:00Z",
      "url": "https://www.haaretz.com/middle-east-news/2026-09-26/ty-article/saudi-coalition-says-houthi-attack-intercepted-after-regional-security-talks/000001a0-dc46-d9ab-abfd-ffe7baa20000"
-    },
-    {
-     "ar": "هجمات حوثية على منشآت نفط سعودية تشعل حرائق وتصيب 73 شخصاً، والسعودية ترد بضربات.",
-     "en": "Houthi attacks on Saudi oil facilities spark fires and wound 73; Saudi Arabia strikes back.",
-     "kind": "news",
-     "src": "NPR",
-     "t": "2026-09-08T12:00:00Z",
-     "url": "https://www.npr.org/2026/09/08/g-s1-142296/houthi-attacks-saudi-arabia"
     }
    ]
   },
