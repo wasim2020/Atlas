@@ -1,9 +1,9 @@
 {
  "meta": {
-  "updatedAt": "2026-10-01T06:41:52Z",
+  "updatedAt": "2026-10-01T12:01:32Z",
   "note": {
-   "ar": "تحديث: اليمن وإثيوبيا (اقتراب القوات الفيدرالية من مقلي).",
-   "en": "Update: Yemen and Ethiopia (federal forces approach Mekelle)."
+   "ar": "تحديث: أوكرانيا (ضربة قرب جسر الجنوب في كييف، وأرقام الخسائر). لا جديد مؤكد في السودان وإيران وغزة ولبنان.",
+   "en": "Update: Ukraine (strike near Kyiv's Southern Bridge, casualty figures). Nothing newly confirmed for Sudan, Iran, Gaza, Lebanon."
   }
  },
  "conflicts": [
@@ -172,6 +172,22 @@
     "en": "Slow Russian gains: ~37 sq mi in the four weeks to 22 Sept"
    },
    "updates": [
+    {
+     "t": "2026-10-01T09:20:00Z",
+     "ar": "مسيّرتان روسيتان تضربان قرب دعامات جسر الجنوب في كييف وتتسببان بحريق وتعطل المترو وحركة السيارات، ولا إصابات في الموقع. وهجمات روسية على أوكرانيا تقتل ستة أشخاص على الأقل وتصيب 38 خلال اليوم نفسه.",
+     "en": "Two Russian drones hit near the supports of Kyiv's Southern Bridge, causing a fire and disrupting the metro and traffic, with no casualties at the site; Russian attacks across Ukraine kill at least 6 and injure 38 that day.",
+     "src": "Kyiv Independent",
+     "url": "https://kyivindependent.com/2-russian-drones-strike-near-supports-of-kyiv-bridge-linking-eastern-western-banks-klitshchko-says",
+     "kind": "news"
+    },
+    {
+     "t": "2026-10-01T08:00:00Z",
+     "ar": "هيئة الأركان الأوكرانية تقول إن خسائر الجيش الروسي في سبتمبر بلغت 46,230 فرداً، وهي الأعلى في 2026. وهذه أرقام أوكرانية لا يمكن التحقق منها بشكل مستقل.",
+     "en": "Ukraine's General Staff says Russian personnel losses hit 46,230 in September, the highest of 2026; the figures come from Ukrainian sources and cannot be independently verified.",
+     "src": "Kyiv Independent",
+     "url": "https://kyivindependent.com/russian-troop-losses-rise-46-since-january-hit-absolute-2026-record-in-september-ukraine-says",
+     "kind": "news"
+    },
     {
      "t": "2026-09-28T17:00:00Z",
      "ar": "مسيّرات روسية تقتل سبعة أشخاص على الأقل وتصيب أكثر من خمسين في كييف ودنيبرو وخاركيف وتشيرنيهيف وأوديسا، وتلحق أضراراً بمبنى الأكاديمية الوطنية للعلوم في كييف. والفيلق الأوكراني الثالث يقول إنه استعاد 51 كيلومتراً مربعاً في دونيتسك.",
