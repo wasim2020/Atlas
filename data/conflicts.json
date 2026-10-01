@@ -1,9 +1,9 @@
 {
  "meta": {
-  "updatedAt": "2026-10-01T12:01:32Z",
+  "updatedAt": "2026-10-01T18:01:02Z",
   "note": {
-   "ar": "تحديث: أوكرانيا (ضربة قرب جسر الجنوب في كييف، وأرقام الخسائر). لا جديد مؤكد في السودان وإيران وغزة ولبنان.",
-   "en": "Update: Ukraine (strike near Kyiv's Southern Bridge, casualty figures). Nothing newly confirmed for Sudan, Iran, Gaza, Lebanon."
+   "ar": "تحديث: اليمن (عمليات استهداف وتدمير دفاع جوي). السودان (معارك كردفان). لا جديد أساسي في إيران وغزة ولبنان.",
+   "en": "Update: Yemen (targeting operations, air defense destroyed). Sudan (Kordofan fighting). Nothing major for Iran, Gaza, Lebanon."
   }
  },
  "conflicts": [
@@ -288,6 +288,14 @@
    },
    "updates": [
     {
+     "t": "2026-10-01T16:00:00Z",
+     "ar": "معارك تجدد الاهتمام بمنطقة كردفان الاستراتيجية. القوات المسلحة تتقدم شمالاً وتدفع قوات الدعم السريع للتراجع في شمال كردفان، لكن القتال متواصل في الجنوب. السيطرة على الممر يفتح طريقاً نحو الخرطوم. منذ بدء الحرب سبتمبر 2023، شهدت كردفان خمس المعارك المسجلة بالبلاد.",
+     "en": "Fighting intensifies over Kordofan's strategic corridor. Armed Forces advance north, pushing RSF back in North Kordofan while South Kordofan remains contested. Control of the passage could open routes toward Khartoum. Since the war began in April 2023, Kordofan has seen about one-fifth of all recorded attacks in Sudan.",
+     "src": "Al Jazeera",
+     "url": "https://aljazeera.com/news/2026/10/1/the-battle-for-kordofan-the-corridor-linking-sudans-east-and-west",
+     "kind": "news"
+    },
+    {
      "t": "2026-09-28T12:00:00Z",
      "ar": "مقتل شخص وإصابة آخرين بقصف للدعم السريع على الأبيض، ومصدر عسكري يقول إن الدفاعات الجوية اعترضت مسيّرات استهدفت المدينة، وإن الطيران ضرب ثلاثة مواقع للدعم السريع في نيالا، وإن الجيش يقترب من السيطرة على المزروب آخر معاقل الدعم السريع في شمال كردفان.",
      "en": "One killed and others injured by RSF shelling of El Obeid; a military source says air defences intercepted drones targeting the city, jets struck three RSF positions in Nyala, and the army is close to taking Al-Mazroub, the RSF's last stronghold in North Kordofan.",
@@ -342,14 +350,6 @@
      "src": "Sudan Tribune",
      "url": "https://sudantribune.com/article/319114",
      "kind": "news"
-    },
-    {
-     "ar": "منظمة الهجرة الدولية: 8.6 مليون شخص ما زالوا نازحين داخل السودان، مع عودة 4.9 مليون.",
-     "en": "IOM: 8.6 million people remain internally displaced, with 4.9 million returnees recorded.",
-     "kind": "news",
-     "src": "Terrorism Watch / IOM",
-     "t": "2026-09-18T10:00:00Z",
-     "url": "https://www.terrorismwatch.org/2026/09/international-day-of-peace-2026.html"
     }
    ]
   },
