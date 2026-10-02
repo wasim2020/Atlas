@@ -1,9 +1,9 @@
 {
  "meta": {
-  "updatedAt": "2026-10-02T11:40:00Z",
+  "updatedAt": "2026-10-02T09:40:00Z",
   "note": {
-   "ar": "تحديث 2026-10-02T11:40:00Z: اليمن (20 ضربة جوية). إيران (استهداف ناقلة). أوكرانيا (8,891 هجوم مسيّرة روسي).",
-   "en": "Update 2026-10-02T11:40:00Z: Yemen (20 airstrikes). Iran (tanker strike). Ukraine (8,891 Russian drone attacks)."
+   "ar": "تحديث 09:40 UTC: اليمن (20 ضربة جوية). إيران (استهداف ناقلة). أوكرانيا (8,891 هجوم مسيّرة روسي).",
+   "en": "Update 09:40 UTC: Yemen (20 airstrikes). Iran (tanker strike). Ukraine (8,891 Russian drone attacks)."
   }
  },
  "conflicts": [
@@ -173,7 +173,7 @@
    },
    "updates": [
     {
-     "t": "2026-10-02T11:00:00Z",
+     "t": "2026-10-02T09:00:00Z",
      "ar": "روسيا تشن 8,891 هجوم بمسيّرات على أوكرانيا في 24 ساعة، بينما تقول موسكو إنها أسقطت 646 مسيّرة أوكرانية. بوتين يقول إن روسيا قد تستخدم «جميع أنواع الأسلحة في ترسانتها» إذا واجهت تهديدات. يتهم أوكرانيا بإطلاق أكثر من 1,600 مسيّرة على موسكو ومراكز الاقتراع أثناء الانتخابات الروسية.",
      "en": "Russia conducts 8,891 drone attacks on Ukraine in 24 hours; Moscow claims it shot down 646 Ukrainian drones. Putin says Russia may use \"all types of weapons in its arsenal\" if facing threats. He accuses Ukraine of launching 1,600+ drones at Moscow and polling centers during Russian parliamentary elections.",
      "src": "Al Jazeera",
@@ -518,7 +518,7 @@
    },
    "updates": [
     {
-     "t": "2026-10-02T10:30:00Z",
+     "t": "2026-10-02T08:30:00Z",
      "ar": "قوات حكومية تشن 20 ضربة جوية على مواقع حوثية في تعز وتستعيد منطقة دار الراحة. قوات حكومية تعترض مسيّرات انتحارية حوثية فوق عدن. التحالف السعودي يعترض صاروخاً باليستياً حوثياً موجهاً لخميس مشيط بعد أن استهدف الحوثيون محطة كهرباء بالمدينة المنورة.",
      "en": "Government forces conduct 20 airstrikes on Houthi positions in Taiz and reclaim Dar al-Raaha area. Government military intercepts Houthi suicide drones over Aden. Saudi-led coalition intercepts ballistic missile targeting Khamis Mushait after Houthis targeted Medina power station.",
      "src": "Al Jazeera",
