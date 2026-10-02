@@ -1,9 +1,9 @@
 {
  "meta": {
-  "updatedAt": "2026-10-02T00:00:34Z",
+  "updatedAt": "2026-10-02T11:40:00Z",
   "note": {
-   "ar": "تحديث: أوكرانيا (خطط تجنيد روسية). غزة والضفة (ضربة مسيّرة وهجوم مستوطنين). أفغانستان-باكستان (ضربات جوية).",
-   "en": "Update: Ukraine (Russian mobilization plans). Gaza & West Bank (drone strike, settler attack). Afghanistan-Pakistan (airstrikes)."
+   "ar": "تحديث 2026-10-02T11:40:00Z: اليمن (20 ضربة جوية). إيران (استهداف ناقلة). أوكرانيا (8,891 هجوم مسيّرة روسي).",
+   "en": "Update 2026-10-02T11:40:00Z: Yemen (20 airstrikes). Iran (tanker strike). Ukraine (8,891 Russian drone attacks)."
   }
  },
  "conflicts": [
@@ -56,6 +56,14 @@
     "en": "Blockade has halted new Iranian oil exports; Brent near $100"
    },
    "updates": [
+    {
+     "t": "2026-10-02T09:15:00Z",
+     "ar": "ناقلة تُستهدف بمقذوف مجهول في مضيق هرمز فتشتعل فيها النار. مركز التجارة البحرية البريطاني يؤكد الحادث دون تحديد الجهة المسؤولة. إيران تعلن مشروع قانون برلماني جديد لإدارة حركة الملاحة في المضيق يتطلب تصاريح ويحظر مرور سفن إسرائيلية وأخرى.",
+     "en": "A tanker struck by an unknown projectile in the Strait of Hormuz catches fire; no crew injuries reported but damage unclear. UK Maritime Trade Operations confirms the incident. Iran announces new parliamentary legislation to regulate traffic through the strait, requiring permits and banning Israeli and certain other ships.",
+     "src": "Al Jazeera",
+     "url": "https://aljazeera.net/news/2026/10/2/%D8%A7%D8%B3%D8%AA%D9%87%D8%AF%D8%A7%D9%81-%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D8%A8%D9%85%D9%82%D8%B0%D9%88%D9%81-%D9%85%D8%AC%D9%87%D9%88%D9%84-%D9%81%D9%8A-%D9%85%D8%B6%D9%8A%D9%82",
+     "kind": "news"
+    },
     {
      "t": "2026-09-29T03:00:00Z",
      "ar": "ترامب ينفي تقارير عن عرض تخفيف العقوبات على إيران أو الإفراج عن أموالها المجمدة، ويصفها بأنها «خدعة»، وعراقجي يقول إن طهران أجرت محادثات غير مباشرة إضافية مع واشنطن عبر وسطاء قطريين وتنتظر رداً رسمياً.",
@@ -111,14 +119,6 @@
      "src": "CBS News",
      "t": "2026-09-27T21:20:00Z",
      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-7-day-proposal/"
-    },
-    {
-     "ar": "الولايات المتحدة تنفي ادعاء إيران الاستيلاء على طائرة مسيّرة «متطورة» في هرمز، وطهران تنتظر رداً رسمياً على مقترحها.",
-     "en": "US denies Iran's claim to have seized an 'advanced' drone in Hormuz; Tehran awaits an official US reply to its proposal.",
-     "kind": "news",
-     "src": "Al Jazeera",
-     "t": "2026-09-27T18:00:00Z",
-     "url": "https://www.aljazeera.com/news/liveblog/2026/9/27/iran-war-live-tehran-awaits-official-response-as-trump-rejects-hormuz-plan"
     }
    ]
   },
@@ -172,6 +172,14 @@
     "en": "Slow Russian gains: ~37 sq mi in the four weeks to 22 Sept"
    },
    "updates": [
+    {
+     "t": "2026-10-02T11:00:00Z",
+     "ar": "روسيا تشن 8,891 هجوم بمسيّرات على أوكرانيا في 24 ساعة، بينما تقول موسكو إنها أسقطت 646 مسيّرة أوكرانية. بوتين يقول إن روسيا قد تستخدم «جميع أنواع الأسلحة في ترسانتها» إذا واجهت تهديدات. يتهم أوكرانيا بإطلاق أكثر من 1,600 مسيّرة على موسكو ومراكز الاقتراع أثناء الانتخابات الروسية.",
+     "en": "Russia conducts 8,891 drone attacks on Ukraine in 24 hours; Moscow claims it shot down 646 Ukrainian drones. Putin says Russia may use \"all types of weapons in its arsenal\" if facing threats. He accuses Ukraine of launching 1,600+ drones at Moscow and polling centers during Russian parliamentary elections.",
+     "src": "Al Jazeera",
+     "url": "https://aljazeera.net/news/2026/10/2/%D8%B1%D9%88%D8%B3%D9%8A%D8%A7-%D9%88%D8%A3%D9%88%D9%83%D8%B1%D8%A7%D9%86%D9%8A%D8%A7-%D8%AA%D8%AA%D8%A8%D8%A7%D8%AF%D9%84%D8%A7%D9%86-%D8%A7%D9%84%D8%B6%D8%B1%D8%A8%D8%A7%D8%AA-2",
+     "kind": "news"
+    },
     {
      "t": "2026-10-02T00:00:00Z",
      "ar": "معهد مراقبة الاقتصاد الكييفي (KSE) يقول إن روسيا تخطط لتجنيد 500 ألف إلى مليون جندي إضافي. تكاليف توقيع العقود العسكرية الروسية تبلغ تريليون روبل سنوياً، وقطاع الدفاع قلّص وظائفه بنسبة 37 في المئة خلال السنة الماضية.",
@@ -227,14 +235,6 @@
      "src": "AP / The Columbian",
      "t": "2026-09-27T20:00:00Z",
      "url": "https://www.columbian.com/news/2026/sep/27/strikes-kill-at-least-8-in-ukraine-1-in-russia/"
-    },
-    {
-     "ar": "مقتل 10 أشخاص على الأقل في هجمات متبادلة، فيما تضغط واشنطن لإجراء محادثات ولافروف يتهم أوروبا بعرقلتها.",
-     "en": "At least 10 killed in cross-border attacks as Washington pushes for talks and Lavrov blames Europe for blocking them.",
-     "kind": "news",
-     "src": "Al Jazeera",
-     "t": "2026-09-26T15:00:00Z",
-     "url": "https://www.aljazeera.com/news/2026/9/26/at-least-10-people-killed-in-russian-and-ukrainian-attacks"
     }
    ]
   },
@@ -518,6 +518,14 @@
    },
    "updates": [
     {
+     "t": "2026-10-02T10:30:00Z",
+     "ar": "قوات حكومية تشن 20 ضربة جوية على مواقع حوثية في تعز وتستعيد منطقة دار الراحة. قوات حكومية تعترض مسيّرات انتحارية حوثية فوق عدن. التحالف السعودي يعترض صاروخاً باليستياً حوثياً موجهاً لخميس مشيط بعد أن استهدف الحوثيون محطة كهرباء بالمدينة المنورة.",
+     "en": "Government forces conduct 20 airstrikes on Houthi positions in Taiz and reclaim Dar al-Raaha area. Government military intercepts Houthi suicide drones over Aden. Saudi-led coalition intercepts ballistic missile targeting Khamis Mushait after Houthis targeted Medina power station.",
+     "src": "Al Jazeera",
+     "url": "https://www.aljazeera.net/news/2026/10/2/%D8%BA%D8%A7%D8%B1%D8%A7%D8%AA-%D9%85%D9%83%D8%AB%D9%81%D8%A9-%D9%88%D8%A7%D8%AD%D8%AA%D8%AF%D8%A7%D9%85-%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A7%D8%AA-%D9%81%D9%8A-%D8%AA%D8%B9%D8%B2",
+     "kind": "news"
+    },
+    {
      "t": "2026-10-01T05:00:00Z",
      "ar": "القوات الحكومية اليمنية تعلن تنفيذ 468 عملية استهداف ضد الحوثيين خلال أيام، والحوثيون يتحدثون عن 51 غارة سعودية، ومقتل أربعة في قصف صاروخي على مدينة التربة، ووزارة الداخلية تعلن كشف خلايا حوثية نائمة.",
      "en": "Yemeni government forces report 468 strikes on Houthi targets; the Houthis cite 51 Saudi airstrikes; four killed in a missile strike on Al-Turbah; the Interior Ministry announces the discovery of Houthi sleeper cells.",
@@ -572,14 +580,6 @@
      "src": "CBS News",
      "t": "2026-09-27T11:51:00Z",
      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-7-day-proposal/"
-    },
-    {
-     "ar": "قال التحالف بقيادة السعودية إنه اعترض صاروخين باليستيين ومسيّرتين أطلقها الحوثيون، ثم شنّ ضربات على منطقة تعز.",
-     "en": "The Saudi-led coalition said it intercepted two Houthi ballistic missiles and two drones, then carried out strikes in the Taiz area.",
-     "kind": "news",
-     "src": "Haaretz / Reuters",
-     "t": "2026-09-26T12:00:00Z",
-     "url": "https://www.haaretz.com/middle-east-news/2026-09-26/ty-article/saudi-coalition-says-houthi-attack-intercepted-after-regional-security-talks/000001a0-dc46-d9ab-abfd-ffe7baa20000"
     }
    ]
   },
