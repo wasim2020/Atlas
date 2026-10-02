@@ -1,9 +1,9 @@
 {
  "meta": {
-  "updatedAt": "2026-10-01T18:01:02Z",
+  "updatedAt": "2026-10-02T00:00:34Z",
   "note": {
-   "ar": "تحديث: اليمن (عمليات استهداف وتدمير دفاع جوي). السودان (معارك كردفان). لا جديد أساسي في إيران وغزة ولبنان.",
-   "en": "Update: Yemen (targeting operations, air defense destroyed). Sudan (Kordofan fighting). Nothing major for Iran, Gaza, Lebanon."
+   "ar": "تحديث: أوكرانيا (خطط تجنيد روسية). غزة والضفة (ضربة مسيّرة وهجوم مستوطنين). أفغانستان-باكستان (ضربات جوية).",
+   "en": "Update: Ukraine (Russian mobilization plans). Gaza & West Bank (drone strike, settler attack). Afghanistan-Pakistan (airstrikes)."
   }
  },
  "conflicts": [
@@ -173,6 +173,14 @@
    },
    "updates": [
     {
+     "t": "2026-10-02T00:00:00Z",
+     "ar": "معهد مراقبة الاقتصاد الكييفي (KSE) يقول إن روسيا تخطط لتجنيد 500 ألف إلى مليون جندي إضافي. تكاليف توقيع العقود العسكرية الروسية تبلغ تريليون روبل سنوياً، وقطاع الدفاع قلّص وظائفه بنسبة 37 في المئة خلال السنة الماضية.",
+     "en": "The Kyiv School of Economics says Russia plans to recruit 500,000 to 1 million additional troops. Russian contract soldier sign-on bonuses total around 1 trillion rubles annually; the defense sector cut job postings by 37% over the past year.",
+     "src": "Kyiv Post / KSE Institute",
+     "url": "https://www.kyivpost.com/thread/85891",
+     "kind": "news"
+    },
+    {
      "t": "2026-10-01T09:20:00Z",
      "ar": "مسيّرتان روسيتان تضربان قرب دعامات جسر الجنوب في كييف وتتسببان بحريق وتعطل المترو وحركة السيارات، ولا إصابات في الموقع. وهجمات روسية على أوكرانيا تقتل ستة أشخاص على الأقل وتصيب 38 خلال اليوم نفسه.",
      "en": "Two Russian drones hit near the supports of Kyiv's Southern Bridge, causing a fire and disrupting the metro and traffic, with no casualties at the site; Russian attacks across Ukraine kill at least 6 and injure 38 that day.",
@@ -227,14 +235,6 @@
      "src": "Al Jazeera",
      "t": "2026-09-26T15:00:00Z",
      "url": "https://www.aljazeera.com/news/2026/9/26/at-least-10-people-killed-in-russian-and-ukrainian-attacks"
-    },
-    {
-     "ar": "روسيا تسيطر على ماركوفي، وأوكرانيا تستعيد شاندريهولوفي وديريلوفي وسيريدني (وفق ديب ستيت).",
-     "en": "Russia takes Markove; Ukraine retakes Shandryholove, Derylove and Seredne (per DeepState).",
-     "kind": "news",
-     "src": "Russia Matters",
-     "t": "2026-09-22T12:00:00Z",
-     "url": "https://www.russiamatters.org/news/russia-ukraine-war-report-card/russia-ukraine-war-report-card-sept-23-2026"
     }
    ]
   },
@@ -633,6 +633,14 @@
    },
    "updates": [
     {
+     "t": "2026-10-01T12:00:00Z",
+     "ar": "مسيّرة إسرائيلية تضرب خيمة المشردين في المواسي غرب خان يونس فتقتل تامر الحمايدة وتصيب آخرين. وفي الضفة الغربية، مستوطنون إسرائيليون يقتلون مشعور ياسين في هجوم على قرية ياسوف بأسلحة ناريّة وهراوات. وزارة الصحة: 8 قتلى و26 مصاباً في غزة في 24 ساعة.",
+     "en": "An Israeli drone strikes a displacement tent in al-Mawasi west of Khan Younis, killing Tamer al-Hamayda and wounding others; Israeli settlers shoot and kill Mashhour Yassin in Yasuf village, West Bank. Gaza Health Ministry reports 8 deaths and 26 wounded in 24 hours.",
+     "src": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/1/israeli-drone-kills-palestinian-in-gaza-settlers-kill-another-in-west-bank",
+     "kind": "news"
+    },
+    {
      "t": "2026-09-29T04:53:00Z",
      "ar": "أكثر من مئة مستوطن يهاجمون قرية جالود في الضفة الغربية ويحرقون منازل ويمنعون عائلة فلسطينية من العودة إلى بيتها رغم قرار قضائي، بحسب الجيش الإسرائيلي.",
      "en": "More than 100 settlers rioted in Jalud in the West Bank, burning homes and blocking a Palestinian family's court-ordered return, according to the Israeli military.",
@@ -1002,6 +1010,14 @@
     "en": "Among the worst interstate hostilities in decades"
    },
    "updates": [
+    {
+     "t": "2026-10-01T18:00:00Z",
+     "ar": "باكستان تشن ضربات جوية على معاقل طالبان الباكستاني (TTP) والجيش الوطني (BLA) في كونار وهلمند بأفغانستان، تقول باكستان إنها قتلت 22 عضواً لكن أفغانستان تقول المقتولون 9-10 مدنيين بينهم أطفال، وتدمير منازل وأسلحة.",
+     "en": "Pakistan conducts air raids on TTP and BLA hideouts in Kunar and Helmand, Afghanistan; Pakistan claims 22 militants killed, but Afghanistan reports 9-10 civilian deaths including children, three houses destroyed. UN mission documents at least 10 civilian deaths.",
+     "src": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/1/afghanistan-says-nine-killed-in-pakistani-air-raids-on-kunar-helmand",
+     "kind": "news"
+    },
     {
      "t": "2026-09-28T06:00:00Z",
      "ar": "هجوم انتحاري على نقطة للشرطة في ديرة إسماعيل خان شمال غرب باكستان يقتل 12 شخصاً ويصيب نحو 35، وحركة طالبان باكستان تتبنى الهجوم.",
