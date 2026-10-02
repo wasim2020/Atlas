@@ -1,9 +1,9 @@
 {
  "meta": {
-  "updatedAt": "2026-10-02T09:40:00Z",
+  "updatedAt": "2026-10-02T10:00:00Z",
   "note": {
-   "ar": "تحديث 09:40 UTC: اليمن (20 ضربة جوية). إيران (استهداف ناقلة). أوكرانيا (8,891 هجوم مسيّرة روسي).",
-   "en": "Update 09:40 UTC: Yemen (20 airstrikes). Iran (tanker strike). Ukraine (8,891 Russian drone attacks)."
+   "ar": "تحديث 10:00 UTC: مسح شامل لـ21 نزاعاً. إيران (3 حاملات طائرات أمريكية). أوكرانيا (6 قتلى، 107 مسيّرات). السودان (20 مليون جائع). إثيوبيا (تقدم نحو مقلي). الكونغو (إيبولا). مالي (أكبر هجوم منذ 2012).",
+   "en": "Update 10:00 UTC: Full sweep of 21 conflicts. Iran (3 US carrier groups). Ukraine (6 killed, 107 drones). Sudan (20M hungry). Ethiopia (advance on Mekelle). DRC (Ebola). Mali (largest offensive since 2012)."
   }
  },
  "conflicts": [
@@ -56,6 +56,14 @@
     "en": "Blockade has halted new Iranian oil exports; Brent near $100"
    },
    "updates": [
+    {
+     "t": "2026-10-02T10:00:00Z",
+     "ar": "ترامب يقول إن إيران «مستعدة للانهيار» ويلوّح بعمل عسكري بعد الانتخابات النصفية. ثلاث مجموعات حاملات طائرات أمريكية تتجه إلى الشرق الأوسط بأكثر من 20 ألف عسكري. وزارة الخزانة تطلق عقوبات جديدة على قطاعي السيارات والسكك الحديدية ضمن «عملية المنبوذ الاقتصادي». الرحلات إلى طهران تنخفض 42 بالمئة.",
+     "en": "Trump says Iran is 'ready to fold up', threatens post-midterm military action. Three US carrier strike groups (20,000+ troops) converge on the Middle East. Treasury launches new sanctions on Iran's auto and rail sectors under 'Operation Economic Outcast'. International flights to Tehran drop 42%.",
+     "src": "CBS News",
+     "url": "https://cbsnews.com/live-updates/iran-war-us-negotiations-strait-of-hormuz-oil",
+     "kind": "news"
+    },
     {
      "t": "2026-10-02T09:15:00Z",
      "ar": "ناقلة تُستهدف بمقذوف مجهول في مضيق هرمز فتشتعل فيها النار. مركز التجارة البحرية البريطاني يؤكد الحادث دون تحديد الجهة المسؤولة. إيران تعلن مشروع قانون برلماني جديد لإدارة حركة الملاحة في المضيق يتطلب تصاريح ويحظر مرور سفن إسرائيلية وأخرى.",
@@ -111,14 +119,6 @@
      "src": "Al Arabiya",
      "url": "https://english.alarabiya.net/News/middle-east/2026/09/28/iran-has-no-plans-to-negotiate-with-us-state-media",
      "kind": "news"
-    },
-    {
-     "ar": "قال ترامب إنه يتوقع استئناف المحادثات مع إيران خلال الأسبوع، لكنه لم يستبعد توجيه ضربات عسكرية جديدة قبل الانتخابات النصفية.",
-     "en": "Trump said he expects talks with Iran to resume this week but did not rule out further military strikes before the midterm elections.",
-     "kind": "news",
-     "src": "CBS News",
-     "t": "2026-09-27T21:20:00Z",
-     "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-7-day-proposal/"
     }
    ]
   },
@@ -172,6 +172,14 @@
     "en": "Slow Russian gains: ~37 sq mi in the four weeks to 22 Sept"
    },
    "updates": [
+    {
+     "t": "2026-10-02T10:00:00Z",
+     "ar": "هجمات روسية تقتل 6 وتصيب 38 في أنحاء أوكرانيا. روسيا أطلقت 107 مسيّرات منها 63 نفاثة. الدفاعات الأوكرانية أسقطت أو أخمدت 87 منها. أضرار بالبنية التحتية للطاقة في خمس محافظات وانقطاع كهرباء مستمر.",
+     "en": "Russian attacks kill 6, injure 38 across Ukraine. Russia deployed 107 drones including 63 jet-powered. Ukrainian air defenses neutralized 87. Energy infrastructure damaged in five oblasts with ongoing power outages in Kirovohrad, Rivne, Sumy, Kharkiv and Chernihiv.",
+     "src": "Kyiv Independent",
+     "url": "https://kyivindependent.com/russian-attacks-kill-at-least-6-injure-38-across-ukraine-amid-another-overnight-drone-barrage-nationwide/",
+     "kind": "news"
+    },
     {
      "t": "2026-10-02T09:00:00Z",
      "ar": "روسيا تشن 8,891 هجوم بمسيّرات على أوكرانيا في 24 ساعة، بينما تقول موسكو إنها أسقطت 646 مسيّرة أوكرانية. بوتين يقول إن روسيا قد تستخدم «جميع أنواع الأسلحة في ترسانتها» إذا واجهت تهديدات. يتهم أوكرانيا بإطلاق أكثر من 1,600 مسيّرة على موسكو ومراكز الاقتراع أثناء الانتخابات الروسية.",
@@ -227,14 +235,6 @@
      "src": "Al Jazeera",
      "t": "2026-09-28T08:00:00Z",
      "url": "https://www.aljazeera.com/news/2026/9/28/russian-strikes-kill-eight-injure-dozens-across-ukraine"
-    },
-    {
-     "ar": "ضربات تقتل 8 أشخاص على الأقل في أوكرانيا وشخصاً في روسيا، وتصيب سوقاً في زابوريجيا. موسكو ترفض دعوات ألمانية لخفض التصعيد.",
-     "en": "Strikes kill at least 8 in Ukraine and 1 in Russia, hitting a market in Zaporizhzhia; Moscow rejects German calls to de-escalate.",
-     "kind": "news",
-     "src": "AP / The Columbian",
-     "t": "2026-09-27T20:00:00Z",
-     "url": "https://www.columbian.com/news/2026/sep/27/strikes-kill-at-least-8-in-ukraine-1-in-russia/"
     }
    ]
   },
@@ -283,10 +283,18 @@
    },
    "since": "2023",
    "toll": {
-    "ar": "8.6 مليون نازح داخلياً وفق منظمة الهجرة الدولية",
-    "en": "8.6 million internally displaced (IOM)"
+    "ar": "20 مليون يواجهون جوعاً حاداً، 14 مليون نازح",
+    "en": "20 million face acute hunger, 14 million displaced"
    },
    "updates": [
+    {
+     "t": "2026-10-02T10:00:00Z",
+     "ar": "20 مليون شخص يواجهون جوعاً حاداً و200 ألف على حافة المجاعة. تحالف الدعم السريع والحركة الشعبية يهاجم عاصمة ولاية النيل الأزرق الدمازين. ضربات المسيّرات قتلت 13 مدنياً قرب أم روابة ودمرت 50 طناً من الغذاء قرب الدلنج. السعودية تهدد بالانسحاب من الرباعية بسبب خلافات مع واشنطن.",
+     "en": "20 million face acute hunger, 200,000 at starvation levels. RSF/SPLM-N alliance assaults Blue Nile capital Ed Damazin. Drone strikes killed 13 civilians near Umm Rawaba and destroyed 50 metric tons of food near Dilling. Saudi Arabia threatens to exit the Quad over disagreements with US approach.",
+     "src": "UN Security Council Report",
+     "url": "https://www.securitycouncilreport.org/monthly-forecast/2026-10/sudan-42.php",
+     "kind": "news"
+    },
     {
      "t": "2026-10-01T16:00:00Z",
      "ar": "معارك تجدد الاهتمام بمنطقة كردفان الاستراتيجية. القوات المسلحة تتقدم شمالاً وتدفع قوات الدعم السريع للتراجع في شمال كردفان، لكن القتال متواصل في الجنوب. السيطرة على الممر يفتح طريقاً نحو الخرطوم. منذ بدء الحرب سبتمبر 2023، شهدت كردفان خمس المعارك المسجلة بالبلاد.",
@@ -342,14 +350,6 @@
      "src": "Reuters",
      "t": "2026-09-25T10:00:00Z",
      "url": "https://www.timeslive.co.za/news/africa/2026-09-25-sudans-rsf-steps-up-deadly-drone-attacks-on-frontline-cities/"
-    },
-    {
-     "t": "2026-09-22T12:00:00Z",
-     "ar": "الجيش السوداني يستأنف غارات جوية مكثفة على مواقع الدعم السريع في نيالا بجنوب دارفور، مستهدفاً مخازن ذخيرة ومواقع تدريب.",
-     "en": "Sudan's army resumes heavy airstrikes on RSF positions in Nyala, South Darfur, hitting ammunition depots and training sites.",
-     "src": "Sudan Tribune",
-     "url": "https://sudantribune.com/article/319114",
-     "kind": "news"
     }
    ]
   },
@@ -398,10 +398,18 @@
    },
    "since": "2026",
    "toll": {
-    "ar": "أخطر تصعيد منذ حرب 2020–2022 التي قتلت نحو 600 ألف شخص",
-    "en": "Worst escalation since the 2020–22 war that killed ~600,000"
+    "ar": "القوات الفيدرالية على بعد 40 كم من مقلي، خطر امتداد الحرب إقليمياً",
+    "en": "Federal forces 40 km from Mekelle, risk of regional spillover"
    },
    "updates": [
+    {
+     "t": "2026-10-02T10:00:00Z",
+     "ar": "القوات الفيدرالية تتقدم نحو مقلي وخطر انتشار الحرب إلى إريتريا والسودان. ضربات بمسيّرات أصابت أديس أبابا وقواعد جوية حكومية. جبهة تيغراي تفقد السيطرة على ألاماطا. سبع جماعات مسلحة شكّلت تحالف القوى الشعبية الإثيوبية للبقاء.",
+     "en": "Federal forces advance toward Mekelle; risk of war spilling into Eritrea and Sudan. Drone strikes hit Addis Ababa and government airbases. TPLF loses Alamata. Seven armed groups formed the Ethiopian Peoples' Forces Alliance for Survival including TPLF, Fano, OLA and others.",
+     "src": "Chatham House / Al Jazeera",
+     "url": "https://www.chathamhouse.org/2026/10/war-has-returned-tigray-time-it-may-not-stay-ethiopia",
+     "kind": "news"
+    },
     {
      "t": "2026-09-30T14:00:00Z",
      "ar": "القوات الفيدرالية الإثيوبية تتقدم إلى نحو 40 كيلومتراً من مقلي، ومصادر في جبهة تيغراي تصف ذلك بأنه «انسحاب استراتيجي»، مع انقطاع الكهرباء والإنترنت في الإقليم وتحذيرات من حصار أكثر من 80 ألفاً من سكان عفر.",
@@ -457,14 +465,6 @@
      "src": "CNN",
      "t": "2026-09-23T09:00:00Z",
      "url": "https://www.cnn.com/2026/09/23/africa/tigray-ethiopia-fighting-erupts-intl"
-    },
-    {
-     "ar": "ضربات بطائرات مسيّرة تصيب مدرستين في ألاماطا وتقتل 14 مدنياً على الأقل.",
-     "en": "Drone strikes hit two schools in Alamata, killing at least 14 civilians.",
-     "kind": "news",
-     "src": "Wikipedia",
-     "t": "2026-09-22T10:00:00Z",
-     "url": "https://en.wikipedia.org/wiki/2026_Ethiopian_offensive"
     }
    ]
   },
@@ -633,6 +633,14 @@
    },
    "updates": [
     {
+     "t": "2026-10-02T10:00:00Z",
+     "ar": "غارات إسرائيلية تقتل 7 فلسطينيين على الأقل في 30 سبتمبر بينهم ضربة على شقة بمدينة غزة وأربعة في تل الهوى و14 جريحاً. صحفي محمد النجار يُقتل في غارة قرب خان يونس. جندي يُصوَّر وهو يهدد رجلاً بدوياً في الضفة بعد هجوم مستوطنين على عائلته.",
+     "en": "Israeli strikes kill at least 7 Palestinians on Sep 30: one strike on a Gaza City apartment, four in Tel al-Hawa with 14 wounded. Journalist Mohammad Al-Najar killed near Khan Younis. A soldier filmed threatening a Bedouin man in the West Bank after settlers attacked his family.",
+     "src": "Just Security / Al Jazeera",
+     "url": "https://justsecurity.org/159415/early-edition-october-1-2026",
+     "kind": "news"
+    },
+    {
      "t": "2026-10-01T12:00:00Z",
      "ar": "مسيّرة إسرائيلية تضرب خيمة المشردين في المواسي غرب خان يونس فتقتل تامر الحمايدة وتصيب آخرين. وفي الضفة الغربية، مستوطنون إسرائيليون يقتلون مشعور ياسين في هجوم على قرية ياسوف بأسلحة ناريّة وهراوات. وزارة الصحة: 8 قتلى و26 مصاباً في غزة في 24 ساعة.",
      "en": "An Israeli drone strikes a displacement tent in al-Mawasi west of Khan Younis, killing Tamer al-Hamayda and wounding others; Israeli settlers shoot and kill Mashhour Yassin in Yasuf village, West Bank. Gaza Health Ministry reports 8 deaths and 26 wounded in 24 hours.",
@@ -732,6 +740,14 @@
    },
    "updates": [
     {
+     "t": "2026-10-02T10:00:00Z",
+     "ar": "إسرائيل تواصل وجودها العسكري حتى 10 كيلومترات داخل لبنان رغم إطار وقف إطلاق النار في يونيو. الأمم المتحدة توثّق انتهاكات يومية للأجواء اللبنانية وغارات وعمليات هدم. مناقشات في مجلس الأمن حول مستقبل اليونيفيل مع انتهاء تفويضها في ديسمبر 2026. اقتراح فرنسي-إيطالي لتحالف دولي بديل.",
+     "en": "Israel maintains military presence up to 10 km inside Lebanon despite June ceasefire framework. UN documents daily airspace violations, strikes and demolitions. Security Council discusses UNIFIL's future as its mandate expires Dec 2026. Franco-Italian proposal for an alternative international coalition.",
+     "src": "UN Security Council Report",
+     "url": "https://www.securitycouncilreport.org/monthly-forecast/2026-10/lebanon-40.php",
+     "kind": "news"
+    },
+    {
      "t": "2026-09-29T02:00:00Z",
      "ar": "الجيش اللبناني يعلن العثور على جهاز تجسس تابع لإسرائيل، بحسب العربية.",
      "en": "The Lebanese army says it found an Israeli spying device, according to Al Arabiya.",
@@ -802,10 +818,18 @@
    },
    "since": "2022",
    "toll": {
-    "ar": "أكثر من 7 ملايين نازح",
-    "en": "7+ million displaced"
+    "ar": "6,757 حالة إيبولا مؤكدة و3,267 وفاة في 6 مقاطعات",
+    "en": "6,757 confirmed Ebola cases and 3,267 deaths across 6 provinces"
    },
    "updates": [
+    {
+     "t": "2026-10-02T10:00:00Z",
+     "ar": "القوات الكونغولية تكثّف عملياتها الجوية ضد حركة 23 مارس التي تواصل توسيع سيطرتها في شمال وجنوب كيفو. عملية الدوحة وقّعت بروتوكولين من ثمانية مطلوبة. تفشي إيبولا في 6 مقاطعات: 6,757 حالة مؤكدة و3,267 وفاة. بوروندي تدعم كينشاسا ورواندا متهمة بدعم حركة 23 مارس.",
+     "en": "Congolese forces intensify air operations against M23 which continues expanding in North and South Kivu. Doha process signed 2 of 8 required protocols. Ebola outbreak across 6 provinces: 6,757 confirmed cases, 3,267 deaths. Burundi backs Kinshasa; Rwanda accused of supporting M23.",
+     "src": "UN Security Council Report",
+     "url": "https://www.securitycouncilreport.org/monthly-forecast/2026-10/great-lakes-region-drc-10.php",
+     "kind": "news"
+    },
     {
      "ar": "تواصلت الاشتباكات حول مينيمبوي في جنوب كيفو وفي جنوب ماسيسي، بينما أجرت آلية التحقق المشتركة بعثات لمراقبة وقف إطلاق النار، وفق تقرير أمني.",
      "en": "Clashes continued around Minembwe in South Kivu and in southern Masisi while the joint verification mechanism carried out ceasefire monitoring missions, per a security review.",
@@ -876,6 +900,14 @@
    },
    "updates": [
     {
+     "t": "2026-10-02T10:00:00Z",
+     "ar": "أكبر هجوم منذ 2012 في مالي: جبهة تحرير أزواد وجماعة نصرة الإسلام شنّتا هجمات منسقة منذ أبريل. كيدال سقطت بيد المتمردين بعد انسحاب فيلق أفريقيا الروسي. وزير الدفاع المالي اغتيل بسيارة مفخخة. الجيش يستعيد أنيفيس في يوليو لكن 50 جندياً قُتلوا في كمائن.",
+     "en": "Mali's largest offensive since 2012: Azawad Liberation Front and JNIM launched coordinated attacks since April. Kidal fell to rebels after Russian Africa Corps withdrew. Mali's defense minister assassinated by car bomb. Army recaptured Anefis in July but 50 soldiers killed in ambushes.",
+     "src": "Wikipedia / France 24",
+     "url": "https://en.wikipedia.org/wiki/2026_Mali_offensives",
+     "kind": "news"
+    },
+    {
      "ar": "بيانات أكليد: ارتفاع حاد في عنف الجماعات المرتبطة بالقاعدة وتنظيم الدولة في مالي وبوركينا فاسو والنيجر خلال 2026.",
      "en": "ACLED data show a sharp 2026 rise in violence by al-Qaeda and IS affiliates in Mali, Burkina Faso and Niger.",
      "kind": "news",
@@ -934,6 +966,14 @@
     "en": "16.2m need aid; 3.8m displaced"
    },
    "updates": [
+    {
+     "t": "2026-10-02T10:00:00Z",
+     "ar": "قوات المقاومة تواصل التقدم في ولايتي شان وكايين. المجلس العسكري يشن غارات جوية على مناطق مدنية في ساغاينغ. تقارير عن نزوح مليون شخص إضافي منذ يوليو.",
+     "en": "Resistance forces continue advancing in Shan and Kayin states. The junta launches airstrikes on civilian areas in Sagaing. Reports of an additional million displaced since July.",
+     "src": "Al Jazeera",
+     "url": "https://www.aljazeera.com/tag/myanmar/",
+     "kind": "news"
+    },
     {
      "t": "2026-09-28T10:00:00Z",
      "ar": "غارة جوية للجيش في ولاية راخين غرب ميانمار تقتل 33 شخصاً على الأقل، بحسب جماعة مسلحة معارضة وعامل إغاثة.",
@@ -1010,6 +1050,14 @@
     "en": "Among the worst interstate hostilities in decades"
    },
    "updates": [
+    {
+     "t": "2026-10-02T10:00:00Z",
+     "ar": "باكستان تواصل غاراتها الجوية على مواقع داخل أفغانستان. ضربات 2026 استهدفت مناطق حدودية في خيبر وبلوشستان. طالبان وباكستان تتبادلان اتهامات بإسقاط ضحايا مدنيين. وصف المحللون الوضع بأنه «حرب مفتوحة» بين البلدين.",
+     "en": "Pakistan continues airstrikes inside Afghanistan. 2026 strikes targeted border areas in Khyber and Balochistan. Taliban and Pakistan exchange accusations of civilian casualties. Analysts describe the situation as 'open war' between the two countries.",
+     "src": "Al Jazeera / Time",
+     "url": "https://www.aljazeera.com/news/2026/2/27/pakistan-warplanes-bomb-kabul-as-clashes-with-afghanistan-intensify",
+     "kind": "news"
+    },
     {
      "t": "2026-10-01T18:00:00Z",
      "ar": "باكستان تشن ضربات جوية على معاقل طالبان الباكستاني (TTP) والجيش الوطني (BLA) في كونار وهلمند بأفغانستان، تقول باكستان إنها قتلت 22 عضواً لكن أفغانستان تقول المقتولون 9-10 مدنيين بينهم أطفال، وتدمير منازل وأسلحة.",
@@ -1094,6 +1142,14 @@
    },
    "updates": [
     {
+     "t": "2026-10-02T10:00:00Z",
+     "ar": "حركة الشباب تواصل شن هجمات في مقديشو ووسط الصومال رغم العمليات العسكرية المشتركة. تقرير هيومن رايتس ووتش 2026 يوثّق انتهاكات واسعة من جميع الأطراف بحق المدنيين.",
+     "en": "Al-Shabaab continues attacks in Mogadishu and central Somalia despite joint military operations. Human Rights Watch 2026 report documents widespread violations against civilians by all parties.",
+     "src": "HRW / CFR",
+     "url": "https://www.hrw.org/world-report/2026/country-chapters/somalia",
+     "kind": "news"
+    },
+    {
      "ar": "استمرار عمليات التمرد ضد القوات الصومالية والحليفة.",
      "en": "Insurgent operations against Somali and allied forces continue.",
      "kind": "status",
@@ -1154,6 +1210,14 @@
    },
    "updates": [
     {
+     "t": "2026-10-02T10:00:00Z",
+     "ar": "الوضع الأمني في سوريا لا يزال هشاً مع استمرار وجود تنظيم داعش في البادية والعمليات التركية في الشمال. التوترات الإقليمية تؤثر على الاستقرار السوري خاصة مع تصاعد حرب إيران.",
+     "en": "Syria's security situation remains fragile with continued ISIS presence in the desert and Turkish operations in the north. Regional tensions from the Iran war affect Syrian stability.",
+     "src": "Crisis Group",
+     "url": "https://www.crisisgroup.org/cmt/global/10-conflicts-watch-2026",
+     "kind": "news"
+    },
+    {
      "ar": "هجمات متقطعة في سوريا والعراق والأردن مرتبطة بحرب إيران.",
      "en": "Sporadic spillover violence in Syria, Iraq and Jordan linked to the Iran war.",
      "kind": "status",
@@ -1212,6 +1276,14 @@
     "en": "Persistent violence and mass kidnappings"
    },
    "updates": [
+    {
+     "t": "2026-10-02T10:00:00Z",
+     "ar": "تمرد بوكو حرام وداعش في غرب أفريقيا يستمران في ولايات بورنو ويوبي وأداماوا. الجماعات الجهادية في الساحل تتوسع جنوباً نحو دول الخليج الغيني وفقاً لبيانات أكليد.",
+     "en": "Boko Haram and ISWAP insurgency continues in Borno, Yobe and Adamawa states. Sahel jihadist groups expanding southward toward Gulf of Guinea states according to ACLED data.",
+     "src": "ACLED / CFR",
+     "url": "https://acleddata.com/report/jihadist-groups-pose-growing-and-expanding-threat-africa",
+     "kind": "news"
+    },
     {
      "ar": "لا تحديث بارز في الأيام الأخيرة ضمن المصادر المتابَعة.",
      "en": "No major update in tracked sources in recent days.",
@@ -1272,6 +1344,14 @@
    },
    "updates": [
     {
+     "t": "2026-10-02T10:00:00Z",
+     "ar": "أزمة العصابات في هايتي تتصاعد مع استمرار سيطرة المسلحين على 80 بالمئة من بورت أو برنس. مجلس الأمن يناقش تحديث الوضع في أبريل 2026. قوة الأمم المتحدة تواجه تحديات كبيرة أمام العنف المتواصل.",
+     "en": "Haiti's gang crisis escalates with armed groups controlling 80% of Port-au-Prince. UN Security Council discussed the situation update in April 2026. UN force faces major challenges against ongoing violence.",
+     "src": "UN News / IRC",
+     "url": "https://news.un.org/en/story/2026/04/1167362",
+     "kind": "news"
+    },
+    {
      "t": "2026-08-26T12:00:00Z",
      "ar": "هجوم لعصابات مسلحة على بلدة كنسكوف قرب العاصمة يقتل 47 شخصاً على الأقل ويخطف أكثر من خمسين، بحسب الأمم المتحدة، والسلطات المحلية تتهم تحالف «فيف أنسانم».",
      "en": "A gang raid on Kenscoff near Port-au-Prince kills at least 47 and abducts more than 50, per the UN; local officials blame the Viv Ansanm coalition.",
@@ -1330,6 +1410,14 @@
     "en": "Escalation expected in northern Antioquia"
    },
    "updates": [
+    {
+     "t": "2026-10-02T10:00:00Z",
+     "ar": "الجماعات المسلحة تواصل نشاطها في مناطق متعددة رغم محادثات السلام. كولومبيا تبقى من بين النزاعات العشرة الأهم التي يجب مراقبتها في 2026 وفقاً لمجموعة الأزمات الدولية.",
+     "en": "Armed groups remain active across multiple regions despite ongoing peace talks. Colombia remains among the top 10 conflicts to watch in 2026 according to the International Crisis Group.",
+     "src": "Crisis Group",
+     "url": "https://www.crisisgroup.org/latin-america-caribbean",
+     "kind": "news"
+    },
     {
      "ar": "أكليد: العنف بين الجماعات المسلحة في شمال أنتيوكيا مرجّح للتصاعد رغم الهجوم الحكومي.",
      "en": "ACLED: armed-group violence in northern Antioquia likely to intensify despite the government offensive.",
@@ -1390,6 +1478,14 @@
    },
    "updates": [
     {
+     "t": "2026-10-02T10:00:00Z",
+     "ar": "عنف الكارتلات مستمر في ولايات سينالوا وغيريرو وميتشواكان. المكسيك تسجّل معدلات قتل مرتفعة مع استمرار الصراع بين الكارتلات والقوات الأمنية.",
+     "en": "Cartel violence continues in Sinaloa, Guerrero and Michoacán states. Mexico records high homicide rates as fighting between cartels and security forces persists.",
+     "src": "Crisis Group",
+     "url": "https://www.crisisgroup.org/latin-america-caribbean",
+     "kind": "news"
+    },
+    {
      "ar": "لا تحديث بارز في الأيام الأخيرة ضمن المصادر المتابَعة.",
      "en": "No major update in tracked sources in recent days.",
      "kind": "status",
@@ -1448,6 +1544,14 @@
     "en": "Risk of renewed civil war"
    },
    "updates": [
+    {
+     "t": "2026-10-02T10:00:00Z",
+     "ar": "أزمات إنسانية مستمرة في جنوب السودان مع تأخر الانتخابات وتصاعد العنف العرقي في عدة ولايات. الفيضانات والجفاف يفاقمان أزمة الغذاء.",
+     "en": "Ongoing humanitarian crises in South Sudan with delayed elections and rising ethnic violence in multiple states. Floods and drought worsen the food crisis.",
+     "src": "The New Humanitarian",
+     "url": "https://www.thenewhumanitarian.org/analysis/2026/01/07/ten-humanitarian-crises-demand-your-attention-now-2026",
+     "kind": "news"
+    },
     {
      "t": "2026-09-17T12:00:00Z",
      "ar": "مقتل 26 شخصاً على الأقل في اشتباكات بالمنطقة الحدودية بين السودان وجنوب السودان.",
@@ -1516,6 +1620,14 @@
    },
    "updates": [
     {
+     "t": "2026-10-02T10:00:00Z",
+     "ar": "التمرد في كابو ديلغادو مستمر رغم الوجود العسكري الرواندي وقوات مجموعة التنمية لجنوب أفريقيا. موزمبيق ضمن الأزمات الإنسانية العشر في 2026.",
+     "en": "Insurgency in Cabo Delgado persists despite Rwandan military and SADC force presence. Mozambique among the top 10 humanitarian crises of 2026.",
+     "src": "The New Humanitarian",
+     "url": "https://www.thenewhumanitarian.org/analysis/2026/01/07/ten-humanitarian-crises-demand-your-attention-now-2026",
+     "kind": "news"
+    },
+    {
      "ar": "لا تحديث بارز في الأيام الأخيرة ضمن المصادر المتابَعة.",
      "en": "No major update in tracked sources in recent days.",
      "kind": "status",
@@ -1575,6 +1687,14 @@
    },
    "updates": [
     {
+     "t": "2026-10-02T10:00:00Z",
+     "ar": "الأزمة السياسية في فنزويلا مستمرة مع تصاعد التوترات الداخلية. فنزويلا تبقى ضمن قائمة أزمات أمريكا اللاتينية التي تراقبها مجموعة الأزمات الدولية.",
+     "en": "Venezuela's political crisis continues with rising internal tensions. Venezuela remains on the International Crisis Group's Latin America watch list.",
+     "src": "Crisis Group",
+     "url": "https://www.crisisgroup.org/latin-america-caribbean",
+     "kind": "news"
+    },
+    {
      "ar": "تحذيرات إنسانية من تبعات التدخل الأمريكي وعدم اليقين بشأن المرحلة المقبلة.",
      "en": "Humanitarian warnings over the fallout of US intervention and uncertainty ahead.",
      "kind": "news",
@@ -1631,6 +1751,14 @@
     "en": "Tension along the Line of Control"
    },
    "updates": [
+    {
+     "t": "2026-10-02T10:00:00Z",
+     "ar": "التوترات تتصاعد بين الهند وباكستان على خلفية أزمة أفغانستان-باكستان. الوضع في كشمير يبقى متوتراً مع تشديد أمني هندي واشتباكات متقطعة على خط السيطرة.",
+     "en": "India-Pakistan tensions rise amid the Afghanistan-Pakistan crisis. Kashmir remains tense with heightened Indian security presence and sporadic clashes along the Line of Control.",
+     "src": "Al Jazeera",
+     "url": "https://www.aljazeera.com/tag/kashmir/",
+     "kind": "news"
+    },
     {
      "ar": "لا تحديث بارز في الأيام الأخيرة ضمن المصادر المتابَعة.",
      "en": "No major update in tracked sources in recent days.",
