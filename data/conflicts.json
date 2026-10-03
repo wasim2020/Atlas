@@ -1,9 +1,9 @@
 {
  "meta": {
-  "updatedAt": "2026-10-03T06:00:00Z",
+  "updatedAt": "2026-10-03T12:00:00Z",
   "note": {
-   "ar": "تحديث 06:00 UTC أكتوبر 3: باكستان تقصف كونار وهلمند (10 مدنيين قتلوا). بوكو حرام تقتل 15 في بورنو رغم وقف إطلاق النار. سقوط الفاشر بيد الدعم السريع. ترامب: الحرب تنتهي بعد الانتخابات.",
-   "en": "Update 06:00 UTC Oct 3: Pakistan bombs Kunar & Helmand (10 civilians killed). Boko Haram kills 15 in Borno despite ceasefire. El Fasher falls to RSF. Trump: war ends after elections."
+   "ar": "تحديث 12:00 UTC أكتوبر 3: حاملة USS Theodore Roosevelt تنطلق مع 10,000 جندي نحو إيران. مسيّرة تضرب معهداً نووياً بكييف. الأمم المتحدة: إبادة في الفاشر. كولومبيا: المذبحة رقم 95 عام 2026.",
+   "en": "Update 12:00 UTC Oct 3: USS Theodore Roosevelt deploys with 10K troops toward Iran. Drone hits Kyiv nuclear institute. UN: genocide in El Fasher. Colombia: 95th massacre of 2026."
   }
  },
  "conflicts": [
@@ -56,6 +56,14 @@
     "en": "Blockade has halted new Iranian oil exports; Brent near $100"
    },
    "updates": [
+    {
+     "t": "2026-10-03T12:00:00Z",
+     "kind": "military",
+     "ar": "حاملة الطائرات (USS Theodore Roosevelt) تنطلق نحو إيران مع 10,000 جندي إضافي. إيران تعرض فتح هرمز خلال 7 أيام مقابل رفع العقوبات لكن واشنطن ترفض",
+     "en": "USS Theodore Roosevelt carrier group heads to Iran with 10,000 additional troops; Iran offers to reopen Hormuz in 7 days for sanctions relief but US rejects",
+     "src": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/2/new-aircraft-carrier-10000-us-troops-is-the-iran-war-about-to-escalate"
+    },
     {
      "t": "2026-10-03T06:00:00Z",
      "kind": "political",
@@ -111,14 +119,6 @@
      "src": "Al Jazeera",
      "url": "https://www.aljazeera.com/news/2026/9/28/iran-touts-hormuz-attacks-as-oil-flows-increase-despite-tensions",
      "kind": "news"
-    },
-    {
-     "t": "2026-09-28T15:00:00Z",
-     "ar": "إيران تنتظر رداً أمريكياً عبر الوسطاء القطريين على مقترحها لإعادة فتح مضيق هرمز، وتشترط وقف النار على كل الجبهات بما فيها لبنان والإفراج عن أموالها المجمدة ورفع العقوبات. وتحدثت تقارير عن محادثات غير مباشرة في نيويورك بين عراقجي والمبعوثَين ويتكوف وكوشنر.",
-     "en": "Iran awaits a US reply via Qatari mediators on its Hormuz proposal, conditioned on a ceasefire on all fronts including Lebanon, release of frozen assets and lifting of sanctions; indirect talks between Araghchi and envoys Witkoff and Kushner were reported in New York.",
-     "src": "Al Jazeera",
-     "url": "https://www.aljazeera.net/news/2026/9/28/%D9%85%D9%87%D9%84%D8%A9-%D8%A7%D9%84%D8%A3%D9%8A%D8%A7%D9%85-%D8%A7%D9%84%D8%B3%D8%A8%D8%B9%D8%A9-%D8%AA%D8%AA%D8%A2%D9%83%D9%84-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%AA%D8%B1%D9%82%D8%A8",
-     "kind": "news"
     }
    ]
   },
@@ -172,6 +172,14 @@
     "en": "Slow Russian gains: ~37 sq mi in the four weeks to 22 Sept"
    },
    "updates": [
+    {
+     "t": "2026-10-03T12:00:00Z",
+     "kind": "military",
+     "ar": "مسيّرة روسية تضرب معهد الأبحاث النووية في كييف (30 سبتمبر) الذي يضم مفاعل (VVR-M). لا إصابات والمفاعل متوقف منذ 2022. تصعيد في استهداف المنشآت النووية",
+     "en": "Russian drone strikes Kyiv Institute for Nuclear Research (Sept 30) housing VVR-M reactor; no casualties, reactor shut since 2022. Escalation in targeting nuclear facilities",
+     "src": "Kyiv Independent",
+     "url": "https://kyivindependent.com/russian-drone-strikes-kyiv-nuclear-institute-housing-research-reactor/"
+    },
     {
      "t": "2026-10-03T06:00:00Z",
      "kind": "military",
@@ -227,14 +235,6 @@
      "src": "Kyiv Independent",
      "url": "https://kyivindependent.com/2-russian-drones-strike-near-supports-of-kyiv-bridge-linking-eastern-western-banks-klitshchko-says",
      "kind": "news"
-    },
-    {
-     "t": "2026-10-01T08:00:00Z",
-     "ar": "هيئة الأركان الأوكرانية تقول إن خسائر الجيش الروسي في سبتمبر بلغت 46,230 فرداً، وهي الأعلى في 2026. وهذه أرقام أوكرانية لا يمكن التحقق منها بشكل مستقل.",
-     "en": "Ukraine's General Staff says Russian personnel losses hit 46,230 in September, the highest of 2026; the figures come from Ukrainian sources and cannot be independently verified.",
-     "src": "Kyiv Independent",
-     "url": "https://kyivindependent.com/russian-troop-losses-rise-46-since-january-hit-absolute-2026-record-in-september-ukraine-says",
-     "kind": "news"
     }
    ]
   },
@@ -287,6 +287,14 @@
     "en": "20 million face acute hunger, 14 million displaced"
    },
    "updates": [
+    {
+     "t": "2026-10-03T12:00:00Z",
+     "kind": "humanitarian",
+     "ar": "الأمم المتحدة تؤكد أن انتهاكات قوات الدعم السريع في الفاشر ترقى لجرائم حرب. أدلة على حملة إبادة تستهدف المجتمعات غير العربية",
+     "en": "UN confirms RSF violations in El Fasher amount to war crimes; evidence of genocidal campaign targeting non-Arab communities",
+     "src": "OHCHR",
+     "url": "https://www.ohchr.org/en/press-releases/2026/02/sudan-evidence-el-fasher-reveals-genocidal-campaign-targeting-non-arab"
+    },
     {
      "t": "2026-10-03T06:00:00Z",
      "kind": "humanitarian",
@@ -342,14 +350,6 @@
      "src": "Al Jazeera",
      "url": "https://www.aljazeera.net/news/2026/9/27/%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D9%8A%D8%B3%D9%82%D8%B7-%D9%85%D8%B3%D9%8A%D8%B1%D8%A9-%D8%B4%D9%85%D8%A7%D9%84-%D9%83%D8%B1%D8%AF%D9%81%D8%A7%D9%86-%D9%88%D8%A7%D9%84%D8%AF%D8%B9%D9%85",
      "kind": "news"
-    },
-    {
-     "ar": "ضربت مسيّرات الدعم السريع مستودع وقود أم عليلة قرب ود مدني في ولاية الجزيرة، وفق شهود.",
-     "en": "RSF drones struck the Um Aleila fuel depot near Wad Madani in Al Jazirah state, according to witnesses.",
-     "kind": "news",
-     "src": "Sudan Tribune",
-     "t": "2026-09-27T08:00:00Z",
-     "url": "https://sudantribune.com/article/319309"
     }
    ]
   },
@@ -402,6 +402,14 @@
     "en": "Federal forces 40 km from Mekelle, risk of regional spillover"
    },
    "updates": [
+    {
+     "t": "2026-10-03T12:00:00Z",
+     "kind": "military",
+     "ar": "تحذيرات من حرب إقليمية ضخمة قد تجر السودان إلى النزاع الإثيوبي. القتال يقترب من مقلي مع قطع العلاقات الإثيوبية الإريترية",
+     "en": "Warnings of regional mega-war that could draw Sudan into Ethiopia conflict; fighting nears Mekelle amid Ethiopia-Eritrea diplomatic break",
+     "src": "The New Humanitarian",
+     "url": "https://www.thenewhumanitarian.org/analysis/2026/03/23/regional-mega-war-renewed-conflict-ethiopia-sudan"
+    },
     {
      "t": "2026-10-03T06:00:00Z",
      "kind": "military",
@@ -457,14 +465,6 @@
      "src": "Al Arabiya",
      "url": "https://www.alarabiya.net/arab-and-world/2026/09/28/%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A-%D9%86%D8%B1%D9%81%D8%B6-%D9%85%D8%B2%D8%A7%D8%B9%D9%85-%D8%A7%D8%AB%D9%8A%D9%88%D8%A8%D9%8A%D8%A7-%D8%A8%D8%B4%D8%A7%D9%86-%D8%AF%D8%B9%D9%85-%D8%AC%D9%85%D8%A7%D8%B9%D8%A7%D8%AA-%D9%85%D9%86%D8%A7%D9%88%D8%A6%D8%A9-%D9%84%D8%A7%D8%AF%D9%8A%D8%B3-%D8%A7%D8%A8%D8%A7%D8%A8%D8%A7",
      "kind": "news"
-    },
-    {
-     "t": "2026-09-28T09:00:00Z",
-     "ar": "قوات تيغراي وحلفاؤها في عفر يسيطرون على إربتي ويتقدمون نحو أفديرا، فيما تتبادل الأطراف السيطرة على سقوطا وواجا على حدود أمهرة وتيغراي، بحسب الباحث مارتن بلاوت.",
-     "en": "Tigrayan forces and Afar allies took Erbeti and are advancing toward Afdera, while Seqota and Waja on the Amhara–Tigray border keep changing hands, according to analyst Martin Plaut.",
-     "src": "Martin Plaut",
-     "url": "https://martinplaut.com/2026/09/28/a-brief-summary-of-ethiopias-2026-war/",
-     "kind": "news"
     }
    ]
   },
@@ -517,6 +517,14 @@
     "en": "300+ killed in days of fighting near Bab al-Mandab"
    },
    "updates": [
+    {
+     "t": "2026-10-03T12:00:00Z",
+     "kind": "military",
+     "ar": "الحوثيون يواصلون ضرباتهم على إسرائيل مع تصاعد الحرب الإيرانية. تقارير عن عمليات بحرية مستمرة في البحر الأحمر",
+     "en": "Houthis continue strikes on Israel amid escalating Iran war; ongoing naval operations reported in Red Sea",
+     "src": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/2026_Houthi_strikes_on_Israel"
+    },
     {
      "t": "2026-10-03T06:00:00Z",
      "kind": "military",
@@ -572,14 +580,6 @@
      "src": "Al Arabiya",
      "url": "https://www.alarabiya.net/arab-and-world/yemen/2026/09/28/%D8%A7%D9%84%D9%8A%D9%85%D9%86-%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%B3%D9%84%D8%AD%D8%A9-%D8%AA%D9%86%D9%81%D8%B0-356-%D8%B9%D9%85%D9%84%D9%8A%D8%A9-%D8%A7%D8%B3%D8%AA%D9%87%D8%AF%D8%A7%D9%81-%D9%84%D9%84%D8%AD%D9%88%D8%AB%D9%8A%D9%8A%D9%86-%D8%AE%D9%84%D8%A7%D9%84-24-%D8%B3%D8%A7%D8%B9%D8%A9",
      "kind": "news"
-    },
-    {
-     "t": "2026-09-28T14:00:00Z",
-     "ar": "البرلمان اليمني يقر إعلان التعبئة العامة لمواجهة التصعيد الحوثي، بحسب العربية.",
-     "en": "Yemen's parliament approves a general mobilisation declaration to confront the Houthi escalation, according to Al Arabiya.",
-     "src": "Al Arabiya",
-     "url": "https://www.alarabiya.net/arab-and-world/yemen/2026/09/28/%D8%A7%D9%84%D9%8A%D9%85%D9%86-%D8%A7%D9%84%D8%A8%D8%B1%D9%84%D9%85%D8%A7%D9%86-%D9%8A%D9%82%D8%B1-%D8%A7%D8%B9%D9%84%D8%A7%D9%86-%D8%A7%D9%84%D8%AA%D8%B9%D8%A8%D8%A6%D8%A9-%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%A9-%D9%84%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%A7%D9%84%D8%AA%D8%B5%D8%B9%D9%8A%D8%AF-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A",
-     "kind": "news"
     }
    ]
   },
@@ -632,6 +632,14 @@
     "en": "1,417 killed since the Oct 2025 ceasefire (local figures)"
    },
    "updates": [
+    {
+     "t": "2026-10-03T12:00:00Z",
+     "kind": "humanitarian",
+     "ar": "حرب غزة تدخل عامها الثالث (من 3 أكتوبر 2025). استمرار العمليات العسكرية مع أزمة غذائية حادة في الشرق الأوسط وفق الأمم المتحدة",
+     "en": "Gaza war enters third year (from Oct 3, 2025); military operations continue with acute food crisis across Middle East per UN",
+     "src": "UN News / Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_the_Gaza_war_(3_October_2025_%E2%80%93_present)"
+    },
     {
      "t": "2026-10-03T06:00:00Z",
      "kind": "military",
@@ -687,14 +695,6 @@
      "src": "Reuters via Arab News",
      "url": "https://www.arabnews.com/middle-east/israeli-strikes-kill-at-least-two-people-in-gaza-officials-say-3003570",
      "kind": "news"
-    },
-    {
-     "ar": "قُتل أربعة فلسطينيين على الأقل وأصيب اثنا عشر في ضربات وإطلاق نار إسرائيلي في غزة وخان يونس والمواصي، وفق مصادر طبية محلية.",
-     "en": "At least four Palestinians killed and 12 injured in Israeli strikes and gunfire in Gaza City, Khan Younis and al-Mawasi, according to local medical sources.",
-     "kind": "news",
-     "src": "The Tribune / Al Jazeera",
-     "t": "2026-09-28T01:15:00Z",
-     "url": "https://www.tribuneindia.com/news/world/at-least-4-palestinians-killed-12-injured-in-israeli-strikes-across-gaza"
     }
    ]
   },
@@ -747,6 +747,14 @@
     "en": "Daily strikes on the south; many villages under evacuation orders"
    },
    "updates": [
+    {
+     "t": "2026-10-03T12:00:00Z",
+     "kind": "military",
+     "ar": "حرب لبنان 2026 مستمرة مع خروقات للهدنة. تحذيرات من تجدد العنف الشامل في الشرق الأوسط",
+     "en": "2026 Lebanon war continues with ceasefire violations; warnings of renewed full-scale violence in Middle East",
+     "src": "Stimson Center",
+     "url": "https://www.stimson.org/2026/more-spasms-of-violence-await-the-middle-east-in-2026/"
+    },
     {
      "t": "2026-10-03T06:00:00Z",
      "kind": "military",
@@ -855,6 +863,14 @@
    },
    "updates": [
     {
+     "t": "2026-10-03T12:00:00Z",
+     "kind": "political",
+     "ar": "مجلس الأمن يناقش منطقة البحيرات العظمى والكونغو. استمرار التوترات داخل (M23) مع دعم رواندي متواصل",
+     "en": "Security Council discusses Great Lakes/DRC; internal M23 tensions persist with continued Rwandan backing",
+     "src": "Security Council Report",
+     "url": "https://www.securitycouncilreport.org/monthly-forecast/2026-10/great-lakes-region-drc-10.php"
+    },
+    {
      "t": "2026-10-03T06:00:00Z",
      "kind": "political",
      "ar": "مجلس الأمن يناقش وضع منطقة البحيرات العظمى والكونغو في أكتوبر. استمرار التوترات الداخلية في حركة (M23) بدعم رواندي",
@@ -956,6 +972,14 @@
    },
    "updates": [
     {
+     "t": "2026-10-03T12:00:00Z",
+     "kind": "military",
+     "ar": "استمرار العمليات الهجومية في مالي. تقارير عن تصاعد العنف المسلح في بوركينا فاسو والنيجر",
+     "en": "Offensive operations continue in Mali; reports of escalating armed violence in Burkina Faso and Niger",
+     "src": "Crisis Group",
+     "url": "https://www.crisisgroup.org/crisiswatch/september-trends-and-october-alerts-2026"
+    },
+    {
      "t": "2026-10-03T06:00:00Z",
      "kind": "military",
      "ar": "مجموعة الأزمات تحذر من تصاعد العنف المسلح في منطقة الساحل خلال أكتوبر. عمليات عسكرية واسعة في مالي",
@@ -1046,6 +1070,14 @@
     "en": "16.2m need aid; 3.8m displaced"
    },
    "updates": [
+    {
+     "t": "2026-10-03T12:00:00Z",
+     "kind": "military",
+     "ar": "قوات المقاومة تواصل التقدم على عدة جبهات ضد المجلس العسكري. تقارير عن اشتباكات مكثفة في ولاية شان",
+     "en": "Resistance forces continue advancing on multiple fronts against junta; intense clashes reported in Shan State",
+     "src": "Crisis Group",
+     "url": "https://www.crisisgroup.org/crisiswatch/september-trends-and-october-alerts-2026"
+    },
     {
      "t": "2026-10-03T06:00:00Z",
      "kind": "military",
@@ -1155,6 +1187,14 @@
    },
    "updates": [
     {
+     "t": "2026-10-03T12:00:00Z",
+     "kind": "military",
+     "ar": "تأكيد مقتل 10 مدنيين بينهم أطفال في غارات باكستانية على أفغانستان وفق الأمم المتحدة وكابول. باكستان تدّعي استهداف مقاتلين فقط",
+     "en": "10 civilians including children confirmed killed in Pakistani airstrikes on Afghanistan per UN and Kabul; Pakistan claims only militants targeted",
+     "src": "NBC News / Washington Post",
+     "url": "https://www.nbcnews.com/world/afghanistan/pakistani-airstrikes-afghanistan-kill-10-civilians-kabul-un-say-rcna601042"
+    },
+    {
      "t": "2026-10-03T06:00:00Z",
      "kind": "military",
      "ar": "باكستان تشن غارات جوية على كونار وهلمند بأفغانستان (1 أكتوبر) وتقتل 10 مدنيين على الأقل بينهم أطفال وفق الأمم المتحدة. طالبان تصف الهجوم بالعدوان",
@@ -1209,14 +1249,6 @@
      "src": "Al Jazeera",
      "t": "2026-09-27T12:00:00Z",
      "url": "https://www.aljazeera.com/news/2026/9/27/afghanistan-says-28-fighters-killed-as-islamabad-kabul-trade-accusations"
-    },
-    {
-     "ar": "قالت باكستان إن قواتها قتلت عناصر من طالبان في اشتباكات حدودية، بعد غارات جوية على قندهار وبكتيا وخوست توعّدت كابول بالرد عليها.",
-     "en": "Pakistan said its forces killed Afghan Taliban fighters in border clashes, after air strikes on Kandahar, Paktia and Khost that Kabul vowed to answer.",
-     "kind": "news",
-     "src": "Al Jazeera",
-     "t": "2026-09-25T12:00:00Z",
-     "url": "https://www.aljazeera.com/news/2026/9/25/pakistani-forces-kill-afghan-taliban-fighters-in-border-escalation"
     }
    ]
   },
@@ -1269,6 +1301,14 @@
     "en": "One of Africa's longest wars"
    },
    "updates": [
+    {
+     "t": "2026-10-03T12:00:00Z",
+     "kind": "humanitarian",
+     "ar": "تقارير عن مقتل بحّارة قبالة السواحل الصومالية. استمرار عمليات مكافحة حركة الشباب",
+     "en": "Reports of seafarer deaths off Somali coast; counter al-Shabaab operations continue",
+     "src": "UN News",
+     "url": "https://news.un.org"
+    },
     {
      "t": "2026-10-03T06:00:00Z",
      "kind": "military",
@@ -1362,6 +1402,14 @@
    },
    "updates": [
     {
+     "t": "2026-10-03T12:00:00Z",
+     "kind": "military",
+     "ar": "الحرب الإيرانية تُلقي بثقلها على سوريا مع تصاعد مخاطر الإرهاب العالمي وفق مؤشر الإرهاب العالمي 2026",
+     "en": "Iran war weighs on Syria with rising global terrorism risks per Global Terrorism Index 2026",
+     "src": "Vision of Humanity",
+     "url": "https://www.visionofhumanity.org/wp-content/uploads/2026/03/The-Iran-War-and-The-Global-Terrorism-Threat.pdf"
+    },
+    {
      "t": "2026-10-03T06:00:00Z",
      "kind": "military",
      "ar": "سوريا لا تزال متأثرة بالحرب الإيرانية الأوسع مع استمرار الضربات على المواقع الإيرانية والميليشيات الحليفة",
@@ -1452,6 +1500,14 @@
     "en": "Persistent violence and mass kidnappings"
    },
    "updates": [
+    {
+     "t": "2026-10-03T12:00:00Z",
+     "kind": "military",
+     "ar": "متتبع الأمن النيجيري يرصد أحداث الأسبوع (2-8 أكتوبر). هجوم بورنو الذي أودى بحياة 15 شخصاً يثير تساؤلات حول وقف إطلاق النار",
+     "en": "Nigeria Security Tracker monitors Oct 2-8 events; Borno attack killing 15 raises questions about ceasefire viability",
+     "src": "CFR",
+     "url": "https://www.cfr.org/articles/nigeria-security-tracker-weekly-update-october-2-8"
+    },
     {
      "t": "2026-10-03T06:00:00Z",
      "kind": "military",
@@ -1544,6 +1600,14 @@
    },
    "updates": [
     {
+     "t": "2026-10-03T12:00:00Z",
+     "kind": "humanitarian",
+     "ar": "الأمم المتحدة تجدد تفويض قوة هايتي لستة أشهر بعد مقتل جديد على يد العصابات. ارتفاع حالات الاختطاف مع اقتراب الانتخابات",
+     "en": "UN renews Haiti force mandate for six months after fresh gang killings; kidnappings surge as elections loom",
+     "src": "US News / Washington Times",
+     "url": "https://washingtontimes.com/news/2026/oct/1/haiti-struggles-increase-kidnappings-general-election-looms"
+    },
+    {
      "t": "2026-10-03T06:00:00Z",
      "kind": "humanitarian",
      "ar": "تصاعد العنف في هايتي والإكوادور والمكسيك وفق تقرير (Insight Crime). العصابات توسع نفوذها خارج العاصمة",
@@ -1634,6 +1698,14 @@
     "en": "Escalation expected in northern Antioquia"
    },
    "updates": [
+    {
+     "t": "2026-10-03T12:00:00Z",
+     "kind": "military",
+     "ar": "مذبحة في قرطاجنة تقتل 4 أشخاص وهي المذبحة رقم 95 في كولومبيا عام 2026. تصاعد العنف رغم محادثات السلام",
+     "en": "Massacre in Cartagena kills 4, the 95th massacre in Colombia in 2026; violence escalates despite peace talks",
+     "src": "Rio Times",
+     "url": "https://riotimesonline.com/colombia-massacre-cartagena-95th-of-2026"
+    },
     {
      "t": "2026-10-03T06:00:00Z",
      "kind": "political",
@@ -1726,6 +1798,14 @@
    },
    "updates": [
     {
+     "t": "2026-10-03T12:00:00Z",
+     "kind": "military",
+     "ar": "اضطرابات الكارتلات المكسيكية عام 2026 تتصاعد. عمليات مشتركة مع الولايات المتحدة في خاليسكو مستمرة",
+     "en": "2026 Mexico cartel unrest escalates; joint operations with US in Jalisco continue",
+     "src": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/2026_Mexico_cartel_unrest"
+    },
+    {
      "t": "2026-10-03T06:00:00Z",
      "kind": "military",
      "ar": "ارتفاع حاد في العنف المرتبط بالكارتلات وفق تقارير (Insight Crime). اشتباكات مستمرة في خاليسكو وسينالوا",
@@ -1816,6 +1896,14 @@
     "en": "Risk of renewed civil war"
    },
    "updates": [
+    {
+     "t": "2026-10-03T12:00:00Z",
+     "kind": "humanitarian",
+     "ar": "تفاقم الأزمة الإنسانية مع استمرار هجوم جونقلي وتدفق اللاجئين من السودان",
+     "en": "Humanitarian crisis worsens with ongoing Jonglei offensive and refugee influx from Sudan",
+     "src": "CFR",
+     "url": "https://www.cfr.org/global-conflict-tracker/conflict/civil-war-south-sudan"
+    },
     {
      "t": "2026-10-03T06:00:00Z",
      "kind": "military",
@@ -1916,6 +2004,14 @@
    },
    "updates": [
     {
+     "t": "2026-10-03T12:00:00Z",
+     "kind": "military",
+     "ar": "تمرد كابو ديلغادو يُوصف بالحرب المنسية. استمرار العمليات رغم ضعف التغطية الإعلامية الدولية",
+     "en": "Cabo Delgado insurgency described as 'war without headlines'; operations continue despite limited international media coverage",
+     "src": "Small Wars Journal",
+     "url": "https://smallwarsjournal.com/2026/01/26/a-war-without-headlines-mozambiques-insurgency-and-the-global-security-blind-spot/"
+    },
+    {
      "t": "2026-10-03T06:00:00Z",
      "kind": "military",
      "ar": "تمرد كابو ديلغادو مستمر مع تقارير عن عمليات جديدة. القوات الإقليمية تكثف وجودها في المنطقة",
@@ -2007,6 +2103,14 @@
    },
    "updates": [
     {
+     "t": "2026-10-03T12:00:00Z",
+     "kind": "political",
+     "ar": "الحكومة الانتقالية تواصل التحول السياسي. تداعيات عملية فنزويلا على السياسة الأمريكية تجاه المكسيك محل نقاش",
+     "en": "Transitional government continues political transformation; implications of Venezuela operation for US Mexico policy debated",
+     "src": "The Dialogue",
+     "url": "https://thedialogue.org/blogs/2026/01/mexico-after-venezuela"
+    },
+    {
      "t": "2026-10-03T06:00:00Z",
      "kind": "political",
      "ar": "الحكومة الانتقالية تواصل التحول السياسي والاقتصادي بعد عملية الإطاحة بمادورو. خصخصة قطاع النفط مستمرة",
@@ -2095,6 +2199,14 @@
     "en": "Tension along the Line of Control"
    },
    "updates": [
+    {
+     "t": "2026-10-03T12:00:00Z",
+     "kind": "military",
+     "ar": "استمرار التوترات على خط السيطرة مع عمليات أمنية هندية في وادي كشمير",
+     "en": "Tensions persist along Line of Control with Indian security operations in Kashmir Valley",
+     "src": "Reuters",
+     "url": "https://www.reuters.com"
+    },
     {
      "t": "2026-10-03T06:00:00Z",
      "kind": "military",
