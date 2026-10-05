@@ -1,9 +1,9 @@
 {
  "meta": {
-  "updatedAt": "2026-10-04T18:00:00Z",
+  "updatedAt": "2026-10-05T00:00:00Z",
   "note": {
-   "ar": "تحديث 18:00 UTC أكتوبر 4: ترامب يعلن مؤتمراً صحفياً عن الموعد النهائي لحرب إيران. زيلينسكي: 1,200 مسيّرة روسية هذا الأسبوع. المجاعة تتوسع بالسودان: 638,000 جوع كارثي. هيومن رايتس ووتش تحذر من فظائع بتيغراي.",
-   "en": "Update 18:00 UTC Oct 4: Trump announces Iran war deadline press conference. Zelenskyy: 1,200 Russian drones this week. Sudan famine expands: 638K catastrophic hunger. HRW warns of Tigray atrocities."
+   "ar": "تحديث 00:00 UTC أكتوبر 5: ترامب: لا موعد نهائي لسلام إيران. مقتل 10 في تبادل صواريخ ومسيّرات بين روسيا وأوكرانيا. المجاعة تتوسع لبلدتين جديدتين بدارفور وهجوم على مستشفى يقتل 22. جبهة تيغراي تدّعي انتصاراً عسكرياً. السعودية تطلق تحالفاً بحرياً من 14 دولة.",
+   "en": "Update 00:00 UTC Oct 5: Trump: no deadline for Iran peace. 10 killed in Russia-Ukraine missile/drone exchanges. Famine spreads to 2 new Darfur towns, hospital attack kills 22. TPLF claims battle victory. Saudi launches 14-nation naval coalition."
   }
  },
  "conflicts": [
@@ -56,6 +56,14 @@
     "en": "Blockade has halted new Iranian oil exports; Brent near $100"
    },
    "updates": [
+    {
+     "t": "2026-10-05T00:00:00Z",
+     "kind": "military",
+     "ar": "ترامب يصرّح بأنه لا موعد نهائي لخطة السلام مع إيران. الحرب في شهرها السابع دون أفق واضح للحل الدبلوماسي أو العسكري",
+     "en": "Trump says 'no deadline' on Iran peace plan; war in 7th month with no clear path to diplomatic or military resolution",
+     "src": "WION / Reuters",
+     "url": "https://wionews.com"
+    },
     {
      "t": "2026-10-04T18:00:00Z",
      "kind": "military",
@@ -111,14 +119,6 @@
      "en": "Trump vows Iran war will end 'after the election' as 9,000 more troops deploy to Middle East; Iran touts Hormuz reopening proposal",
      "src": "CBS News / Fox News",
      "url": "https://cbsnews.com/live-updates/trump-iran-war-us-midterm-elections-troops-deployment"
-    },
-    {
-     "t": "2026-10-03T00:00:00Z",
-     "kind": "political",
-     "ar": "طهران تطلق مبادرة دبلوماسية جديدة لإعادة فتح مضيق هرمز مع تراجع نفوذها البحري. الولايات المتحدة تبقي 3 مجموعات حاملات طائرات في المنطقة",
-     "en": "Tehran launches new diplomatic push to reopen Strait of Hormuz as its naval leverage erodes; US maintains 3 carrier strike groups in the region",
-     "src": "CBS News",
-     "url": "https://www.cbsnews.com/live-updates/iran-war-us-strait-of-hormuz-sanctions/"
     }
    ]
   },
@@ -172,6 +172,14 @@
     "en": "Slow Russian gains: ~37 sq mi in the four weeks to 22 Sept"
    },
    "updates": [
+    {
+     "t": "2026-10-05T00:00:00Z",
+     "kind": "military",
+     "ar": "مقتل 10 أشخاص في تبادل ضربات صاروخية ومسيّرات بين موسكو وكييف. روسيا أطلقت 7 صواريخ باليستية و136 مسيّرة استهدفت كييف وتشيرنيهيف وزابوريجيا وخاركيف",
+     "en": "10 killed as Moscow and Kyiv trade missile and drone attacks; Russia launched 7 ballistic missiles and 136 drones targeting Kyiv, Chernihiv, Zaporizhzhia and Kharkiv",
+     "src": "Outlook India",
+     "url": "https://www.outlookindia.com/international/russia-ukraine-war-10-killed-as-moscow-and-kyiv-trade-missile-and-drone-attacks"
+    },
     {
      "t": "2026-10-04T18:00:00Z",
      "kind": "military",
@@ -227,14 +235,6 @@
      "en": "Russia strikes Ukrainian Academy of Sciences in Kyiv killing 2 (Sept 29), then hits school with drone (Oct 1); UK imposes 31 new sanctions in response",
      "src": "Al Jazeera",
      "url": "https://www.aljazeera.com/news/2026/9/29/russian-strike-hits-ukraines-academy-of-sciences-in-kyiv-killing-2"
-    },
-    {
-     "t": "2026-10-03T00:00:00Z",
-     "kind": "military",
-     "ar": "مسيّرة روسية تضرب مدرسة في كييف (1 أكتوبر) وجسراً حيوياً يربط شرق وغرب المدينة. أوكرانيا تسجل 3177 هجوماً بالمسيّرات في سبتمبر فقط",
-     "en": "Russian drone hits school in Kyiv (Oct 1) and strikes vital bridge linking east and west; Ukraine records 3,177 drone attacks in September alone",
-     "src": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/10/1/russian-drone-hits-school-in-ukraines-kyiv-as-moscow-presses-air-assault"
     }
    ]
   },
@@ -287,6 +287,14 @@
     "en": "20 million face acute hunger, 14 million displaced"
    },
    "updates": [
+    {
+     "t": "2026-10-05T00:00:00Z",
+     "kind": "humanitarian",
+     "ar": "المجاعة تتوسع لبلدتين جديدتين في شمال دارفور: أم بارو وكيرنوي. هجوم على مستشفى عسكري في كويك يقتل 22 شخصاً بينهم مدير المستشفى وثلاثة أطباء",
+     "en": "Famine spreads to two new towns in North Darfur: Umm Baru and Kernoi; paramilitary attack on Kouik military hospital kills 22 including director and three medical staff",
+     "src": "AOL / IPC",
+     "url": "https://www.aol.com/articles/famine-spreads-more-towns-sudan-120604949.html"
+    },
     {
      "t": "2026-10-04T18:00:00Z",
      "kind": "humanitarian",
@@ -342,14 +350,6 @@
      "en": "Reports indicate El Fasher has effectively fallen to RSF; prolonged siege worsens refugee crisis with tens of thousands displaced",
      "src": "ISS Europe",
      "url": "https://www.iss.europa.eu/publications/commentary/fall-el-fasher-sudans-war-outpaces-truce-plan"
-    },
-    {
-     "t": "2026-10-03T00:00:00Z",
-     "kind": "humanitarian",
-     "ar": "غارة بمسيّرة لقوات الدعم السريع تقتل 5 وتصيب 47 في سكن جامعة كردفان بالأبيض (1 أكتوبر). أكثر من 1100 مدني قتلوا بالمسيّرات منذ يناير",
-     "en": "RSF drone strike kills 5, wounds 47 at University of Kordofan dormitory in El Obeid (Oct 1); over 1,100 civilians killed by drone strikes since January",
-     "src": "Sudan Tribune",
-     "url": "https://sudantribune.com/article/319476"
     }
    ]
   },
@@ -402,6 +402,14 @@
     "en": "Federal forces 40 km from Mekelle, risk of regional spillover"
    },
    "updates": [
+    {
+     "t": "2026-10-05T00:00:00Z",
+     "kind": "military",
+     "ar": "جبهة تحرير تيغراي تدّعي انتصاراً في معركة قرب الحدود السودانية. الجيش الإثيوبي يصدّ قوات تيغراي المتقدمة من السودان نحو حُمرة بغارات مدفعية ومسيّرات",
+     "en": "TPLF claims battle victory near Sudanese border; Ethiopian military repels Tigray forces advancing from Sudan toward Humera with artillery and drone strikes",
+     "src": "LBC / Critical Threats",
+     "url": "https://www.criticalthreats.org/analysis/ethiopia-tplf-drc-fdlr-rwanda-red-sea-saudi-houthi-somalia-fgs-us-aussom-africa-file-august-6-2026"
+    },
     {
      "t": "2026-10-04T18:00:00Z",
      "kind": "military",
@@ -457,14 +465,6 @@
      "en": "Warnings of full regional war in Horn of Africa with Sudan potentially drawn into Ethiopia conflict; fighting nears Tigray capital Mekelle",
      "src": "The New Humanitarian",
      "url": "https://www.thenewhumanitarian.org/analysis/2026/03/23/regional-mega-war-renewed-conflict-ethiopia-sudan"
-    },
-    {
-     "t": "2026-10-03T00:00:00Z",
-     "kind": "military",
-     "ar": "الاتحاد الأفريقي يحذر من مخاطر حرب إقليمية بعد قطع العلاقات الإثيوبية الإريترية. المتمردون ينفذون ضربات بطائرات مسيّرة على قاعدة هارار ميدا الجوية قرب أديس أبابا",
-     "en": "AU warns of regional war risks after Ethiopia-Eritrea diplomatic break; rebels conduct drone strikes on Harar Meda Air Base near Addis Ababa",
-     "src": "Critical Threats / OkayAfrica",
-     "url": "https://www.okayafrica.com/today-in-africa-october-2-2026-ethiopia-eritrea-rift-raises-regional-war-fears-eu-suspends-aid-to-sierra-leone/1440442"
     }
    ]
   },
@@ -517,6 +517,14 @@
     "en": "300+ killed in days of fighting near Bab al-Mandab"
    },
    "updates": [
+    {
+     "t": "2026-10-05T00:00:00Z",
+     "kind": "military",
+     "ar": "الحوثيون يفرضون حظراً شاملاً على السفن المرتبطة بإسرائيل في البحر الأحمر. السعودية تطلق تحالفاً بحرياً من 14 دولة لمواجهة الحصار الحوثي",
+     "en": "Houthis impose total ban on Israeli-linked Red Sea shipping; Saudi Arabia launches 14-nation naval coalition to counter Houthi blockade",
+     "src": "Critical Threats / FDD",
+     "url": "https://www.criticalthreats.org/analysis/ethiopia-tplf-drc-fdlr-rwanda-red-sea-saudi-houthi-somalia-fgs-us-aussom-africa-file-august-6-2026"
+    },
     {
      "t": "2026-10-04T18:00:00Z",
      "kind": "military",
@@ -572,14 +580,6 @@
      "en": "Sustained Houthi strikes on Israel and Red Sea shipping; Security Council discusses Red Sea security amid continued escalation",
      "src": "Security Council Report",
      "url": "https://www.securitycouncilreport.org/monthly-forecast/2026-07/the-red-sea.php"
-    },
-    {
-     "t": "2026-10-03T00:00:00Z",
-     "kind": "military",
-     "ar": "الحوثيون يحذرون بأن أصابعهم على الزناد مع استمرار الحرب الأمريكية الإسرائيلية على إيران. هجمات متواصلة على السفن في البحر الأحمر",
-     "en": "Houthis warn 'fingers on the trigger' as US-Israeli war on Iran continues; sustained attacks on Red Sea shipping persist",
-     "src": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/3/27/houthis-warn-fingers-on-the-trigger-as-us-israeli-war-on-iran-continues"
     }
    ]
   },
@@ -632,6 +632,14 @@
     "en": "1,417 killed since the Oct 2025 ceasefire (local figures)"
    },
    "updates": [
+    {
+     "t": "2026-10-05T00:00:00Z",
+     "kind": "humanitarian",
+     "ar": "حرب غزة مستمرة في عامها الثالث وسط أزمة إنسانية متصاعدة. المجتمع الدولي يكثف مطالباته بوقف إطلاق النار وفتح ممرات المساعدات",
+     "en": "Gaza war continues into third year amid escalating humanitarian crisis; international community intensifies ceasefire and aid corridor demands",
+     "src": "Al Jazeera / Reuters",
+     "url": "https://www.aljazeera.com"
+    },
     {
      "t": "2026-10-04T18:00:00Z",
      "kind": "humanitarian",
@@ -687,14 +695,6 @@
      "en": "Israeli military operations continue in Gaza; war timeline enters third year with worsening humanitarian crisis",
      "src": "Wikipedia",
      "url": "https://en.wikipedia.org/wiki/Timeline_of_the_Gaza_war_(3_October_2025_%E2%80%93_present)"
-    },
-    {
-     "t": "2026-10-03T00:00:00Z",
-     "kind": "humanitarian",
-     "ar": "تقارير حقوقية تصف الدمار في غزة بالكارثة الشاملة مع استمرار العمليات العسكرية. خرائط غوغل توثق حجم التدمير في القطاع",
-     "en": "Rights reports describe Gaza devastation as comprehensive catastrophe amid ongoing military operations; Google Maps documents extent of destruction",
-     "src": "The New Humanitarian",
-     "url": "https://www.thenewhumanitarian.org/news/2026/10/02/ethiopia-resurgent-conflict-rohingya-repatriations-gaza-devastation-cheat-sheat"
     }
    ]
   },
@@ -747,6 +747,14 @@
     "en": "Daily strikes on the south; many villages under evacuation orders"
    },
    "updates": [
+    {
+     "t": "2026-10-05T00:00:00Z",
+     "kind": "military",
+     "ar": "خروقات متواصلة لوقف إطلاق النار في جنوب لبنان. التوترات الإقليمية تتصاعد مع إطلاق السعودية تحالفاً بحرياً جديداً ضد الحوثيين",
+     "en": "Continued ceasefire violations in southern Lebanon; regional tensions rise with Saudi launch of new naval coalition against Houthis",
+     "src": "LBC / Reuters",
+     "url": "https://www.lbcgroup.tv"
+    },
     {
      "t": "2026-10-04T18:00:00Z",
      "kind": "military",
@@ -802,14 +810,6 @@
      "en": "Ongoing ceasefire violations in southern Lebanon; warnings of renewed full-scale violence in the region",
      "src": "Stimson Center",
      "url": "https://www.stimson.org/2026/more-spasms-of-violence-await-the-middle-east-in-2026/"
-    },
-    {
-     "t": "2026-10-03T00:00:00Z",
-     "kind": "military",
-     "ar": "استمرار خروقات وقف إطلاق النار على طول نهر الليطاني. إسرائيل توسع عمليات الهدم في المنطقة العازلة جنوب لبنان",
-     "en": "Ceasefire violations continue along the Litani River; Israel expands demolition operations in southern Lebanon buffer zone",
-     "src": "Reuters",
-     "url": "https://www.reuters.com"
     }
    ]
   },
@@ -862,6 +862,14 @@
     "en": "6,757 confirmed Ebola cases and 3,267 deaths across 6 provinces"
    },
    "updates": [
+    {
+     "t": "2026-10-05T00:00:00Z",
+     "kind": "military",
+     "ar": "الكونغو تعلن خطة نزع سلاح قوات (FDLR) لكن أدلة تكشف خداعاً ممنهجاً. مقاتلو (FDLR) يعيدون التنظيم تحت أسماء جديدة ويتلقون أسلحة من ضباط الجيش الكونغولي",
+     "en": "DRC announces FDLR disarmament plan but evidence reveals systematic deception; FDLR fighters reorganize under new names and receive weapons from FARDC officers",
+     "src": "Critical Threats",
+     "url": "https://www.criticalthreats.org/analysis/ethiopia-tplf-drc-fdlr-rwanda-red-sea-saudi-houthi-somalia-fgs-us-aussom-africa-file-august-6-2026"
+    },
     {
      "t": "2026-10-04T18:00:00Z",
      "kind": "military",
@@ -917,14 +925,6 @@
      "en": "Security Council to discuss Great Lakes/DRC situation in October; internal M23 tensions persist with Rwandan backing",
      "src": "Security Council Report",
      "url": "https://www.securitycouncilreport.org/monthly-forecast/2026-10/great-lakes-region-drc-10.php"
-    },
-    {
-     "t": "2026-10-03T00:00:00Z",
-     "kind": "political",
-     "ar": "توترات فصائلية عميقة داخل حركة (M23) بين أجنحة ماكينغا ونغاروي. رواندا تحافظ على غموض موقفها من إعادة هيكلة القيادة",
-     "en": "Deep factional tensions within M23 between Makenga and Ngaruye wings; Rwanda maintains ambiguity on leadership restructuring",
-     "src": "Critical Threats",
-     "url": "https://www.criticalthreats.org/analysis/ethiopia-tigray-tplf-m23-drc-rwanda-uganda"
     }
    ]
   },
@@ -980,6 +980,14 @@
    },
    "updates": [
     {
+     "t": "2026-10-05T00:00:00Z",
+     "kind": "military",
+     "ar": "الحوثيون يزودون حركة الشباب وتنظيم داعش في الصومال بمسيّرات وصواريخ عبر شبكات تهريب. تصاعد المواجهات في مالي وبوركينا فاسو والنيجر",
+     "en": "Houthis supply drones and missiles to al-Shabaab and IS-Somalia via smuggling networks; escalating clashes in Mali, Burkina Faso and Niger",
+     "src": "Critical Threats",
+     "url": "https://www.criticalthreats.org/analysis/ethiopia-tplf-drc-fdlr-rwanda-red-sea-saudi-houthi-somalia-fgs-us-aussom-africa-file-august-6-2026"
+    },
+    {
      "t": "2026-10-04T18:00:00Z",
      "kind": "military",
      "ar": "الجهاديون الساحليون يستغلون شبكات التهريب العابرة للصحراء لتوسيع نفوذهم. تصاعد المواجهات بين الجماعات المسلحة في مالي وبوركينا فاسو والنيجر",
@@ -1034,14 +1042,6 @@
      "en": "Crisis Group warns of escalating armed violence across Sahel during October; large-scale military operations in Mali",
      "src": "Crisis Group",
      "url": "https://www.crisisgroup.org/crisiswatch/september-trends-and-october-alerts-2026"
-    },
-    {
-     "t": "2026-10-03T00:00:00Z",
-     "kind": "military",
-     "ar": "مجموعة الأزمات الدولية تحذر من تصاعد العنف في منطقة الساحل في أكتوبر. عمليات هجومية واسعة في مالي رغم وجود قوات فاغنر",
-     "en": "International Crisis Group warns of escalating violence in the Sahel in October; major offensive operations in Mali despite Wagner presence",
-     "src": "Crisis Group",
-     "url": "https://en.wikipedia.org/wiki/2026_Mali_offensives"
     }
    ]
   },
@@ -1095,6 +1095,14 @@
    },
    "updates": [
     {
+     "t": "2026-10-05T00:00:00Z",
+     "kind": "humanitarian",
+     "ar": "ميانمار تبقى من أبرز النزاعات المنسية عالمياً مع نزوح ملايين. قوات المقاومة تحقق مكاسب متواصلة ضد المجلس العسكري",
+     "en": "Myanmar remains one of world's most overlooked conflicts with millions displaced; resistance forces continue steady gains against military junta",
+     "src": "ReliefWeb",
+     "url": "https://reliefweb.int"
+    },
+    {
      "t": "2026-10-04T18:00:00Z",
      "kind": "humanitarian",
      "ar": "ميانمار تبقى من أبرز النزاعات المنسية في العالم مع نزوح ملايين. قوات المقاومة تواصل تحقيق مكاسب ضد المجلس العسكري",
@@ -1147,14 +1155,6 @@
      "kind": "military",
      "ar": "قوات المقاومة تواصل تقدمها ضد المجلس العسكري في عدة جبهات. تقارير عن اشتباكات مكثفة في ولايتي شان وكاين",
      "en": "Resistance forces continue advancing against junta on multiple fronts; intense clashes reported in Shan and Kayin states",
-     "src": "Crisis Group",
-     "url": "https://www.crisisgroup.org/crisiswatch/september-trends-and-october-alerts-2026"
-    },
-    {
-     "t": "2026-10-03T00:00:00Z",
-     "kind": "military",
-     "ar": "قوات المقاومة تواصل تحقيق مكاسب ضد المجلس العسكري. مجموعة الأزمات ترصد تنبيهات لشهر أكتوبر بشأن تصعيد محتمل في ولاية شان",
-     "en": "Resistance forces continue gains against the junta; Crisis Group flags October alerts for potential escalation in Shan State",
      "src": "Crisis Group",
      "url": "https://www.crisisgroup.org/crisiswatch/september-trends-and-october-alerts-2026"
     }
@@ -1211,6 +1211,14 @@
    },
    "updates": [
     {
+     "t": "2026-10-05T00:00:00Z",
+     "kind": "military",
+     "ar": "تحذيرات من تصعيد النزاعات الباكستانية مع الهند وأفغانستان في 2026. الغارات الباكستانية المتواصلة على شرق أفغانستان تخلّف عشرات القتلى",
+     "en": "Warnings of Pakistan conflicts with India and Afghanistan escalating in 2026; continued Pakistani airstrikes on eastern Afghanistan kill dozens",
+     "src": "Geo TV",
+     "url": "https://www.geo.tv/latest/642101-pakistans-conflicts-with-india-afghanistan-can-escalate-in-2026-says-us-think-tank"
+    },
+    {
      "t": "2026-10-04T18:00:00Z",
      "kind": "military",
      "ar": "تحذيرات دولية من تصعيد النزاعات الباكستانية مع الهند وأفغانستان. الغارات الباكستانية على أفغانستان تستمر مع مقتل مدنيين",
@@ -1265,14 +1273,6 @@
      "en": "Pakistan launches airstrikes on Kunar and Helmand in Afghanistan (Oct 1) killing at least 10 civilians including children per UN; Taliban condemns 'aggression'",
      "src": "Al Jazeera",
      "url": "https://aljazeera.com/news/2026/10/1/afghanistan-says-nine-killed-in-pakistani-air-raids-on-kunar-helmand"
-    },
-    {
-     "t": "2026-10-03T00:00:00Z",
-     "kind": "military",
-     "ar": "مجموعة الأزمات تصدر تنبيهات لأكتوبر بشأن أفغانستان وباكستان. استمرار هجمات حركة طالبان الباكستانية على قوات الأمن في المناطق الحدودية",
-     "en": "Crisis Group issues October alerts for Afghanistan and Pakistan; TTP attacks on security forces continue in border regions",
-     "src": "Crisis Group",
-     "url": "https://www.crisisgroup.org/crisiswatch/september-trends-and-october-alerts-2026"
     }
    ]
   },
@@ -1325,6 +1325,14 @@
     "en": "One of Africa's longest wars"
    },
    "updates": [
+    {
+     "t": "2026-10-05T00:00:00Z",
+     "kind": "military",
+     "ar": "8 عمليات قرصنة بحرية منذ أبريل 2026 وهو أعلى معدل منذ ذروة 2010. تسليح الحوثيين لحركة الشباب يزيد التهديدات الأمنية في القرن الأفريقي",
+     "en": "8 maritime hijackings since April 2026 — highest rate since early 2010s peak; Houthi arming of al-Shabaab increases Horn of Africa security threats",
+     "src": "Critical Threats",
+     "url": "https://www.criticalthreats.org/analysis/ethiopia-tplf-drc-fdlr-rwanda-red-sea-saudi-houthi-somalia-fgs-us-aussom-africa-file-august-6-2026"
+    },
     {
      "t": "2026-10-04T18:00:00Z",
      "kind": "military",
@@ -1380,14 +1388,6 @@
      "en": "Counter al-Shabaab operations continue in Somalia; Crisis Group flags October alerts for potential escalation",
      "src": "Crisis Group",
      "url": "https://www.crisisgroup.org/crisiswatch/september-trends-and-october-alerts-2026"
-    },
-    {
-     "t": "2026-10-03T00:00:00Z",
-     "kind": "military",
-     "ar": "استمرار عمليات مكافحة حركة الشباب في جنوب ووسط الصومال مع تقارير عن تزايد الهجمات الانتحارية",
-     "en": "Counter al-Shabaab operations continue in southern and central Somalia with reports of increasing suicide attacks",
-     "src": "BBC",
-     "url": "https://www.bbc.com"
     }
    ]
   },
@@ -1441,6 +1441,14 @@
     "en": "Sporadic attacks tied to the regional war"
    },
    "updates": [
+    {
+     "t": "2026-10-05T00:00:00Z",
+     "kind": "military",
+     "ar": "سوريا لا تزال متأثرة بالحرب الأمريكية الإيرانية. ترامب يقول لا موعد نهائي للسلام مما يزيد مخاطر التصعيد الإقليمي",
+     "en": "Syria remains affected by US-Iran war; Trump says no deadline for peace, increasing regional escalation risks",
+     "src": "WION / Reuters",
+     "url": "https://wionews.com"
+    },
     {
      "t": "2026-10-04T18:00:00Z",
      "kind": "military",
@@ -1496,14 +1504,6 @@
      "en": "Syria remains affected by the wider Iran war with continued strikes on Iranian positions and allied militias",
      "src": "Reuters",
      "url": "https://www.reuters.com"
-    },
-    {
-     "t": "2026-10-03T00:00:00Z",
-     "kind": "military",
-     "ar": "استمرار تأثر سوريا بالحرب الإيرانية مع غارات إسرائيلية وأمريكية على مواقع الميليشيات الموالية لإيران",
-     "en": "Syria continues to be affected by Iran war with Israeli and US strikes targeting pro-Iranian militia positions",
-     "src": "Reuters",
-     "url": "https://www.reuters.com"
     }
    ]
   },
@@ -1556,6 +1556,14 @@
     "en": "Persistent violence and mass kidnappings"
    },
    "updates": [
+    {
+     "t": "2026-10-05T00:00:00Z",
+     "kind": "humanitarian",
+     "ar": "استمرار الشكوك حول جدوى وقف إطلاق النار السري مع بوكو حرام. تقارير عن عمليات اختطاف جديدة وتصاعد العنف في شمال شرق نيجيريا",
+     "en": "Doubts persist about secret Boko Haram ceasefire viability; new kidnapping reports and escalating violence in northeast Nigeria",
+     "src": "The New Humanitarian",
+     "url": "https://www.thenewhumanitarian.org"
+    },
     {
      "t": "2026-10-04T18:00:00Z",
      "kind": "humanitarian",
@@ -1611,14 +1619,6 @@
      "en": "Suspected Boko Haram militants kill at least 15 in Borno State (Oct 2) despite reports of secret ceasefire deal",
      "src": "Washington Post",
      "url": "https://www.washingtonpost.com/world/2026/10/02/nigeria-attack-boko-haram-farmers/"
-    },
-    {
-     "t": "2026-10-03T00:00:00Z",
-     "kind": "political",
-     "ar": "مراقبون يتابعون تطبيق اتفاق وقف إطلاق النار السري بين الحكومة وبوكو حرام. تقارير عن تراجع نسبي في الهجمات بشمال شرق نيجيريا",
-     "en": "Observers monitor implementation of secret government-Boko Haram ceasefire deal; reports of relative decline in attacks in northeast Nigeria",
-     "src": "The New Humanitarian",
-     "url": "https://www.thenewhumanitarian.org/news/2026/09/07/exclusive-nigerian-government-and-boko-haram-strike-secret-ceasefire-deal"
     }
    ]
   },
@@ -1671,6 +1671,14 @@
     "en": "Severe security and humanitarian crisis"
    },
    "updates": [
+    {
+     "t": "2026-10-05T00:00:00Z",
+     "kind": "humanitarian",
+     "ar": "العصابات تتسابق لتأمين مواقعها قبل نشر قوة قمع العصابات. أزمة إنسانية متفاقمة مع استمرار السيطرة المسلحة على أحياء بورت أو برنس",
+     "en": "Gangs race to secure turf ahead of Gang Suppression Force deployment; worsening humanitarian crisis as armed groups maintain control of Port-au-Prince neighborhoods",
+     "src": "ACLED",
+     "url": "https://acleddata.com"
+    },
     {
      "t": "2026-10-04T18:00:00Z",
      "kind": "humanitarian",
@@ -1726,14 +1734,6 @@
      "en": "Violence spikes in Haiti, Ecuador and Mexico per Insight Crime report; gangs expand reach beyond the capital",
      "src": "Insight Crime",
      "url": "https://insightcrime.org/news/on-the-radar-violence-spikes-haiti-ecuador-mexico/"
-    },
-    {
-     "t": "2026-10-03T00:00:00Z",
-     "kind": "humanitarian",
-     "ar": "العنف يتصاعد خارج العاصمة بورت أو برنس مع توسع نفوذ العصابات. الأمم المتحدة تقيّم الطريق نحو الانتخابات وسط عنف مستمر",
-     "en": "Violence escalates beyond Port-au-Prince as gangs expand reach; UN assesses road to elections amid persistent gang violence",
-     "src": "UN / Insight Crime",
-     "url": "https://insightcrime.org/news/on-the-radar-violence-spikes-haiti-ecuador-mexico/"
     }
    ]
   },
@@ -1786,6 +1786,14 @@
     "en": "Escalation expected in northern Antioquia"
    },
    "updates": [
+    {
+     "t": "2026-10-05T00:00:00Z",
+     "kind": "military",
+     "ar": "استمرار عمليات الجماعات المسلحة المنشقة في المناطق الريفية. تحديات أمنية متزايدة رغم جهود الحوار السلمي مع الفصائل المسلحة",
+     "en": "Armed dissident group operations continue in rural areas; growing security challenges despite ongoing peace dialogue with armed factions",
+     "src": "ACLED",
+     "url": "https://acleddata.com"
+    },
     {
      "t": "2026-10-04T18:00:00Z",
      "kind": "military",
@@ -1841,14 +1849,6 @@
      "en": "Crisis Group issues October alerts for Colombia; peace talks face obstacles amid escalating rural violence",
      "src": "Crisis Group",
      "url": "https://www.crisisgroup.org/crisiswatch/september-trends-and-october-alerts-2026"
-    },
-    {
-     "t": "2026-10-03T00:00:00Z",
-     "kind": "political",
-     "ar": "تحديات مستمرة في محادثات السلام مع تصاعد العنف في المناطق الريفية. مجموعة الأزمات تصدر تنبيهات لأكتوبر",
-     "en": "Ongoing challenges in peace talks as violence escalates in rural areas; Crisis Group issues October alerts",
-     "src": "Crisis Group",
-     "url": "https://www.crisisgroup.org/crisiswatch/september-trends-and-october-alerts-2026"
     }
    ]
   },
@@ -1901,6 +1901,14 @@
     "en": "High homicide levels in several states"
    },
    "updates": [
+    {
+     "t": "2026-10-05T00:00:00Z",
+     "kind": "military",
+     "ar": "حرب الكارتلات مستمرة في سينالوا وخاليسكو. التوترات الأمريكية المكسيكية تتواصل بشأن تهريب المخدرات والأمن الحدودي",
+     "en": "Cartel war continues in Sinaloa and Jalisco; US-Mexico tensions persist over drug trafficking and border security",
+     "src": "ACLED",
+     "url": "https://acleddata.com"
+    },
     {
      "t": "2026-10-04T18:00:00Z",
      "kind": "military",
@@ -1956,14 +1964,6 @@
      "en": "Sharp spike in cartel violence per Insight Crime reports; ongoing clashes in Jalisco and Sinaloa states",
      "src": "Insight Crime",
      "url": "https://insightcrime.org/news/on-the-radar-violence-spikes-haiti-ecuador-mexico/"
-    },
-    {
-     "t": "2026-10-03T00:00:00Z",
-     "kind": "military",
-     "ar": "ارتفاع حاد في العنف المرتبط بالكارتلات في المكسيك وسط عمليات مشتركة مع الولايات المتحدة. تقارير عن اشتباكات في خاليسكو وسينالوا",
-     "en": "Sharp spike in cartel-related violence in Mexico amid joint US-Mexico operations; clashes reported in Jalisco and Sinaloa",
-     "src": "Insight Crime",
-     "url": "https://insightcrime.org/news/on-the-radar-violence-spikes-haiti-ecuador-mexico/"
     }
    ]
   },
@@ -2016,6 +2016,14 @@
     "en": "Risk of renewed civil war"
    },
    "updates": [
+    {
+     "t": "2026-10-05T00:00:00Z",
+     "kind": "humanitarian",
+     "ar": "استمرار تدفق اللاجئين من السودان مع توسع المجاعة. نزاعات عرقية وقبلية متواصلة في عدة ولايات جنوبية",
+     "en": "Continued refugee influx from Sudan amid expanding famine; ongoing ethnic and tribal conflicts across multiple southern states",
+     "src": "Crisis Group",
+     "url": "https://www.crisisgroup.org"
+    },
     {
      "t": "2026-10-04T18:00:00Z",
      "kind": "humanitarian",
@@ -2071,14 +2079,6 @@
      "en": "2026 Jonglei offensive continues with worsening humanitarian conditions; tribal conflicts and refugee influx from Sudan reported",
      "src": "Wikipedia",
      "url": "https://en.wikipedia.org/wiki/2026_Jonglei_offensive"
-    },
-    {
-     "t": "2026-10-03T00:00:00Z",
-     "kind": "humanitarian",
-     "ar": "الأزمة الإنسانية تتفاقم مع استمرار تدفق اللاجئين من السودان. مجموعة الأزمات ترصد تنبيهات لأكتوبر",
-     "en": "Humanitarian crisis worsens with continued refugee influx from Sudan; Crisis Group flags October alerts",
-     "src": "Crisis Group",
-     "url": "https://www.crisisgroup.org/crisiswatch/september-trends-and-october-alerts-2026"
     }
    ]
   },
@@ -2131,6 +2131,14 @@
     "en": "Recurrent displacement"
    },
    "updates": [
+    {
+     "t": "2026-10-05T00:00:00Z",
+     "kind": "military",
+     "ar": "تنظيم الدولة يواصل عملياته في كابو ديلغادو. القوات الرواندية والأفريقية تكافح لاحتواء التمرد المتصاعد",
+     "en": "Islamic State continues operations in Cabo Delgado; Rwandan and African forces struggle to contain growing insurgency",
+     "src": "Critical Threats",
+     "url": "https://www.criticalthreats.org"
+    },
     {
      "t": "2026-10-04T18:00:00Z",
      "kind": "military",
@@ -2186,14 +2194,6 @@
      "en": "Cabo Delgado insurgency persists with new operations reported; regional forces intensify presence in the area",
      "src": "Crisis Group",
      "url": "https://www.crisisgroup.org/crisiswatch/september-trends-and-october-alerts-2026"
-    },
-    {
-     "t": "2026-10-03T00:00:00Z",
-     "kind": "military",
-     "ar": "تمرد كابو ديلغادو مستمر مع تقارير عن عمليات جديدة للمتمردين. القوات الرواندية والأفريقية تكثف وجودها",
-     "en": "Cabo Delgado insurgency persists with reports of new rebel operations; Rwandan and AU forces intensify presence",
-     "src": "Crisis Group",
-     "url": "https://www.crisisgroup.org/crisiswatch/september-trends-and-october-alerts-2026"
     }
    ]
   },
@@ -2246,6 +2246,14 @@
     "en": "Fears of security breakdown"
    },
    "updates": [
+    {
+     "t": "2026-10-05T00:00:00Z",
+     "kind": "political",
+     "ar": "الحكومة الانتقالية تواصل التحول السياسي والاقتصادي. خصخصة قطاع النفط مستمرة مع تعزيز العلاقات الأمريكية",
+     "en": "Transitional government continues political and economic transformation; oil privatization ongoing with strengthening US relations",
+     "src": "Reuters",
+     "url": "https://www.reuters.com"
+    },
     {
      "t": "2026-10-04T18:00:00Z",
      "kind": "political",
@@ -2301,14 +2309,6 @@
      "en": "Transitional government continues political and economic transition after Maduro's removal; oil sector privatization ongoing",
      "src": "Reuters",
      "url": "https://www.reuters.com"
-    },
-    {
-     "t": "2026-10-03T00:00:00Z",
-     "kind": "political",
-     "ar": "الحكومة الانتقالية تواصل عملية خصخصة صناعة النفط وتطبيع العلاقات مع واشنطن بعد عملية القبض على مادورو",
-     "en": "Transitional government continues oil industry privatization and normalizing ties with Washington following Maduro's capture",
-     "src": "Reuters",
-     "url": "https://www.reuters.com"
     }
    ]
   },
@@ -2359,6 +2359,14 @@
     "en": "Tension along the Line of Control"
    },
    "updates": [
+    {
+     "t": "2026-10-05T00:00:00Z",
+     "kind": "military",
+     "ar": "تحذيرات من تصعيد النزاع الباكستاني الهندي مع تداعيات حرب أفغانستان. عمليات مكافحة التمرد الهندية مستمرة في وادي كشمير",
+     "en": "Warnings of Pakistan-India conflict escalation with Afghanistan war spillover; Indian counter-insurgency operations continue in Kashmir Valley",
+     "src": "Geo TV",
+     "url": "https://www.geo.tv"
+    },
     {
      "t": "2026-10-04T18:00:00Z",
      "kind": "military",
@@ -2412,14 +2420,6 @@
      "kind": "military",
      "ar": "تبادل إطلاق نار على خط السيطرة مع استمرار عمليات مكافحة التمرد الهندية في وادي كشمير",
      "en": "Firing exchanges along LoC continue with ongoing Indian counter-insurgency operations in Kashmir Valley",
-     "src": "Reuters",
-     "url": "https://www.reuters.com"
-    },
-    {
-     "t": "2026-10-03T00:00:00Z",
-     "kind": "military",
-     "ar": "تبادل إطلاق نار متقطع على خط السيطرة. الهند تواصل عمليات مكافحة التمرد في وادي كشمير",
-     "en": "Sporadic firing exchanges along Line of Control; India continues counter-insurgency operations in Kashmir Valley",
      "src": "Reuters",
      "url": "https://www.reuters.com"
     }
